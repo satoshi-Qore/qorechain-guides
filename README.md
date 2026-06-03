@@ -43,6 +43,20 @@ docker compose up -d
 ```
 
 ---
+## 📖 Available Guides
+
+| Guide | Description |
+|---------|-------------|
+| Light Node Setup | Complete installation and configuration guide |
+| FAQ | Frequently asked questions about QoreChain |
+| Validator Guide | Coming Soon |
+| Troubleshooting | Coming Soon |
+
+### Current Documentation
+
+- [Light Node Setup Guide](./LIGHTNODE_SETUP.md)
+- [Community FAQ](./FAQ.md)
+
 
 ## 📚 Resources
 
