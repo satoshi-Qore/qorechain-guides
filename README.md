@@ -1,85 +1,55 @@
-# 🚀 QoreChain Community Guides
+# QoreChain Hub
 
-Community-driven guides, tutorials, and resources for the QoreChain ecosystem.
+QoreChain ekosistemi icin Turkce teknik kaynaklar, node operasyon notlari, gorev surecleri ve topluluk odakli bilgi merkezi.
 
-## 🌐 About QoreChain
+Bu repository, QoreChain ile ilgilenen kullanicilarin kurulum, kontrol, takip ve sorun cozme sureclerini daha duzenli bir sekilde yurutmesine yardimci olmak icin hazirlanmistir.
 
-QoreChain is a post-quantum Layer 1 blockchain designed for the next generation of decentralized infrastructure.
+## Odak Alanlari
 
-### Key Features
+- Light Node kurulumu ve operasyon takibi
+- Eigenstate 2 gorev surecleri
+- QoreChain ekosistem notlari
+- Temel sorun giderme adimlari
+- Operatorler icin pratik kontrol listeleri
+- Turkce teknik dokumantasyon
 
-- 🔐 Post-quantum cryptography
-- ⚡ EVM compatibility
-- 🦀 CosmWasm support
-- 🚀 SVM support
-- 🤖 AI-native infrastructure
-- 🌉 Cross-network validators
+## QoreChain Hakkinda
 
----
+QoreChain, post-quantum guvenlik yaklasimini merkeze alan yeni nesil Layer 1 blokzincir altyapisidir. EVM uyumlulugu, CosmWasm destegi, SVM destegi, AI-native altyapi ve cross-network validator mimarisi gibi basliklarla merkeziyetsiz altyapinin gelecek ihtiyaclarina odaklanir.
 
-## 💡 Why QoreChain?
+## Mevcut Kaynaklar
 
-Most blockchains today rely on classical cryptography.
-
-QoreChain is built with post-quantum security in mind, helping prepare blockchain infrastructure for the future.
-
----
-
-## 🖥️ Light Node
-
-### Requirements
-
-- VPS or dedicated server
-- Docker
-- Docker Compose
-- 1000 QOR stake
-
-### Quick Start
-
-```bash
-git clone https://github.com/qorechain/qorechain-lightnode.git
-cd qorechain-lightnode
-docker compose up -d
-```
-
-For the full walkthrough, see the [Light Node Setup Guide](./LIGHTNODE_SETUP.md).
-
----
-
-## 📖 Available Guides
-
-| Guide | Description | Status |
+| Kaynak | Icerik | Durum |
 |---|---|---|
-| [Light Node Setup](./LIGHTNODE_SETUP.md) | Installation, service checks, dashboard access, and basic troubleshooting | Available |
-| [Community FAQ](./FAQ.md) | Frequently asked questions about QoreChain and light node operation | Available |
-| Validator Guide | Validator-focused notes and setup guidance | Planned |
-| Troubleshooting | Common issues, logs, restarts, and operator fixes | Planned |
+| [Light Node Operations](./LIGHTNODE_SETUP.md) | Kurulum, servis kontrolu, dashboard erisimi ve temel sorun giderme | Aktif |
+| [QoreChain FAQ](./FAQ.md) | Light Node, stake ve temel ekosistem sorulari | Aktif |
+| Eigenstate 2 Tasks | Gorev akisi, kontrol adimlari ve notlar | Hazirlaniyor |
+| Operator Playbook | Log kontrolu, restart, guncelleme ve takip surecleri | Planlandi |
 
----
+## Operasyon Yaklasimi
 
-## 📚 Community Resources
+QoreChain Hub icerikleri, mumkun oldugunca sade ve uygulanabilir tutulur. Amac, topluluktaki kullanicilarin teknik surecleri tek tek aramak yerine duzenli bir merkezden takip edebilmesidir.
+
+Her kaynakta su yaklasim korunur:
+
+- Net amac
+- Gereksinimler
+- Adim adim uygulama
+- Kontrol komutlari
+- Sik karsilasilan sorunlar
+- Guncelleme notlari
+
+## Baglantili Projeler
 
 - [QoreChain Light Node](https://github.com/satoshi-Qore/qorechain-lightnode)
 - [QoreChain Tools](https://github.com/satoshi-Qore/qorechain-tools)
 - [QoreChain Notes](https://github.com/satoshi-Qore/Qorechain-notes)
 - [Satoshi-Qore GitHub Profile](https://github.com/satoshi-Qore)
 
----
+## Katki ve Geri Bildirim
 
-## 🤝 Community Contribution
+Bu alan topluluk icin hazirlanmistir. Eksik gordugunuz konular, yeni gorev notlari, kurulum iyilestirmeleri veya sorun cozumu onerileri icin issue acabilir ya da pull request gonderebilirsiniz.
 
-This repository aims to help new users understand and participate in the QoreChain ecosystem.
+## Not
 
-Useful contributions include:
-
-- Installation improvements
-- Updated setup commands
-- Troubleshooting notes
-- FAQ additions
-- Validator and VPS operation examples
-
----
-
-## ⚠️ Disclaimer
-
-This is a community-maintained repository and is not officially affiliated with QoreChain.
+Bu repository topluluk tarafindan hazirlanan bagimsiz bir bilgi merkezidir. Resmi QoreChain dokumantasyonu yerine gecmez; kritik adimlarda resmi kaynaklar ve guncel duyurular kontrol edilmelidir.
