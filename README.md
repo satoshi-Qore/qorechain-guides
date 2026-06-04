@@ -20,7 +20,8 @@
   <a href="./en/README.md">English Resources</a> -
   <a href="./ROADMAP.md">Roadmap</a> -
   <a href="./CONTRIBUTING.md">Contributing</a> -
-  <a href="./SUPPORT.md">Support</a>
+  <a href="./SUPPORT.md">Support</a> -
+  <a href="./LICENSE.md">License</a>
 </p>
 
 ---
@@ -47,6 +48,7 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 | [Style Guide](./STYLE_GUIDE.md) | Yazim ve format kurallari / Writing and formatting rules |
 | [Support](./SUPPORT.md) | Destek ve geri bildirim akisi / Support and feedback flow |
 | [Security](./SECURITY.md) | Guvenlik notlari / Security notes |
+| [License](./LICENSE.md) | Lisans bilgisi / License information |
 
 ## Icerik Haritasi / Content Map
 
@@ -122,3 +124,9 @@ For support and security notes, see [Support](./SUPPORT.md) and [Security](./SEC
 Bu depo topluluk tarafindan hazirlanan bagimsiz bir bilgi merkezidir. Resmi QoreChain dokumantasyonu yerine gecmez; kritik adimlarda resmi kaynaklar ve guncel duyurular kontrol edilmelidir.
 
 This is an independent community-maintained knowledge hub. It does not replace official QoreChain documentation; official sources and current announcements should be checked for critical steps.
+
+## Lisans / License
+
+Dokumantasyon [CC BY 4.0](./LICENSE.md), kucuk kod ve komut ornekleri MIT License notu ile sunulur.
+
+Documentation is provided under [CC BY 4.0](./LICENSE.md), with small code and command examples covered by the MIT License note.
