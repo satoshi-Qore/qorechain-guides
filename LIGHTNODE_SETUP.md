@@ -1,17 +1,17 @@
-# QoreChain Light Node Operations
+# QoreChain Light Node Operasyon Dokumani
 
 Bu dokuman, QoreChain Light Node kurulumu ve temel operasyon sureclerini duzenli bir sekilde takip etmek icin hazirlanmistir.
 
-Amac, operatorlerin kurulumu tamamlamasi, servisleri kontrol etmesi, dashboard erisimini dogrulamasi ve temel sorun giderme adimlarini hizli sekilde uygulayabilmesidir.
+Amac, operatorlerin kurulumu tamamlamasi, servisleri kontrol etmesi, panel erisimini dogrulamasi ve temel sorun giderme adimlarini hizli sekilde uygulayabilmesidir.
 
 ## Operasyon Kapsami
 
 - Sunucu gereksinimleri
 - Light Node kurulumu
 - Servis durumu kontrolu
-- Dashboard erisimi
+- Panel erisimi
 - Log takibi
-- Restart ve temel sorun giderme
+- Yeniden baslatma ve temel sorun giderme
 - Operator notlari
 
 ## Gereksinimler
@@ -53,7 +53,7 @@ Beklenen servisler:
 
 Container listesinde bu servisler gorunuyorsa Light Node temel olarak calismaya baslamistir.
 
-## Dashboard Erisimi
+## Panel Erisimi
 
 Tarayicidan asagidaki adrese gidin:
 
@@ -63,7 +63,7 @@ http://YOUR_SERVER_IP:8420
 
 `YOUR_SERVER_IP` alanini kendi sunucu IP adresinizle degistirin.
 
-Dashboard aciliyorsa arayuz tarafindaki temel erisim dogrulanmis olur.
+Panel aciliyorsa arayuz tarafindaki temel erisim dogrulanmis olur.
 
 ## Log Takibi
 
@@ -79,7 +79,7 @@ Loglari canli izlemek icin:
 docker logs -f qorechain-lightnode-sx
 ```
 
-## Restart Islemi
+## Yeniden Baslatma
 
 Servisleri yeniden baslatmak icin:
 
@@ -87,7 +87,7 @@ Servisleri yeniden baslatmak icin:
 docker compose restart
 ```
 
-Restart sonrasi tekrar kontrol edin:
+Yeniden baslatma sonrasi tekrar kontrol edin:
 
 ```bash
 docker ps
@@ -97,16 +97,16 @@ docker ps
 
 | Durum | Kontrol | Aksiyon |
 |---|---|---|
-| Dashboard acilmiyor | Sunucu IP ve port kontrolu | `docker ps` ve firewall ayarlarini kontrol edin |
+| Panel acilmiyor | Sunucu IP ve port kontrolu | `docker ps` ve firewall ayarlarini kontrol edin |
 | Servis gorunmuyor | Container listesi | `docker compose up -d` komutunu tekrar calistirin |
-| Loglarda hata var | SX servis loglari | Hatayi not alin ve restart sonrasi tekrar kontrol edin |
+| Loglarda hata var | SX servis loglari | Hatayi not alin ve yeniden baslatma sonrasi tekrar kontrol edin |
 | Node yanit vermiyor | Sunucu kaynaklari | CPU, RAM ve disk durumunu kontrol edin |
 
 ## Operator Kontrol Listesi
 
 - Sunucu aktif mi?
 - Docker servisleri calisiyor mu?
-- Dashboard erisilebilir mi?
+- Panel erisilebilir mi?
 - SX ve UX containerlari listede gorunuyor mu?
 - Loglarda tekrar eden hata var mi?
 - Stake gereksinimi karsilaniyor mu?
