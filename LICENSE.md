@@ -24,6 +24,16 @@ MIT License text:
 
 https://opensource.org/license/mit/
 
+## Trademark and Official Status / Marka ve Resmi Durum
+
+QoreChain names, logos, and related marks belong to their respective owners.
+
+QoreChain adlari, logolari ve ilgili markalar kendi sahiplerine aittir.
+
+This repository is an independent community-maintained documentation hub. It is not official QoreChain documentation and does not imply sponsorship, endorsement, or official status.
+
+Bu depo topluluk tarafindan hazirlanan bagimsiz bir dokumantasyon merkezidir. Resmi QoreChain dokumantasyonu degildir; sponsorluk, onay veya resmi statu anlami tasimaz.
+
 ## Attribution / Kaynak Gosterimi
 
 Suggested attribution:

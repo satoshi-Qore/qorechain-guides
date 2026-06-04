@@ -125,6 +125,10 @@ Bu depo topluluk tarafindan hazirlanan bagimsiz bir bilgi merkezidir. Resmi Qore
 
 This is an independent community-maintained knowledge hub. It does not replace official QoreChain documentation; official sources and current announcements should be checked for critical steps.
 
+QoreChain adlari, logolari ve ilgili markalar kendi sahiplerine aittir. Bu depo sponsorluk, onay veya resmi statu anlami tasimaz.
+
+QoreChain names, logos, and related marks belong to their respective owners. This repository does not imply sponsorship, endorsement, or official status.
+
 ## Lisans / License
 
 Dokumantasyon [CC BY 4.0](./LICENSE.md), kucuk kod ve komut ornekleri MIT License notu ile sunulur.
