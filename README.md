@@ -1,6 +1,6 @@
 # 🚀 QoreChain Community Guides
 
-Community-driven guides, tutorials and resources for the QoreChain ecosystem.
+Community-driven guides, tutorials, and resources for the QoreChain ecosystem.
 
 ## 🌐 About QoreChain
 
@@ -8,12 +8,12 @@ QoreChain is a post-quantum Layer 1 blockchain designed for the next generation 
 
 ### Key Features
 
-- 🔐 Post-Quantum Cryptography
-- ⚡ EVM Compatibility
-- 🦀 CosmWasm Support
-- 🚀 SVM Support
-- 🤖 AI-Native Infrastructure
-- 🌉 Cross-Network Validators
+- 🔐 Post-quantum cryptography
+- ⚡ EVM compatibility
+- 🦀 CosmWasm support
+- 🚀 SVM support
+- 🤖 AI-native infrastructure
+- 🌉 Cross-network validators
 
 ---
 
@@ -29,12 +29,12 @@ QoreChain is built with post-quantum security in mind, helping prepare blockchai
 
 ### Requirements
 
-- VPS or Dedicated Server
+- VPS or dedicated server
 - Docker
 - Docker Compose
-- 1000 QOR Stake
+- 1000 QOR stake
 
-### Installation
+### Quick Start
 
 ```bash
 git clone https://github.com/qorechain/qorechain-lightnode.git
@@ -42,27 +42,27 @@ cd qorechain-lightnode
 docker compose up -d
 ```
 
+For the full walkthrough, see the [Light Node Setup Guide](./LIGHTNODE_SETUP.md).
+
 ---
+
 ## 📖 Available Guides
 
-| Guide | Description |
-|---------|-------------|
-| Light Node Setup | Complete installation and configuration guide |
-| FAQ | Frequently asked questions about QoreChain |
-| Validator Guide | Coming Soon |
-| Troubleshooting | Coming Soon |
+| Guide | Description | Status |
+|---|---|---|
+| [Light Node Setup](./LIGHTNODE_SETUP.md) | Installation, service checks, dashboard access, and basic troubleshooting | Available |
+| [Community FAQ](./FAQ.md) | Frequently asked questions about QoreChain and light node operation | Available |
+| Validator Guide | Validator-focused notes and setup guidance | Planned |
+| Troubleshooting | Common issues, logs, restarts, and operator fixes | Planned |
 
-### Current Documentation
+---
 
-- [Light Node Setup Guide](./LIGHTNODE_SETUP.md)
-- [Community FAQ](./FAQ.md)
+## 📚 Community Resources
 
-
-## 📚 Resources
-
-- Official Website
-- Official Documentation
-- Official GitHub Repository
+- [QoreChain Light Node](https://github.com/satoshi-Qore/qorechain-lightnode)
+- [QoreChain Tools](https://github.com/satoshi-Qore/qorechain-tools)
+- [QoreChain Notes](https://github.com/satoshi-Qore/Qorechain-notes)
+- [Satoshi-Qore GitHub Profile](https://github.com/satoshi-Qore)
 
 ---
 
@@ -70,7 +70,13 @@ docker compose up -d
 
 This repository aims to help new users understand and participate in the QoreChain ecosystem.
 
-Contributions, improvements and suggestions are welcome.
+Useful contributions include:
+
+- Installation improvements
+- Updated setup commands
+- Troubleshooting notes
+- FAQ additions
+- Validator and VPS operation examples
 
 ---
 
