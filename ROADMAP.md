@@ -1,29 +1,37 @@
-# QoreChain Guides Roadmap
+# QoreChain Guides Yol Haritasi / Roadmap
+
+Bu yol haritasi, QoreChain Guides deposunda planlanan dokumantasyon calismalarini takip eder.
 
 This roadmap tracks planned documentation work for QoreChain Guides.
 
-## Active
+## Aktif / Active
 
-| Area | Goal | Notes |
+| Alan / Area | Hedef / Goal | Notlar / Notes |
 |---|---|---|
-| Light Node Operations | Keep setup, service checks, panel access, logs, and basic troubleshooting current | Turkish and English pages are active |
-| Knowledge Base | Keep common QoreChain, Light Node, and stake questions easy to find | Turkish and English pages are active |
+| Light Node Operasyonlari / Light Node Operations | Kurulum, servis kontrolu, panel erisimi, loglar ve temel sorun giderme adimlarini guncel tutmak / Keep setup, service checks, panel access, logs, and basic troubleshooting current | Turkce ve Ingilizce sayfalar aktif / Turkish and English pages are active |
+| Bilgi Bankasi / Knowledge Base | QoreChain, Light Node ve stake sorularini kolay bulunur tutmak / Keep common QoreChain, Light Node, and stake questions easy to find | Turkce ve Ingilizce sayfalar aktif / Turkish and English pages are active |
 
-## Preparing
+## Hazirlaniyor / Preparing
 
-| Area | Goal | Planned Output |
+| Alan / Area | Hedef / Goal | Planlanan Cikti / Planned Output |
 |---|---|---|
-| Eigenstate 2 Tasks | Document task flow, verification steps, and operator notes | `tr/eigenstate-2-gorevleri.md` and `en/eigenstate-2-tasks.md` |
+| Eigenstate 2 Gorevleri / Eigenstate 2 Tasks | Gorev akisini, dogrulama adimlarini ve operator notlarini belgelemek / Document task flow, verification steps, and operator notes | `tr/eigenstate-2-gorevleri.md` ve `en/eigenstate-2-tasks.md` |
 
-## Planned
+## Planlandi / Planned
 
-| Area | Goal | Planned Output |
+| Alan / Area | Hedef / Goal | Planlanan Cikti / Planned Output |
 |---|---|---|
-| Operator Handbook | Collect daily checks, restart flow, update flow, and monitoring notes | Turkish and English handbook pages |
-| Troubleshooting | Collect common errors, checks, and practical fixes | Turkish and English troubleshooting pages |
-| Documentation Standards | Keep bilingual pages aligned in structure and naming | Contribution notes and page templates |
+| Operator El Kitabi / Operator Handbook | Gunluk kontrolleri, yeniden baslatma akislarini, guncelleme surecini ve takip notlarini toplamak / Collect daily checks, restart flow, update flow, and monitoring notes | Turkce ve Ingilizce el kitabi sayfalari / Turkish and English handbook pages |
+| Hata Cozumleri / Troubleshooting | Sik hatalari, kontrolleri ve pratik cozumleri toplamak / Collect common errors, checks, and practical fixes | Turkce ve Ingilizce sorun giderme sayfalari / Turkish and English troubleshooting pages |
+| Dokumantasyon Standartlari / Documentation Standards | Iki dilli sayfalari yapi ve isimlendirme olarak uyumlu tutmak / Keep bilingual pages aligned in structure and naming | Katki notlari ve sayfa sablonlari / Contribution notes and page templates |
 
-## Documentation Priorities
+## Dokumantasyon Oncelikleri / Documentation Priorities
+
+1. Operator odakli adimlari kisa ve kontrol edilebilir tutmak.
+2. Komutlari yalnizca acik ve kullanisli olduklarinda eklemek.
+3. Turkce ve Ingilizce sayfalari yapi olarak uyumlu tutmak.
+4. Kritik veya degisebilecek ag kurallarinda resmi kaynaklara yonlendirmek.
+5. Uzun aciklamalar yerine kontrol listeleri, tablolar ve sorun giderme akislarini tercih etmek.
 
 1. Keep operator-facing steps short and verifiable.
 2. Add commands only when they are clear and useful.
@@ -31,10 +39,10 @@ This roadmap tracks planned documentation work for QoreChain Guides.
 4. Point users to official sources for critical or changing network rules.
 5. Prefer checklists, tables, and troubleshooting flows over long prose.
 
-## Status Labels
+## Durum Etiketleri / Status Labels
 
-| Status | Meaning |
+| Durum / Status | Anlam / Meaning |
 |---|---|
-| Active | Ready to use and maintained |
-| Preparing | Topic is defined and content is being planned |
-| Planned | Topic is on the roadmap but no page exists yet |
+| Aktif / Active | Kullanima hazir ve takip ediliyor / Ready to use and maintained |
+| Hazirlaniyor / Preparing | Konu belirlendi ve icerik planlaniyor / Topic is defined and content is being planned |
+| Planlandi / Planned | Konu yol haritasinda, henuz sayfa yok / Topic is on the roadmap but no page exists yet |

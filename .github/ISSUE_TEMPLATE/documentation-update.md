@@ -1,29 +1,37 @@
 ---
-name: Documentation update
-about: Suggest a correction, improvement, or missing documentation topic
+name: Documentation update / Dokumantasyon guncellemesi
+about: Suggest a correction, improvement, or missing documentation topic / Duzeltme, iyilestirme veya eksik konu onerisi
 title: "Docs: "
 labels: documentation
 assignees: ""
 ---
 
-## Summary
+## Ozet / Summary
+
+Dokumantasyon degisikligini veya eksik konuyu kisaca aciklayin.
 
 Describe the documentation change or missing topic.
 
-## Page or Area
+## Sayfa veya Alan / Page or Area
+
+Ilgili sayfayi baglayin veya etkilenen alani yazin.
 
 Link the page or name the area affected.
 
-## Suggested Change
+## Onerilen Degisiklik / Suggested Change
+
+Neyin eklenmesi, degistirilmesi veya netlestirilmesi gerektigini aciklayin.
 
 Explain what should be added, changed, or clarified.
 
-## Language
+## Dil / Language
 
-- [ ] Turkish
-- [ ] English
-- [ ] Both
+- [ ] Turkce / Turkish
+- [ ] Ingilizce / English
+- [ ] Ikisi de / Both
 
-## Notes
+## Notlar / Notes
+
+Kullanilabilecek baglam, link, komut veya ornekleri ekleyin.
 
 Add any useful context, links, commands, or examples.
