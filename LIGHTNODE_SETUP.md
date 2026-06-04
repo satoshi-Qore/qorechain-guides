@@ -1,120 +1,118 @@
-# QoreChain Light Node Operasyon Dokumani
+# QoreChain Light Node Setup / Light Node Kurulumu
 
-Bu dokuman, QoreChain Light Node kurulumu ve temel operasyon sureclerini duzenli bir sekilde takip etmek icin hazirlanmistir.
+This page is a short bilingual entry point for QoreChain Light Node setup and operation notes.
 
-Amac, operatorlerin kurulumu tamamlamasi, servisleri kontrol etmesi, panel erisimini dogrulamasi ve temel sorun giderme adimlarini hizli sekilde uygulayabilmesidir.
+Bu sayfa, QoreChain Light Node kurulum ve operasyon notlari icin kisa iki dilli bir giris sayfasidir.
 
-## Operasyon Kapsami
+## Full Guides / Tam Rehberler
 
-- Sunucu gereksinimleri
-- Light Node kurulumu
-- Servis durumu kontrolu
-- Panel erisimi
-- Log takibi
-- Yeniden baslatma ve temel sorun giderme
-- Operator notlari
+| Language / Dil | Guide / Rehber |
+|---|---|
+| Turkce / Turkish | [Light Node Operasyonlari](./tr/light-node-operasyonlari.md) |
+| English / Ingilizce | [Light Node Operations](./en/light-node-operations.md) |
 
-## Gereksinimler
+## Requirements / Gereksinimler
 
-- Ubuntu 22.04 onerilen VPS veya dedicated server
-- Docker
-- Docker Compose
-- 1000 QOR stake
-- Stabil internet baglantisi
-- Temel terminal erisimi
+| English | Turkce |
+|---|---|
+| VPS or dedicated server, Ubuntu 22.04 recommended | Ubuntu 22.04 onerilen VPS veya dedicated server |
+| Docker | Docker |
+| Docker Compose | Docker Compose |
+| 1000 QOR stake | 1000 QOR stake |
+| Stable internet connection | Stabil internet baglantisi |
+| Basic terminal access | Temel terminal erisimi |
 
-## Kurulum
+## Basic Setup / Temel Kurulum
 
-Light Node dosyalarini sunucuya indirin:
+Download the Light Node files.
+
+Light Node dosyalarini indirin.
 
 ```bash
 git clone https://github.com/qorechain/qorechain-lightnode.git
 cd qorechain-lightnode
 ```
 
-Servisleri baslatin:
+Start the services.
+
+Servisleri baslatin.
 
 ```bash
 docker compose up -d
 ```
 
-## Servis Kontrolu
+## Service Check / Servis Kontrolu
 
-Calisan container durumunu kontrol edin:
+Check running containers.
+
+Calisan container durumunu kontrol edin.
 
 ```bash
 docker ps
 ```
 
-Beklenen servisler:
+Expected services / Beklenen servisler:
 
 - qorechain-lightnode-sx
 - qorechain-lightnode-ux
 
-Container listesinde bu servisler gorunuyorsa Light Node temel olarak calismaya baslamistir.
+## Panel Access / Panel Erisimi
 
-## Panel Erisimi
+Open the panel in your browser.
 
-Tarayicidan asagidaki adrese gidin:
+Paneli tarayicida acin.
 
 ```text
 http://YOUR_SERVER_IP:8420
 ```
 
+Replace `YOUR_SERVER_IP` with your own server IP address.
+
 `YOUR_SERVER_IP` alanini kendi sunucu IP adresinizle degistirin.
 
-Panel aciliyorsa arayuz tarafindaki temel erisim dogrulanmis olur.
+## Logs / Loglar
 
-## Log Takibi
+Check the main service logs.
 
-Ana servis loglarini kontrol etmek icin:
+Ana servis loglarini kontrol edin.
 
 ```bash
 docker logs qorechain-lightnode-sx
 ```
 
-Loglari canli izlemek icin:
+Follow logs live.
+
+Loglari canli takip edin.
 
 ```bash
 docker logs -f qorechain-lightnode-sx
 ```
 
-## Yeniden Baslatma
+## Restart / Yeniden Baslatma
 
-Servisleri yeniden baslatmak icin:
+Restart the services.
+
+Servisleri yeniden baslatin.
 
 ```bash
 docker compose restart
 ```
 
-Yeniden baslatma sonrasi tekrar kontrol edin:
+## Troubleshooting / Sorun Giderme
 
-```bash
-docker ps
-```
-
-## Temel Sorun Giderme
-
-| Durum | Kontrol | Aksiyon |
+| Issue / Durum | Check / Kontrol | Action / Aksiyon |
 |---|---|---|
-| Panel acilmiyor | Sunucu IP ve port kontrolu | `docker ps` ve firewall ayarlarini kontrol edin |
-| Servis gorunmuyor | Container listesi | `docker compose up -d` komutunu tekrar calistirin |
-| Loglarda hata var | SX servis loglari | Hatayi not alin ve yeniden baslatma sonrasi tekrar kontrol edin |
-| Node yanit vermiyor | Sunucu kaynaklari | CPU, RAM ve disk durumunu kontrol edin |
+| Panel does not open / Panel acilmiyor | Server IP and port / Sunucu IP ve port | Check `docker ps` and firewall settings / `docker ps` ve firewall ayarlarini kontrol edin |
+| Service is not visible / Servis gorunmuyor | Container list / Container listesi | Run `docker compose up -d` again / `docker compose up -d` komutunu tekrar calistirin |
+| Logs show errors / Loglarda hata var | SX service logs / SX servis loglari | Note the error and check again after restart / Hatayi not alin ve yeniden baslatma sonrasi tekrar kontrol edin |
+| Node does not respond / Node yanit vermiyor | Server resources / Sunucu kaynaklari | Check CPU, RAM, and disk usage / CPU, RAM ve disk durumunu kontrol edin |
 
-## Operator Kontrol Listesi
+## Note / Not
 
-- Sunucu aktif mi?
-- Docker servisleri calisiyor mu?
-- Panel erisilebilir mi?
-- SX ve UX containerlari listede gorunuyor mu?
-- Loglarda tekrar eden hata var mi?
-- Stake gereksinimi karsilaniyor mu?
+This page is a quick reference. For the maintained operation flow, use the full Turkish or English guide linked above.
 
-## Bakim Notlari
+Bu sayfa hizli referans niteligindedir. Guncel operasyon akisi icin yukarida baglanan tam Turkce veya Ingilizce rehberi kullanin.
 
-Light Node surecleri QoreChain tarafindaki guncellemelere gore degisebilir. Kritik islemlerden once resmi duyurulari, proje deposunu ve topluluk bildirimlerini kontrol etmek onerilir.
+This repository does not replace official QoreChain documentation. Official sources and current announcements should be checked for critical steps.
 
-## Not
-
-Bu dokuman topluluk kullanimi icin hazirlanmis operasyon odakli bir kaynaktir. Resmi dokumantasyon yerine gecmez; guncel komutlar ve ag kurallari icin resmi kaynaklar kontrol edilmelidir.
+Bu depo resmi QoreChain dokumantasyonunun yerine gecmez. Kritik adimlarda resmi kaynaklar ve guncel duyurular kontrol edilmelidir.
