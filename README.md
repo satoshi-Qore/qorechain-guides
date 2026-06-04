@@ -1,8 +1,8 @@
-# QoreChain Hub
+# QoreChain Merkezi
 
 QoreChain ekosistemi icin Turkce teknik kaynaklar, node operasyon notlari, gorev surecleri ve topluluk odakli bilgi merkezi.
 
-Bu repository, QoreChain ile ilgilenen kullanicilarin kurulum, kontrol, takip ve sorun cozme sureclerini daha duzenli bir sekilde yurutmesine yardimci olmak icin hazirlanmistir.
+Bu depo, QoreChain ile ilgilenen kullanicilarin kurulum, kontrol, takip ve sorun cozme sureclerini daha duzenli bir sekilde yurutmesine yardimci olmak icin hazirlanmistir.
 
 ## Odak Alanlari
 
@@ -15,22 +15,22 @@ Bu repository, QoreChain ile ilgilenen kullanicilarin kurulum, kontrol, takip ve
 
 ## QoreChain Hakkinda
 
-QoreChain, post-quantum guvenlik yaklasimini merkeze alan yeni nesil Layer 1 blokzincir altyapisidir. EVM uyumlulugu, CosmWasm destegi, SVM destegi, AI-native altyapi ve cross-network validator mimarisi gibi basliklarla merkeziyetsiz altyapinin gelecek ihtiyaclarina odaklanir.
+QoreChain, kuantum sonrasi guvenlik yaklasimini merkeze alan yeni nesil bir Katman 1 blokzincir altyapisidir. EVM uyumlulugu, CosmWasm destegi, SVM destegi, yapay zeka odakli altyapi ve aglar arasi dogrulayici mimarisi gibi basliklarla merkeziyetsiz altyapinin gelecek ihtiyaclarina odaklanir.
 
 ## Mevcut Kaynaklar
 
 | Kaynak | Icerik | Durum |
 |---|---|---|
-| [Light Node Operations](./LIGHTNODE_SETUP.md) | Kurulum, servis kontrolu, dashboard erisimi ve temel sorun giderme | Aktif |
-| [QoreChain FAQ](./FAQ.md) | Light Node, stake ve temel ekosistem sorulari | Aktif |
-| Eigenstate 2 Tasks | Gorev akisi, kontrol adimlari ve notlar | Hazirlaniyor |
-| Operator Playbook | Log kontrolu, restart, guncelleme ve takip surecleri | Planlandi |
+| [Light Node Operasyonlari](./LIGHTNODE_SETUP.md) | Kurulum, servis kontrolu, panel erisimi ve temel sorun giderme | Aktif |
+| [QoreChain Bilgi Bankasi](./FAQ.md) | Light Node, stake ve temel ekosistem sorulari | Aktif |
+| Eigenstate 2 Gorevleri | Gorev akisi, kontrol adimlari ve notlar | Hazirlaniyor |
+| Operator El Kitabi | Log kontrolu, yeniden baslatma, guncelleme ve takip surecleri | Planlandi |
 
-## Operasyon Yaklasimi
+## Calisma Yaklasimi
 
-QoreChain Hub icerikleri, mumkun oldugunca sade ve uygulanabilir tutulur. Amac, topluluktaki kullanicilarin teknik surecleri tek tek aramak yerine duzenli bir merkezden takip edebilmesidir.
+QoreChain Merkezi icerikleri mumkun oldugunca sade, duzenli ve uygulanabilir tutulur. Amac, topluluktaki kullanicilarin teknik surecleri tek tek aramak yerine tek bir merkezden takip edebilmesidir.
 
-Her kaynakta su yaklasim korunur:
+Her kaynakta su yapi korunur:
 
 - Net amac
 - Gereksinimler
@@ -42,9 +42,9 @@ Her kaynakta su yaklasim korunur:
 ## Baglantili Projeler
 
 - [QoreChain Light Node](https://github.com/satoshi-Qore/qorechain-lightnode)
-- [QoreChain Tools](https://github.com/satoshi-Qore/qorechain-tools)
-- [QoreChain Notes](https://github.com/satoshi-Qore/Qorechain-notes)
-- [Satoshi-Qore GitHub Profile](https://github.com/satoshi-Qore)
+- [QoreChain Araclari](https://github.com/satoshi-Qore/qorechain-tools)
+- [QoreChain Notlari](https://github.com/satoshi-Qore/Qorechain-notes)
+- [Satoshi-Qore GitHub Profili](https://github.com/satoshi-Qore)
 
 ## Katki ve Geri Bildirim
 
@@ -52,4 +52,4 @@ Bu alan topluluk icin hazirlanmistir. Eksik gordugunuz konular, yeni gorev notla
 
 ## Not
 
-Bu repository topluluk tarafindan hazirlanan bagimsiz bir bilgi merkezidir. Resmi QoreChain dokumantasyonu yerine gecmez; kritik adimlarda resmi kaynaklar ve guncel duyurular kontrol edilmelidir.
+Bu depo topluluk tarafindan hazirlanan bagimsiz bir bilgi merkezidir. Resmi QoreChain dokumantasyonu yerine gecmez; kritik adimlarda resmi kaynaklar ve guncel duyurular kontrol edilmelidir.
