@@ -12,9 +12,9 @@
 
 ---
 
-QoreChain ekosistemi icin Turkce ve Ingilizce teknik kaynaklar, node operasyon notlari, gorev surecleri ve topluluk odakli bilgi merkezi.
+QoreChain Hub, QoreChain ekosistemi icin hazirlanan topluluk odakli bir bilgi merkezidir. Amac; kurulum, kontrol, takip ve temel sorun giderme sureclerini tek bir yerde, sade ve uygulanabilir bir duzenle toplamaktir.
 
-A bilingual knowledge hub for QoreChain technical resources, node operations, task workflows, and community-focused documentation.
+QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem. Its goal is to keep setup, verification, monitoring, and basic troubleshooting flows in one clear and practical place.
 
 ## Dil Secimi / Language
 
@@ -23,33 +23,27 @@ A bilingual knowledge hub for QoreChain technical resources, node operations, ta
 | Turkce | [Turkce Kaynaklar](./tr/README.md) | Aktif |
 | English | [English Resources](./en/README.md) | Active |
 
-## Turkce Kaynaklar
+## Icerik Haritasi / Content Map
 
-Bu bolum, QoreChain ile ilgilenen Turkce toplulugun kurulum, kontrol, takip ve sorun cozme sureclerini daha duzenli bir sekilde yurutmesine yardimci olmak icin hazirlanmistir.
+| Alan / Area | Turkce | English | Durum / Status |
+|---|---|---|---|
+| Light Node | [Light Node Operasyonlari](./tr/light-node-operasyonlari.md) | [Light Node Operations](./en/light-node-operations.md) | Aktif / Active |
+| Bilgi Bankasi | [QoreChain Bilgi Bankasi](./tr/bilgi-bankasi.md) | [QoreChain Knowledge Base](./en/knowledge-base.md) | Aktif / Active |
+| Eigenstate 2 | Eigenstate 2 Gorevleri | Eigenstate 2 Tasks | Hazirlaniyor / Preparing |
+| Operator Rehberi | Operator El Kitabi | Operator Handbook | Planlandi / Planned |
+| Sorun Giderme | Hata Cozumleri | Troubleshooting | Planlandi / Planned |
 
-### Icerik Haritasi
+## Kimler Icin? / Who Is This For?
 
-| Kaynak | Icerik | Durum |
-|---|---|---|
-| [Light Node Operasyonlari](./tr/light-node-operasyonlari.md) | Kurulum, servis kontrolu, panel erisimi ve temel sorun giderme | Aktif |
-| [QoreChain Bilgi Bankasi](./tr/bilgi-bankasi.md) | Light Node, stake ve temel ekosistem sorulari | Aktif |
-| Eigenstate 2 Gorevleri | Gorev akisi, kontrol adimlari ve notlar | Hazirlaniyor |
-| Operator El Kitabi | Log kontrolu, yeniden baslatma, guncelleme ve takip surecleri | Planlandi |
-| Hata Cozumleri | Sik karsilasilan hatalar ve pratik cozumler | Planlandi |
+- QoreChain Light Node calistirmak isteyen operatorler
+- Kurulum ve servis kontrol adimlarini takip etmek isteyen kullanicilar
+- Sik sorulan sorulara hizli yanit arayan topluluk uyeleri
+- Turkce ve Ingilizce kaynaklari ayni yapida tutmak isteyen katkicilar
 
-## English Resources
-
-This section includes English documentation for QoreChain users, operators, and community members who want to follow setup flows, node operations, task processes, and troubleshooting notes.
-
-### Content Map
-
-| Resource | Content | Status |
-|---|---|---|
-| [Light Node Operations](./en/light-node-operations.md) | Setup, service checks, panel access, and basic troubleshooting | Active |
-| [QoreChain Knowledge Base](./en/knowledge-base.md) | Light Node, stake, and ecosystem questions | Active |
-| Eigenstate 2 Tasks | Task flow, verification steps, and notes | Preparing |
-| Operator Handbook | Logs, restart, updates, and monitoring process | Planned |
-| Troubleshooting | Common issues and practical fixes | Planned |
+- Operators who want to run a QoreChain Light Node
+- Users who need setup and service-check steps
+- Community members looking for quick answers to common questions
+- Contributors who want to keep Turkish and English resources aligned
 
 ## QoreChain Hakkinda / About QoreChain
 
@@ -57,11 +51,21 @@ QoreChain, kuantum sonrasi guvenlik yaklasimini merkeze alan yeni nesil bir Katm
 
 QoreChain is a next-generation Layer 1 blockchain infrastructure focused on post-quantum security, EVM compatibility, CosmWasm support, SVM support, AI-native infrastructure, and cross-network validator architecture.
 
-## Calisma Yaklasimi / Documentation Approach
+## Belge Yaklasimi / Documentation Approach
 
-QoreChain Hub icerikleri mumkun oldugunca sade, duzenli ve uygulanabilir tutulur. Amac, topluluktaki kullanicilarin teknik surecleri tek tek aramak yerine tek bir merkezden takip edebilmesidir.
+Bu depodaki belgeler su ilkelere gore hazirlanir:
 
-QoreChain Hub content is designed to stay clear, structured, and practical. The goal is to help users follow technical processes from a single organized source.
+- Adimlar kisa, uygulanabilir ve kontrol edilebilir tutulur.
+- Kritik islemlerde resmi kaynaklara ve guncel duyurulara yonlendirme yapilir.
+- Turkce ve Ingilizce sayfalar mumkun oldugunca ayni yapida korunur.
+- Komutlar, kontrol listeleri ve hata tablolarina oncelik verilir.
+
+Documents in this repository follow these principles:
+
+- Steps should stay short, practical, and verifiable.
+- Critical actions should point users back to official sources and current announcements.
+- Turkish and English pages should remain structurally aligned where possible.
+- Commands, checklists, and troubleshooting tables are preferred over long explanations.
 
 ## Baglantili Projeler / Related Projects
 
@@ -72,9 +76,9 @@ QoreChain Hub content is designed to stay clear, structured, and practical. The 
 
 ## Katki ve Geri Bildirim / Contribution and Feedback
 
-Bu alan topluluk icin hazirlanmistir. Eksik gordugunuz konular, yeni gorev notlari, kurulum iyilestirmeleri veya sorun cozumu onerileri icin issue acabilir ya da pull request gonderebilirsiniz.
+Eksik gordugunuz konular, yeni gorev notlari, kurulum iyilestirmeleri veya sorun cozumu onerileri icin issue acabilir ya da pull request gonderebilirsiniz.
 
-This hub is prepared for the community. You can open an issue or submit a pull request for missing topics, new task notes, setup improvements, or troubleshooting suggestions.
+You can open an issue or submit a pull request for missing topics, new task notes, setup improvements, or troubleshooting suggestions.
 
 ## Not / Disclaimer
 
