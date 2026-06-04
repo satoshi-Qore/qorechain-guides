@@ -1,4 +1,20 @@
-# QoreChain Hub
+<p align="center">
+  <img src="https://www.qorechain.io/assets/qorechain-logo-white.png" alt="QoreChain" width="360" />
+</p>
+
+<h1 align="center">QoreChain Hub</h1>
+
+<p align="center">
+  Turkce ve Ingilizce teknik kaynaklar, node operasyon notlari ve gorev surecleri.<br />
+  Bilingual technical resources, node operation notes, and task workflows.
+</p>
+
+<p align="center">
+  <a href="./tr/README.md">Turkce Kaynaklar</a> ·
+  <a href="./en/README.md">English Resources</a>
+</p>
+
+---
 
 QoreChain ekosistemi icin Turkce ve Ingilizce teknik kaynaklar, node operasyon notlari, gorev surecleri ve topluluk odakli bilgi merkezi.
 
