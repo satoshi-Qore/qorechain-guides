@@ -11,7 +11,9 @@
 
 <p align="center">
   <a href="./tr/README.md">Turkce Kaynaklar</a> -
-  <a href="./en/README.md">English Resources</a>
+  <a href="./en/README.md">English Resources</a> -
+  <a href="./ROADMAP.md">Roadmap</a> -
+  <a href="./CONTRIBUTING.md">Contributing</a>
 </p>
 
 ---
@@ -83,6 +85,10 @@ Documents in this repository follow these principles:
 Eksik gordugunuz konular, yeni gorev notlari, kurulum iyilestirmeleri veya sorun cozumu onerileri icin issue acabilir ya da pull request gonderebilirsiniz.
 
 You can open an issue or submit a pull request for missing topics, new task notes, setup improvements, or troubleshooting suggestions.
+
+Planlanan dokumantasyon basliklari icin [Roadmap](./ROADMAP.md), katki duzeni icin [Contributing](./CONTRIBUTING.md) sayfasini inceleyebilirsiniz.
+
+For planned documentation work, see the [Roadmap](./ROADMAP.md). For contribution guidance, see [Contributing](./CONTRIBUTING.md).
 
 ## Not / Disclaimer
 
