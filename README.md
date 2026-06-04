@@ -10,10 +10,17 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/docs-bilingual-blue" alt="Bilingual documentation" />
+  <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Active status" />
+  <img src="https://img.shields.io/badge/community-maintained-lightgrey" alt="Community maintained" />
+</p>
+
+<p align="center">
   <a href="./tr/README.md">Turkce Kaynaklar</a> -
   <a href="./en/README.md">English Resources</a> -
   <a href="./ROADMAP.md">Roadmap</a> -
-  <a href="./CONTRIBUTING.md">Contributing</a>
+  <a href="./CONTRIBUTING.md">Contributing</a> -
+  <a href="./SUPPORT.md">Support</a>
 </p>
 
 ---
@@ -28,6 +35,18 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 |---|---|---|
 | Turkce | [Turkce Kaynaklar](./tr/README.md) | Aktif |
 | English | [English Resources](./en/README.md) | Active |
+
+## Hizli Linkler / Quick Links
+
+| Kaynak / Resource | Aciklama / Description |
+|---|---|
+| [Light Node Setup](./LIGHTNODE_SETUP.md) | Kisa iki dilli kurulum referansi / Short bilingual setup reference |
+| [FAQ](./FAQ.md) | Sik sorulan sorular / Frequently asked questions |
+| [Roadmap](./ROADMAP.md) | Planlanan dokumantasyon basliklari / Planned documentation work |
+| [Contributing](./CONTRIBUTING.md) | Katki rehberi / Contribution guide |
+| [Style Guide](./STYLE_GUIDE.md) | Yazim ve format kurallari / Writing and formatting rules |
+| [Support](./SUPPORT.md) | Destek ve geri bildirim akisi / Support and feedback flow |
+| [Security](./SECURITY.md) | Guvenlik notlari / Security notes |
 
 ## Icerik Haritasi / Content Map
 
@@ -73,6 +92,10 @@ Documents in this repository follow these principles:
 - Turkish and English pages should remain structurally aligned where possible.
 - Commands, checklists, and troubleshooting tables are preferred over long explanations.
 
+Daha ayrintili yazim ve format kurallari icin [Stil Rehberi](./STYLE_GUIDE.md) sayfasini kullanabilirsiniz.
+
+For detailed writing and formatting rules, use the [Style Guide](./STYLE_GUIDE.md).
+
 ## Baglantili Projeler / Related Projects
 
 - [QoreChain Light Node](https://github.com/satoshi-Qore/qorechain-lightnode)
@@ -89,6 +112,10 @@ You can open an issue or submit a pull request for missing topics, new task note
 Planlanan dokumantasyon basliklari icin [Roadmap](./ROADMAP.md), katki duzeni icin [Contributing](./CONTRIBUTING.md) sayfasini inceleyebilirsiniz.
 
 For planned documentation work, see the [Roadmap](./ROADMAP.md). For contribution guidance, see [Contributing](./CONTRIBUTING.md).
+
+Destek ve guvenlik notlari icin [Support](./SUPPORT.md) ve [Security](./SECURITY.md) sayfalarini inceleyebilirsiniz.
+
+For support and security notes, see [Support](./SUPPORT.md) and [Security](./SECURITY.md).
 
 ## Not / Disclaimer
 
