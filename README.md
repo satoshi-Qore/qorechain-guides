@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://www.qorechain.io/assets/qorechain-logo-white.png" alt="QoreChain" width="360" />
-</p>
-
 <h1 align="center">QoreChain Hub</h1>
 
 <p align="center">
