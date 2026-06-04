@@ -14,7 +14,7 @@ Bu bolum, kullanicilarin kurulum, kontrol, takip ve temel sorun giderme adimlari
 | Operator El Kitabi | Log kontrolu, yeniden baslatma, guncelleme ve takip surecleri | Planlandi |
 | Hata Cozumleri | Sik karsilasilan hatalar ve pratik cozumler | Planlandi |
 
-## Hızli Baslangic
+## Hizli Baslangic
 
 Light Node calistirmak isteyen operatorler once [Light Node Operasyonlari](./light-node-operasyonlari.md) dokumanini takip edebilir. Genel sorular icin [QoreChain Bilgi Bankasi](./bilgi-bankasi.md) sayfasi kisa yanitlar sunar.
 
