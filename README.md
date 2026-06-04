@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/218674450?v=4" alt="QoreChain official logo" width="120" />
+  <img src="./assets/qorechain-logo.jpg" alt="QoreChain official logo" width="120" />
 </p>
 
 <h1 align="center">QoreChain Hub</h1>
