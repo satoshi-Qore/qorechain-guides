@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="./tr/README.md">Turkce Kaynaklar</a> ·
+  <a href="./tr/README.md">Turkce Kaynaklar</a> -
   <a href="./en/README.md">English Resources</a>
 </p>
 
