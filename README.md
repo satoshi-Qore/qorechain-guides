@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/qorechain-guides-banner.png" alt="QoreChain Guides" />
+</p>
+
 <h1 align="center">QoreChain Hub</h1>
 
 <p align="center">
