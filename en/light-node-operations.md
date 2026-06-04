@@ -12,7 +12,8 @@ The goal is to help operators complete the setup, check services, verify panel a
 - Panel access
 - Log monitoring
 - Restart and basic troubleshooting
-- Operator notes
+- Operator checklist
+- Maintenance notes
 
 ## Requirements
 
@@ -22,6 +23,18 @@ The goal is to help operators complete the setup, check services, verify panel a
 - 1000 QOR stake
 - Stable internet connection
 - Basic terminal access
+
+## Pre-Setup Check
+
+Before starting the setup, check the following items on the server:
+
+| Check | Expected State |
+|---|---|
+| Server access | SSH connection works |
+| Docker | Docker commands run successfully |
+| Docker Compose | `docker compose` is available |
+| Network access | The server can reach the internet |
+| Stake | The 1000 QOR requirement is met |
 
 ## Setup
 
@@ -63,7 +76,7 @@ http://YOUR_SERVER_IP:8420
 
 Replace `YOUR_SERVER_IP` with your own server IP address.
 
-If the panel opens, basic interface access is verified.
+If the panel opens, basic interface access is verified. If it does not open, check the container status first, then review the server firewall and port settings.
 
 ## Log Monitoring
 
@@ -78,6 +91,8 @@ Follow logs live:
 ```bash
 docker logs -f qorechain-lightnode-sx
 ```
+
+If repeated errors appear, note the exact error text. Checking whether the same error continues after a restart makes troubleshooting easier.
 
 ## Restart
 
@@ -101,8 +116,11 @@ docker ps
 | Service is not visible | Container list | Run `docker compose up -d` again |
 | Logs show errors | SX service logs | Note the error and check again after restart |
 | Node does not respond | Server resources | Check CPU, RAM, and disk usage |
+| Setup stopped midway | Project directory and service status | Confirm the correct directory, then rerun the command |
 
 ## Operator Checklist
+
+For daily or regular checks, use the following questions:
 
 - Is the server active?
 - Are Docker services running?
@@ -110,10 +128,13 @@ docker ps
 - Are SX and UX containers visible in the list?
 - Are there repeated errors in the logs?
 - Is the stake requirement met?
+- Are there any recent official updates that affect operators?
 
 ## Maintenance Notes
 
 Light Node processes may change based on QoreChain updates. Before critical actions, it is recommended to check official announcements, the project repository, and community updates.
+
+Before running commands, confirm that you are on the correct server and inside the correct project directory. For restart, update, or cleanup actions, it is useful to note the current service state first.
 
 ## Disclaimer
 
