@@ -10,6 +10,7 @@ This section helps users follow setup, verification, monitoring, and basic troub
 |---|---|---|
 | [Light Node Operations](./light-node-operations.md) | Setup, service checks, panel access, log monitoring, and basic troubleshooting | Active |
 | [QoreChain Knowledge Base](./knowledge-base.md) | Light Node, stake, and ecosystem questions | Active |
+| [QoreChain FAQ](./faq.md) | Short answers for common community, task, and Light Node questions | Active |
 | [QoreChain Glossary](./glossary.md) | Core QoreChain, blockchain, infrastructure, and governance terms | Active |
 | Eigenstate 2 Tasks | Task flow, verification steps, and notes | Preparing |
 | Operator Handbook | Logs, restart, updates, and monitoring process | Planned |
@@ -17,7 +18,7 @@ This section helps users follow setup, verification, monitoring, and basic troub
 
 ## Quick Start
 
-Operators who want to run a Light Node can start with [Light Node Operations](./light-node-operations.md). For general questions, [QoreChain Knowledge Base](./knowledge-base.md) provides short answers. New users can also review the [QoreChain Glossary](./glossary.md) for common terms.
+Operators who want to run a Light Node can start with [Light Node Operations](./light-node-operations.md). For general questions, [QoreChain Knowledge Base](./knowledge-base.md) and [QoreChain FAQ](./faq.md) provide short answers. New users can also review the [QoreChain Glossary](./glossary.md) for common terms.
 
 ## Document Status
 
