@@ -10,6 +10,7 @@ This roadmap tracks planned documentation work for QoreChain Guides.
 |---|---|---|
 | Light Node Operasyonlari / Light Node Operations | Kurulum, servis kontrolu, panel erisimi, loglar ve temel sorun giderme adimlarini guncel tutmak / Keep setup, service checks, panel access, logs, and basic troubleshooting current | Turkce ve Ingilizce sayfalar aktif / Turkish and English pages are active |
 | Bilgi Bankasi / Knowledge Base | QoreChain, Light Node ve stake sorularini kolay bulunur tutmak / Keep common QoreChain, Light Node, and stake questions easy to find | Turkce ve Ingilizce sayfalar aktif / Turkish and English pages are active |
+| SSS / FAQ | Topluluk, gorev ve Light Node sorularina kisa yanitlar sunmak / Provide short answers for community, task, and Light Node questions | `tr/sss.md` ve `en/faq.md` aktif / `tr/sss.md` and `en/faq.md` are active |
 | Terimler Sozlugu / Glossary | QoreChain, blokzincir, altyapi ve governance kavramlarini aciklamak / Explain QoreChain, blockchain, infrastructure, and governance terms | `tr/terimler-sozlugu.md` ve `en/glossary.md` aktif / `tr/terimler-sozlugu.md` and `en/glossary.md` are active |
 
 ## Hazirlaniyor / Preparing
