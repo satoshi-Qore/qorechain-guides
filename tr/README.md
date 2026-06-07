@@ -10,6 +10,7 @@ Bu bolum, kullanicilarin kurulum, kontrol, takip ve temel sorun giderme adimlari
 |---|---|---|
 | [Light Node Operasyonlari](./light-node-operasyonlari.md) | Kurulum, servis kontrolu, panel erisimi, log takibi ve temel sorun giderme | Aktif |
 | [QoreChain Bilgi Bankasi](./bilgi-bankasi.md) | Light Node, stake ve temel ekosistem sorulari | Aktif |
+| [QoreChain SSS](./sss.md) | Sik topluluk, gorev ve Light Node sorulari icin kisa yanitlar | Aktif |
 | [QoreChain Terimler Sozlugu](./terimler-sozlugu.md) | Temel QoreChain, blokzincir, altyapi ve governance kavramlari | Aktif |
 | Eigenstate 2 Gorevleri | Gorev akisi, kontrol adimlari ve notlar | Hazirlaniyor |
 | Operator El Kitabi | Log kontrolu, yeniden baslatma, guncelleme ve takip surecleri | Planlandi |
@@ -17,7 +18,7 @@ Bu bolum, kullanicilarin kurulum, kontrol, takip ve temel sorun giderme adimlari
 
 ## Hizli Baslangic
 
-Light Node calistirmak isteyen operatorler once [Light Node Operasyonlari](./light-node-operasyonlari.md) dokumanini takip edebilir. Genel sorular icin [QoreChain Bilgi Bankasi](./bilgi-bankasi.md) sayfasi kisa yanitlar sunar. Yeni kullanicilar temel kavramlar icin [QoreChain Terimler Sozlugu](./terimler-sozlugu.md) sayfasini da inceleyebilir.
+Light Node calistirmak isteyen operatorler once [Light Node Operasyonlari](./light-node-operasyonlari.md) dokumanini takip edebilir. Genel sorular icin [QoreChain Bilgi Bankasi](./bilgi-bankasi.md) ve [QoreChain SSS](./sss.md) sayfalari kisa yanitlar sunar. Yeni kullanicilar temel kavramlar icin [QoreChain Terimler Sozlugu](./terimler-sozlugu.md) sayfasini da inceleyebilir.
 
 ## Belge Durumlari
 
