@@ -43,6 +43,7 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 |---|---|
 | [Light Node Setup](./LIGHTNODE_SETUP.md) | Kisa iki dilli kurulum referansi / Short bilingual setup reference |
 | [FAQ](./FAQ.md) | Sik sorulan sorular / Frequently asked questions |
+| [English FAQ](./en/faq.md) / [Turkce SSS](./tr/sss.md) | Iki dilli topluluk SSS sayfalari / Bilingual community FAQ pages |
 | [Glossary](./en/glossary.md) / [Terimler Sozlugu](./tr/terimler-sozlugu.md) | Temel QoreChain ve blokzincir kavramlari / Core QoreChain and blockchain terms |
 | [Roadmap](./ROADMAP.md) | Planlanan dokumantasyon basliklari / Planned documentation work |
 | [Contributing](./CONTRIBUTING.md) | Katki rehberi / Contribution guide |
@@ -57,6 +58,7 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 |---|---|---|---|
 | Light Node | [Light Node Operasyonlari](./tr/light-node-operasyonlari.md) | [Light Node Operations](./en/light-node-operations.md) | Aktif / Active |
 | Bilgi Bankasi | [QoreChain Bilgi Bankasi](./tr/bilgi-bankasi.md) | [QoreChain Knowledge Base](./en/knowledge-base.md) | Aktif / Active |
+| SSS / FAQ | [QoreChain SSS](./tr/sss.md) | [QoreChain FAQ](./en/faq.md) | Aktif / Active |
 | Terimler | [Terimler Sozlugu](./tr/terimler-sozlugu.md) | [Glossary](./en/glossary.md) | Aktif / Active |
 | Eigenstate 2 | Eigenstate 2 Gorevleri | Eigenstate 2 Tasks | Hazirlaniyor / Preparing |
 | Operator Rehberi | Operator El Kitabi | Operator Handbook | Planlandi / Planned |
