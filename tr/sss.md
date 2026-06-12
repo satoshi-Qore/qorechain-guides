@@ -1,6 +1,6 @@
 # QoreChain SSS
 
-Bu SSS sayfasi, QoreChain toplulugunda sik sorulan sorulara kisa yanitlar toplar. Bu sayfa bagimsiz bir topluluk kaynagidir; resmi QoreChain dokumantasyonu veya duyurularinin yerine gecmez.
+Bu SSS sayfasi, QoreChain toplulugunda sık sorulan sorulara kisa yanitlar toplar. Bu sayfa bagimsiz bir topluluk kaynagidir; resmi QoreChain dokumantasyonu veya duyurularinin yerine gecmez.
 
 ## Genel
 
