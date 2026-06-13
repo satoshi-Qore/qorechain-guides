@@ -1,58 +1,58 @@
-# QoreChain Bilgi Bankasi
+# QoreChain Bilgi Bankası
 
-Bu dokuman, QoreChain ve Light Node surecleri hakkinda sık sorulan temel sorulari toplar.
+Bu doküman, QoreChain ve Light Node süreçleri hakkında sık sorulan temel soruları toplar.
 
 ## Genel Sorular
 
 ### QoreChain nedir?
 
-QoreChain, uzun vadeli guvenlik ve aglar arasi altyapiya odaklanan kuantum sonrasi guvenlik yaklasimli bir Katman 1 blokzincirdir.
+QoreChain, uzun vadeli güvenlik ve ağlar arası altyapıya odaklanan kuantum sonrası güvenlik yaklaşımlı bir Katman 1 blokzincirdir.
 
 ### Bu depo resmi mi?
 
-Hayir. Bu depo topluluk icin hazirlanmis bagimsiz bir bilgi kaynagidir. Kritik adimlarda resmi QoreChain kaynaklari ve guncel duyurular kontrol edilmelidir.
+Hayır. Bu depo topluluk için hazırlanmış bağımsız bir bilgi kaynağıdır. Kritik adımlarda resmi QoreChain kaynakları ve güncel duyurular kontrol edilmelidir.
 
-### Bu dokuman kimler icin hazirlandi?
+### Bu doküman kimler için hazırlandı?
 
-Bu dokuman, QoreChain ekosistemini takip eden kullanicilar, Light Node calistirmak isteyen operatorler ve temel kavramlari hizli sekilde anlamak isteyen topluluk uyeleri icin hazirlanmistir.
+Bu doküman, QoreChain ekosistemini takip eden kullanıcılar, Light Node çalıştırmak isteyen operatörler ve temel kavramları hızlı şekilde anlamak isteyen topluluk üyeleri için hazırlanmıştır.
 
-## Light Node Sorulari
+## Light Node Soruları
 
 ### Light Node nedir?
 
-Light Node, ag trafiginin iletilmesine yardimci olan, ag isteklerine hizmet eden ve ag ucretlerinden pay kazanabilen bir node yapisidir.
+Light Node, ağ trafiğinin iletilmesine yardımcı olan, ağ isteklerine hizmet eden ve ağ ücretlerinden pay kazanabilen bir node yapısıdır.
 
-### Light Node calistirmak icin teknik bilgi gerekir mi?
+### Light Node çalıştırmak için teknik bilgi gerekir mi?
 
-Temel terminal kullanimi, Docker komutlari ve sunucu erisimi bilgisi gerekir. Kurulum adimlari basit tutulsa da operatorlerin servis durumunu ve loglari kontrol edebilmesi onemlidir.
+Temel terminal kullanımı, Docker komutları ve sunucu erişimi bilgisi gerekir. Kurulum adımları basit tutulsa da operatörlerin servis durumunu ve logları kontrol edebilmesi önemlidir.
 
-### Panel hangi adresten acilir?
+### Panel hangi adresten açılır?
 
-Panel genellikle sunucu IP adresi ve ilgili port uzerinden acilir:
+Panel genellikle sunucu IP adresi ve ilgili port üzerinden açılır:
 
 ```text
 http://YOUR_SERVER_IP:8420
 ```
 
-`YOUR_SERVER_IP` alanini kendi sunucu IP adresinizle degistirmeniz gerekir.
+`YOUR_SERVER_IP` alanını kendi sunucu IP adresinizle değiştirmeniz gerekir.
 
-## Stake Sorulari
+## Stake Soruları
 
 ### Neden 1000 QOR gereklidir?
 
-1000 QOR stake gereksinimi, Sybil saldirilarini azaltmaya ve operatorlerin ag basarisiyla daha uyumlu hareket etmesine yardimci olur.
+1000 QOR stake gereksinimi, Sybil saldırılarını azaltmaya ve operatörlerin ağ başarısıyla daha uyumlu hareket etmesine yardımcı olur.
 
-### 1000 QOR bir ucret midir?
+### 1000 QOR bir ücret midir?
 
-Hayir. Bu miktar bir ucret degil, node calistigi surece kilitli kalan stake miktaridir.
+Hayır. Bu miktar bir ücret değil, node çalıştığı sürece kilitli kalan stake miktarıdır.
 
-### Stake geri alinabilir mi?
+### Stake geri alınabilir mi?
 
-Evet. Node kapatildiginda ve ag kurallarina gore gerekli surecler tamamlandiginda stake geri cekilebilir.
+Evet. Node kapatıldığında ve ağ kurallarına göre gerekli süreçler tamamlandığında stake geri çekilebilir.
 
-## Operasyon Sorulari
+## Operasyon Soruları
 
-### Node calisiyor mu nasil kontrol edilir?
+### Node çalışıyor mu nasıl kontrol edilir?
 
 Sunucuda container durumunu kontrol edebilirsiniz:
 
@@ -60,26 +60,26 @@ Sunucuda container durumunu kontrol edebilirsiniz:
 docker ps
 ```
 
-Beklenen servisler listede gorunuyorsa node temel seviyede calisiyor kabul edilebilir.
+Beklenen servisler listede görünüyorsa node temel seviyede çalışıyor kabul edilebilir.
 
-### Loglar nasil kontrol edilir?
+### Loglar nasıl kontrol edilir?
 
-Ana servis loglari icin:
+Ana servis logları için:
 
 ```bash
 docker logs qorechain-lightnode-sx
 ```
 
-Canli takip icin:
+Canlı takip için:
 
 ```bash
 docker logs -f qorechain-lightnode-sx
 ```
 
-### Panel acilmiyorsa ilk ne kontrol edilmeli?
+### Panel açılmıyorsa ilk ne kontrol edilmeli?
 
-Once container durumunu kontrol edin. Servisler calisiyorsa sunucu IP adresini, portu ve firewall ayarlarini gozden gecirin.
+Önce container durumunu kontrol edin. Servisler çalışıyorsa sunucu IP adresini, portu ve firewall ayarlarını gözden geçirin.
 
 ## Not
 
-Bu bilgi bankasi kisa yanitlar icin hazirlanmistir. Daha detayli operasyon adimlari icin [Light Node Operasyonlari](./light-node-operasyonlari.md) dokumanini takip edebilirsiniz.
+Bu bilgi bankası kısa yanıtlar için hazırlanmıştır. Daha detaylı operasyon adımları için [Light Node Operasyonları](./light-node-operasyonlari.md) dokümanını takip edebilirsiniz.
