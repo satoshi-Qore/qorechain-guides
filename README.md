@@ -42,7 +42,7 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 | Kaynak / Resource | Aciklama / Description |
 |---|---|
 | [Light Node Setup](./LIGHTNODE_SETUP.md) | Kisa iki dilli kurulum referansi / Short bilingual setup reference |
-| [FAQ](./FAQ.md) | Sik sorulan sorular / Frequently asked questions |
+| [FAQ](./FAQ.md) | Sık sorulan sorular / Frequently asked questions |
 | [English FAQ](./en/faq.md) / [Turkce SSS](./tr/sss.md) | Iki dilli topluluk SSS sayfalari / Bilingual community FAQ pages |
 | [Glossary](./en/glossary.md) / [Terimler Sozlugu](./tr/terimler-sozlugu.md) | Temel QoreChain ve blokzincir kavramlari / Core QoreChain and blockchain terms |
 | [Eigenstate 2 Tasks](./en/eigenstate-2-tasks.md) / [Eigenstate 2 Gorevleri](./tr/eigenstate-2-gorevleri.md) | Gorev kaniti ve manuel inceleme akisi / Task proof and manual review workflow |
@@ -71,7 +71,7 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 
 - QoreChain Light Node calistirmak isteyen operatorler
 - Kurulum ve servis kontrol adimlarini takip etmek isteyen kullanicilar
-- Sik sorulan sorulara hizli yanit arayan topluluk uyeleri
+- Sık sorulan sorulara hizli yanit arayan topluluk uyeleri
 - Turkce ve Ingilizce kaynaklari ayni yapida tutmak isteyen katkicilar
 
 - Operators who want to run a QoreChain Light Node
