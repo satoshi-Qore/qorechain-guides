@@ -46,6 +46,7 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 | [English FAQ](./en/faq.md) / [Turkce SSS](./tr/sss.md) | Iki dilli topluluk SSS sayfalari / Bilingual community FAQ pages |
 | [Glossary](./en/glossary.md) / [Terimler Sozlugu](./tr/terimler-sozlugu.md) | Temel QoreChain ve blokzincir kavramlari / Core QoreChain and blockchain terms |
 | [Eigenstate 2 Tasks](./en/eigenstate-2-tasks.md) / [Eigenstate 2 Gorevleri](./tr/eigenstate-2-gorevleri.md) | Gorev kaniti ve manuel inceleme akisi / Task proof and manual review workflow |
+| [Proof Link Guide](./en/proof-link-guide.md) / [Kanit Linki Rehberi](./tr/kanit-linki-rehberi.md) | SS yukleme alani olmadiginda kanit linki hazirlama / Preparing proof links when there is no screenshot upload field |
 | [Roadmap](./ROADMAP.md) | Planlanan dokumantasyon basliklari / Planned documentation work |
 | [Contributing](./CONTRIBUTING.md) | Katki rehberi / Contribution guide |
 | [Style Guide](./STYLE_GUIDE.md) | Yazim ve format kurallari / Writing and formatting rules |
@@ -62,6 +63,7 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 | SSS / FAQ | [QoreChain SSS](./tr/sss.md) | [QoreChain FAQ](./en/faq.md) | Aktif / Active |
 | Terimler | [Terimler Sozlugu](./tr/terimler-sozlugu.md) | [Glossary](./en/glossary.md) | Aktif / Active |
 | Eigenstate 2 | [Eigenstate 2 Gorevleri](./tr/eigenstate-2-gorevleri.md) | [Eigenstate 2 Tasks](./en/eigenstate-2-tasks.md) | Aktif / Active |
+| Kanit Linkleri / Proof Links | [Kanit Linki Rehberi](./tr/kanit-linki-rehberi.md) | [Proof Link Guide](./en/proof-link-guide.md) | Aktif / Active |
 | Operator Rehberi | Operator El Kitabi | Operator Handbook | Planlandi / Planned |
 | Sorun Giderme | Hata Cozumleri | Troubleshooting | Planlandi / Planned |
 
