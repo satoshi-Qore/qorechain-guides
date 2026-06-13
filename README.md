@@ -5,7 +5,7 @@
 <h1 align="center">QoreChain Hub</h1>
 
 <p align="center">
-  Turkce ve Ingilizce teknik kaynaklar, node operasyon notlari ve gorev surecleri.<br />
+  Türkçe ve İngilizce teknik kaynaklar, node operasyon notları ve görev süreçleri.<br />
   Bilingual technical resources, node operation notes, and task workflows.
 </p>
 
@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="./tr/README.md">Turkce Kaynaklar</a> -
+  <a href="./tr/README.md">Türkçe Kaynaklar</a> -
   <a href="./en/README.md">English Resources</a> -
   <a href="./ROADMAP.md">Roadmap</a> -
   <a href="./CONTRIBUTING.md">Contributing</a> -
@@ -26,73 +26,73 @@
 
 ---
 
-QoreChain Hub, QoreChain ekosistemi icin hazirlanan topluluk odakli bir bilgi merkezidir. Amac; kurulum, kontrol, takip ve temel sorun giderme sureclerini tek bir yerde, sade ve uygulanabilir bir duzenle toplamaktir.
+QoreChain Hub, QoreChain ekosistemi için hazırlanan topluluk odaklı bir bilgi merkezidir. Amaç; kurulum, kontrol, takip ve temel sorun giderme süreçlerini tek bir yerde, sade ve uygulanabilir bir düzenle toplamaktır.
 
 QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem. Its goal is to keep setup, verification, monitoring, and basic troubleshooting flows in one clear and practical place.
 
-## Dil Secimi / Language
+## Dil Seçimi / Language
 
-| Dil | Bolum | Durum |
+| Dil | Bölüm | Durum |
 |---|---|---|
-| Turkce | [Turkce Kaynaklar](./tr/README.md) | Aktif |
+| Türkçe | [Türkçe Kaynaklar](./tr/README.md) | Aktif |
 | English | [English Resources](./en/README.md) | Active |
 
-## Hizli Linkler / Quick Links
+## Hızlı Linkler / Quick Links
 
-| Kaynak / Resource | Aciklama / Description |
+| Kaynak / Resource | Açıklama / Description |
 |---|---|
-| [Light Node Setup](./LIGHTNODE_SETUP.md) | Kisa iki dilli kurulum referansi / Short bilingual setup reference |
+| [Light Node Setup](./LIGHTNODE_SETUP.md) | Kısa iki dilli kurulum referansı / Short bilingual setup reference |
 | [FAQ](./FAQ.md) | Sık sorulan sorular / Frequently asked questions |
-| [English FAQ](./en/faq.md) / [Turkce SSS](./tr/sss.md) | Iki dilli topluluk SSS sayfalari / Bilingual community FAQ pages |
-| [Glossary](./en/glossary.md) / [Terimler Sozlugu](./tr/terimler-sozlugu.md) | Temel QoreChain ve blokzincir kavramlari / Core QoreChain and blockchain terms |
-| [Eigenstate 2 Tasks](./en/eigenstate-2-tasks.md) / [Eigenstate 2 Gorevleri](./tr/eigenstate-2-gorevleri.md) | Gorev kaniti ve manuel inceleme akisi / Task proof and manual review workflow |
-| [Proof Link Guide](./en/proof-link-guide.md) / [Kanit Linki Rehberi](./tr/kanit-linki-rehberi.md) | SS yukleme alani olmadiginda kanit linki hazirlama / Preparing proof links when there is no screenshot upload field |
-| [Roadmap](./ROADMAP.md) | Planlanan dokumantasyon basliklari / Planned documentation work |
-| [Contributing](./CONTRIBUTING.md) | Katki rehberi / Contribution guide |
-| [Style Guide](./STYLE_GUIDE.md) | Yazim ve format kurallari / Writing and formatting rules |
-| [Support](./SUPPORT.md) | Destek ve geri bildirim akisi / Support and feedback flow |
-| [Security](./SECURITY.md) | Guvenlik notlari / Security notes |
+| [English FAQ](./en/faq.md) / [Türkçe SSS](./tr/sss.md) | İki dilli topluluk SSS sayfaları / Bilingual community FAQ pages |
+| [Glossary](./en/glossary.md) / [Terimler Sözlüğü](./tr/terimler-sozlugu.md) | Temel QoreChain ve blokzincir kavramları / Core QoreChain and blockchain terms |
+| [Eigenstate 2 Tasks](./en/eigenstate-2-tasks.md) / [Eigenstate 2 Görevleri](./tr/eigenstate-2-gorevleri.md) | Görev kanıtı ve manuel inceleme akışı / Task proof and manual review workflow |
+| [Proof Link Guide](./en/proof-link-guide.md) / [Kanıt Linki Rehberi](./tr/kanit-linki-rehberi.md) | SS yükleme alanı olmadığında kanıt linki hazırlama / Preparing proof links when there is no screenshot upload field |
+| [Roadmap](./ROADMAP.md) | Planlanan dokümantasyon başlıkları / Planned documentation work |
+| [Contributing](./CONTRIBUTING.md) | Katkı rehberi / Contribution guide |
+| [Style Guide](./STYLE_GUIDE.md) | Yazım ve format kuralları / Writing and formatting rules |
+| [Support](./SUPPORT.md) | Destek ve geri bildirim akışı / Support and feedback flow |
+| [Security](./SECURITY.md) | Güvenlik notları / Security notes |
 | [License](./LICENSE.md) | Lisans bilgisi / License information |
 
-## Icerik Haritasi / Content Map
+## İçerik Haritası / Content Map
 
-| Alan / Area | Turkce | English | Durum / Status |
+| Alan / Area | Türkçe | English | Durum / Status |
 |---|---|---|---|
-| Light Node | [Light Node Operasyonlari](./tr/light-node-operasyonlari.md) | [Light Node Operations](./en/light-node-operations.md) | Aktif / Active |
-| Bilgi Bankasi | [QoreChain Bilgi Bankasi](./tr/bilgi-bankasi.md) | [QoreChain Knowledge Base](./en/knowledge-base.md) | Aktif / Active |
+| Light Node | [Light Node Operasyonları](./tr/light-node-operasyonlari.md) | [Light Node Operations](./en/light-node-operations.md) | Aktif / Active |
+| Bilgi Bankası | [QoreChain Bilgi Bankası](./tr/bilgi-bankasi.md) | [QoreChain Knowledge Base](./en/knowledge-base.md) | Aktif / Active |
 | SSS / FAQ | [QoreChain SSS](./tr/sss.md) | [QoreChain FAQ](./en/faq.md) | Aktif / Active |
-| Terimler | [Terimler Sozlugu](./tr/terimler-sozlugu.md) | [Glossary](./en/glossary.md) | Aktif / Active |
-| Eigenstate 2 | [Eigenstate 2 Gorevleri](./tr/eigenstate-2-gorevleri.md) | [Eigenstate 2 Tasks](./en/eigenstate-2-tasks.md) | Aktif / Active |
-| Kanit Linkleri / Proof Links | [Kanit Linki Rehberi](./tr/kanit-linki-rehberi.md) | [Proof Link Guide](./en/proof-link-guide.md) | Aktif / Active |
-| Operator Rehberi | Operator El Kitabi | Operator Handbook | Planlandi / Planned |
-| Sorun Giderme | Hata Cozumleri | Troubleshooting | Planlandi / Planned |
+| Terimler | [Terimler Sözlüğü](./tr/terimler-sozlugu.md) | [Glossary](./en/glossary.md) | Aktif / Active |
+| Eigenstate 2 | [Eigenstate 2 Görevleri](./tr/eigenstate-2-gorevleri.md) | [Eigenstate 2 Tasks](./en/eigenstate-2-tasks.md) | Aktif / Active |
+| Kanıt Linkleri / Proof Links | [Kanıt Linki Rehberi](./tr/kanit-linki-rehberi.md) | [Proof Link Guide](./en/proof-link-guide.md) | Aktif / Active |
+| Operatör Rehberi | Operatör El Kitabı | Operator Handbook | Planlandı / Planned |
+| Sorun Giderme | Hata Çözümleri | Troubleshooting | Planlandı / Planned |
 
-## Kimler Icin? / Who Is This For?
+## Kimler İçin? / Who Is This For?
 
-- QoreChain Light Node calistirmak isteyen operatorler
-- Kurulum ve servis kontrol adimlarini takip etmek isteyen kullanicilar
-- Sık sorulan sorulara hizli yanit arayan topluluk uyeleri
-- Turkce ve Ingilizce kaynaklari ayni yapida tutmak isteyen katkicilar
+- QoreChain Light Node çalıştırmak isteyen operatörler
+- Kurulum ve servis kontrol adımlarını takip etmek isteyen kullanıcılar
+- Sık sorulan sorulara hızlı yanıt arayan topluluk üyeleri
+- Türkçe ve İngilizce kaynakları aynı yapıda tutmak isteyen katkıcılar
 
 - Operators who want to run a QoreChain Light Node
 - Users who need setup and service-check steps
 - Community members looking for quick answers to common questions
 - Contributors who want to keep Turkish and English resources aligned
 
-## QoreChain Hakkinda / About QoreChain
+## QoreChain Hakkında / About QoreChain
 
-QoreChain, kuantum sonrasi guvenlik yaklasimini merkeze alan yeni nesil bir Katman 1 blokzincir altyapisidir. EVM uyumlulugu, CosmWasm destegi, SVM destegi, yapay zeka odakli altyapi ve aglar arasi dogrulayici mimarisi gibi basliklarla merkeziyetsiz altyapinin gelecek ihtiyaclarina odaklanir.
+QoreChain, kuantum sonrası güvenlik yaklaşımını merkeze alan yeni nesil bir Katman 1 blokzincir altyapısıdır. EVM uyumluluğu, CosmWasm desteği, SVM desteği, yapay zeka odaklı altyapı ve ağlar arası doğrulayıcı mimarisi gibi başlıklarla merkeziyetsiz altyapının gelecek ihtiyaçlarına odaklanır.
 
 QoreChain is a next-generation Layer 1 blockchain infrastructure focused on post-quantum security, EVM compatibility, CosmWasm support, SVM support, AI-native infrastructure, and cross-network validator architecture.
 
-## Belge Yaklasimi / Documentation Approach
+## Belge Yaklaşımı / Documentation Approach
 
-Bu depodaki belgeler su ilkelere gore hazirlanir:
+Bu depodaki belgeler şu ilkelere göre hazırlanır:
 
-- Adimlar kisa, uygulanabilir ve kontrol edilebilir tutulur.
-- Kritik islemlerde resmi kaynaklara ve guncel duyurulara yonlendirme yapilir.
-- Turkce ve Ingilizce sayfalar mumkun oldugunca ayni yapida korunur.
-- Komutlar, kontrol listeleri ve hata tablolarina oncelik verilir.
+- Adımlar kısa, uygulanabilir ve kontrol edilebilir tutulur.
+- Kritik işlemlerde resmi kaynaklara ve güncel duyurulara yönlendirme yapılır.
+- Türkçe ve İngilizce sayfalar mümkün olduğunca aynı yapıda korunur.
+- Komutlar, kontrol listeleri ve hata tablolarına öncelik verilir.
 
 Documents in this repository follow these principles:
 
@@ -101,43 +101,43 @@ Documents in this repository follow these principles:
 - Turkish and English pages should remain structurally aligned where possible.
 - Commands, checklists, and troubleshooting tables are preferred over long explanations.
 
-Daha ayrintili yazim ve format kurallari icin [Stil Rehberi](./STYLE_GUIDE.md) sayfasini kullanabilirsiniz.
+Daha ayrıntılı yazım ve format kuralları için [Stil Rehberi](./STYLE_GUIDE.md) sayfasını kullanabilirsiniz.
 
 For detailed writing and formatting rules, use the [Style Guide](./STYLE_GUIDE.md).
 
-## Baglantili Projeler / Related Projects
+## Bağlantılı Projeler / Related Projects
 
 - [QoreChain Light Node](https://github.com/satoshi-Qore/qorechain-lightnode)
-- [QoreChain Araclari / Tools](https://github.com/satoshi-Qore/qorechain-tools)
-- [QoreChain Notlari / Notes](https://github.com/satoshi-Qore/Qorechain-notes)
+- [QoreChain Araçları / Tools](https://github.com/satoshi-Qore/qorechain-tools)
+- [QoreChain Notları / Notes](https://github.com/satoshi-Qore/Qorechain-notes)
 - [Satoshi-Qore GitHub Profili / Profile](https://github.com/satoshi-Qore)
 
-## Katki ve Geri Bildirim / Contribution and Feedback
+## Katkı ve Geri Bildirim / Contribution and Feedback
 
-Eksik gordugunuz konular, yeni gorev notlari, kurulum iyilestirmeleri veya sorun cozumu onerileri icin issue acabilir ya da pull request gonderebilirsiniz.
+Eksik gördüğünüz konular, yeni görev notları, kurulum iyileştirmeleri veya sorun çözümü önerileri için issue açabilir ya da pull request gönderebilirsiniz.
 
 You can open an issue or submit a pull request for missing topics, new task notes, setup improvements, or troubleshooting suggestions.
 
-Planlanan dokumantasyon basliklari icin [Roadmap](./ROADMAP.md), katki duzeni icin [Contributing](./CONTRIBUTING.md) sayfasini inceleyebilirsiniz.
+Planlanan dokümantasyon başlıkları için [Roadmap](./ROADMAP.md), katkı düzeni için [Contributing](./CONTRIBUTING.md) sayfasını inceleyebilirsiniz.
 
 For planned documentation work, see the [Roadmap](./ROADMAP.md). For contribution guidance, see [Contributing](./CONTRIBUTING.md).
 
-Destek ve guvenlik notlari icin [Support](./SUPPORT.md) ve [Security](./SECURITY.md) sayfalarini inceleyebilirsiniz.
+Destek ve güvenlik notları için [Support](./SUPPORT.md) ve [Security](./SECURITY.md) sayfalarını inceleyebilirsiniz.
 
 For support and security notes, see [Support](./SUPPORT.md) and [Security](./SECURITY.md).
 
 ## Not / Disclaimer
 
-Bu depo topluluk tarafindan hazirlanan bagimsiz bir bilgi merkezidir. Resmi QoreChain dokumantasyonu yerine gecmez; kritik adimlarda resmi kaynaklar ve guncel duyurular kontrol edilmelidir.
+Bu depo topluluk tarafından hazırlanan bağımsız bir bilgi merkezidir. Resmi QoreChain dokümantasyonu yerine geçmez; kritik adımlarda resmi kaynaklar ve güncel duyurular kontrol edilmelidir.
 
 This is an independent community-maintained knowledge hub. It does not replace official QoreChain documentation; official sources and current announcements should be checked for critical steps.
 
-QoreChain adlari, logolari ve ilgili markalar kendi sahiplerine aittir. Bu depo sponsorluk, onay veya resmi statu anlami tasimaz.
+QoreChain adları, logoları ve ilgili markalar kendi sahiplerine aittir. Bu depo sponsorluk, onay veya resmi statü anlamı taşımaz.
 
 QoreChain names, logos, and related marks belong to their respective owners. This repository does not imply sponsorship, endorsement, or official status.
 
 ## Lisans / License
 
-Dokumantasyon [CC BY 4.0](./LICENSE.md), kucuk kod ve komut ornekleri MIT License notu ile sunulur.
+Dokümantasyon [CC BY 4.0](./LICENSE.md), küçük kod ve komut örnekleri MIT License notu ile sunulur.
 
 Documentation is provided under [CC BY 4.0](./LICENSE.md), with small code and command examples covered by the MIT License note.
