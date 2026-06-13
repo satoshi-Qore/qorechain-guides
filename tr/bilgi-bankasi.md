@@ -1,6 +1,6 @@
 # QoreChain Bilgi Bankasi
 
-Bu dokuman, QoreChain ve Light Node surecleri hakkinda sik sorulan temel sorulari toplar.
+Bu dokuman, QoreChain ve Light Node surecleri hakkinda sık sorulan temel sorulari toplar.
 
 ## Genel Sorular
 
