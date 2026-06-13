@@ -1,38 +1,38 @@
-# Turkce Kaynaklar
+# Türkçe Kaynaklar
 
-QoreChain ekosistemi icin Turkce teknik kaynaklar, node operasyon notlari ve gorev surecleri.
+QoreChain ekosistemi için Türkçe teknik kaynaklar, node operasyon notları ve görev süreçleri.
 
-Bu bolum, kullanicilarin kurulum, kontrol, takip ve temel sorun giderme adimlarini daha duzenli bir sekilde yurutmesine yardimci olmak icin hazirlanmistir.
+Bu bölüm, kullanıcıların kurulum, kontrol, takip ve temel sorun giderme adımlarını daha düzenli bir şekilde yürütmesine yardımcı olmak için hazırlanmıştır.
 
-## Icerik
+## İçerik
 
-| Kaynak | Icerik | Durum |
+| Kaynak | İçerik | Durum |
 |---|---|---|
-| [Light Node Operasyonlari](./light-node-operasyonlari.md) | Kurulum, servis kontrolu, panel erisimi, log takibi ve temel sorun giderme | Aktif |
-| [QoreChain Bilgi Bankasi](./bilgi-bankasi.md) | Light Node, stake ve temel ekosistem sorulari | Aktif |
-| [QoreChain SSS](./sss.md) | Sık sorulan topluluk, gorev ve Light Node sorulari icin kisa yanitlar | Aktif |
-| [QoreChain Terimler Sozlugu](./terimler-sozlugu.md) | Temel QoreChain, blokzincir, altyapi ve governance kavramlari | Aktif |
-| [Eigenstate 2 Gorevleri](./eigenstate-2-gorevleri.md) | Gorev akisi, kanit linki, manuel inceleme ve guvenlik notlari | Aktif |
-| [Kanit Linki Rehberi](./kanit-linki-rehberi.md) | Ekran goruntusu yukleme alani olmadiginda kanit linki hazirlama | Aktif |
-| Operator El Kitabi | Log kontrolu, yeniden baslatma, guncelleme ve takip surecleri | Hazirlaniyor |
-| Hata Cozumleri | Sık karsilasilan hatalar ve pratik cozumler | Planlandi |
+| [Light Node Operasyonları](./light-node-operasyonlari.md) | Kurulum, servis kontrolü, panel erişimi, log takibi ve temel sorun giderme | Aktif |
+| [QoreChain Bilgi Bankası](./bilgi-bankasi.md) | Light Node, stake ve temel ekosistem soruları | Aktif |
+| [QoreChain SSS](./sss.md) | Sık sorulan topluluk, görev ve Light Node soruları için kısa yanıtlar | Aktif |
+| [QoreChain Terimler Sözlüğü](./terimler-sozlugu.md) | Temel QoreChain, blokzincir, altyapı ve governance kavramları | Aktif |
+| [Eigenstate 2 Görevleri](./eigenstate-2-gorevleri.md) | Görev akışı, kanıt linki, manuel inceleme ve güvenlik notları | Aktif |
+| [Kanıt Linki Rehberi](./kanit-linki-rehberi.md) | Ekran görüntüsü yükleme alanı olmadığında kanıt linki hazırlama | Aktif |
+| Operatör El Kitabı | Log kontrolü, yeniden başlatma, güncelleme ve takip süreçleri | Hazırlanıyor |
+| Hata Çözümleri | Sık karşılaşılan hatalar ve pratik çözümler | Planlandı |
 
-## Hizli Baslangic
+## Hızlı Başlangıç
 
-Light Node calistirmak isteyen operatorler once [Light Node Operasyonlari](./light-node-operasyonlari.md) dokumanini takip edebilir. Genel sorular icin [QoreChain Bilgi Bankasi](./bilgi-bankasi.md) ve [QoreChain SSS](./sss.md) sayfalari kisa yanitlar sunar. Yeni kullanicilar temel kavramlar icin [QoreChain Terimler Sozlugu](./terimler-sozlugu.md) sayfasini da inceleyebilir. Gorev surecleri icin [Eigenstate 2 Gorevleri](./eigenstate-2-gorevleri.md), kanit linki sorulari icin [Kanit Linki Rehberi](./kanit-linki-rehberi.md) sayfasi kullanilabilir.
+Light Node çalıştırmak isteyen operatörler önce [Light Node Operasyonları](./light-node-operasyonlari.md) dokümanını takip edebilir. Genel sorular için [QoreChain Bilgi Bankası](./bilgi-bankasi.md) ve [QoreChain SSS](./sss.md) sayfaları kısa yanıtlar sunar. Yeni kullanıcılar temel kavramlar için [QoreChain Terimler Sözlüğü](./terimler-sozlugu.md) sayfasını da inceleyebilir. Görev süreçleri için [Eigenstate 2 Görevleri](./eigenstate-2-gorevleri.md), kanıt linki soruları için [Kanıt Linki Rehberi](./kanit-linki-rehberi.md) sayfası kullanılabilir.
 
-## Belge Durumlari
+## Belge Durumları
 
 | Durum | Anlam |
 |---|---|
-| Aktif | Sayfa kullanima hazir ve temel akisi iceriyor |
-| Hazirlaniyor | Konu belirlenmis, icerik daha sonra genisletilecek |
-| Planlandi | Baslik yol haritasinda, henuz sayfa acilmadi |
+| Aktif | Sayfa kullanıma hazır ve temel akışı içeriyor |
+| Hazırlanıyor | Konu belirlenmiş, içerik daha sonra genişletilecek |
+| Planlandı | Başlık yol haritasında, henüz sayfa açılmadı |
 
-## Katki Notu
+## Katkı Notu
 
-Yeni icerik eklerken mumkunse ayni basligin Ingilizce karsiligini da dusunun. Boylece depo iki dilli yapisini tutarli sekilde korur.
+Yeni içerik eklerken mümkünse aynı başlığın İngilizce karşılığını da düşünün. Böylece depo iki dilli yapısını tutarlı şekilde korur.
 
 ## Not
 
-Bu bolum Turkce topluluk icin hazirlanmistir. Kritik adimlarda resmi QoreChain kaynaklari ve guncel duyurular kontrol edilmelidir.
+Bu bölüm Türkçe topluluk için hazırlanmıştır. Kritik adımlarda resmi QoreChain kaynakları ve güncel duyurular kontrol edilmelidir.
