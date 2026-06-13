@@ -13,6 +13,7 @@ This roadmap tracks planned documentation work for QoreChain Guides.
 | SSS / FAQ | Topluluk, gorev ve Light Node sorularina kisa yanitlar sunmak / Provide short answers for community, task, and Light Node questions | `tr/sss.md` ve `en/faq.md` aktif / `tr/sss.md` and `en/faq.md` are active |
 | Terimler Sozlugu / Glossary | QoreChain, blokzincir, altyapi ve governance kavramlarini aciklamak / Explain QoreChain, blockchain, infrastructure, and governance terms | `tr/terimler-sozlugu.md` ve `en/glossary.md` aktif / `tr/terimler-sozlugu.md` and `en/glossary.md` are active |
 | Eigenstate 2 Gorevleri / Eigenstate 2 Tasks | Gorev akisini, dogrulama adimlarini ve operator notlarini belgelemek / Document task flow, verification steps, and operator notes | `tr/eigenstate-2-gorevleri.md` ve `en/eigenstate-2-tasks.md` aktif / `tr/eigenstate-2-gorevleri.md` and `en/eigenstate-2-tasks.md` are active |
+| Kanit Linki Rehberi / Proof Link Guide | SS yukleme alani olmadiginda kaniti paylasilabilir linke donusturmayi aciklamak / Explain how to convert evidence into shareable links when there is no screenshot upload field | `tr/kanit-linki-rehberi.md` ve `en/proof-link-guide.md` aktif / `tr/kanit-linki-rehberi.md` and `en/proof-link-guide.md` are active |
 
 ## Hazirlaniyor / Preparing
 
