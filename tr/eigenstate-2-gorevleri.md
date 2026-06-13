@@ -1,132 +1,96 @@
-# Eigenstate 2 Görevleri
+# Eigenstate 2 Topluluk Görev Rehberi
 
-Bu doküman, QoreChain Eigenstate 2 görevlerini daha düzenli takip etmek isteyen topluluk üyeleri için hazırlanmıştır.
+Bu rehber, QoreChain Eigenstate 2 görevlerini düzenli bir topluluk bilgi merkezi olarak takip etmek için hazırlanmıştır.
 
-Amaç; görevleri tamamlamak, kanıtları düzenlemek, form alanlarını doğru doldurmak ve gereksiz risk almadan incelemeye göndermek için sade bir kontrol akışı sunmaktır.
+Eigenstate 2 içinde gözlemlenen toplam 149 görev, 6 ana kategoriye ayrılır. Bu sayfa; kategori rehberleri, kanıt gönderimi ve SSS sayfaları için ana giriş noktasıdır.
 
 ## Kapsam
 
-Bu sayfa genel görev sürecini açıklar. Belirli bir görevin onaylanacağını garanti etmez.
+Bu depo bağımsız bir topluluk rehberidir. Resmi QoreChain görev panelinin, resmi duyuruların veya platform talimatlarının yerine geçmez.
 
-Görev kuralları, puanlar, doğrulama yöntemleri ve resmi bağlantılar zamanla değişebilir. Kritik adımlarda QoreChain görev paneli, resmi duyurular ve ilgili platformdaki güncel bilgiler kontrol edilmelidir.
+Görev sayıları, puanlar, linkler, doğrulama yöntemleri ve görev durumları zamanla değişebilir. Kanıt göndermeden önce resmi görev paneli mutlaka kontrol edilmelidir.
 
-## Görev Türleri
+## Kategori Özeti
 
-Eigenstate 2 görevleri genellikle şu alanlara ayrılır:
+| Kategori | Gözlemlenen Görev Sayısı | Rehber |
+|---|---:|---|
+| Social / Sosyal | 79 | [Sosyal Görevler](./eigenstate-2-sosyal.md) |
+| Analytics / Analitik | 21 | [Analitik Görevler](./eigenstate-2-analitik.md) |
+| Development / Geliştirme | 6 | [Geliştirme Görevleri](./eigenstate-2-gelistirme.md) |
+| Education / Eğitim | 8 | [Eğitim Görevleri](./eigenstate-2-egitim.md) |
+| Regional / Bölgesel | 12 | [Bölgesel Görevler](./eigenstate-2-bolgesel.md) |
+| On-Chain | 23 | [On-Chain Görevler](./eigenstate-2-on-chain.md) |
+| Toplam | 149 |  |
 
-| Kategori | Örnek Görevler | Kanıt Türü |
-|---|---|---|
-| Social | X, Reddit, LinkedIn veya Medium etkileşimleri | Paylaşım linki, profil linki veya görev linki |
-| Exchanges | CoinMarketCap, CoinGecko, MEXC, Binance Square etkileşimleri | Profil, post veya ekran görüntüsü kanıtı |
-| Developer | GitHub takip, star, issue, pull request veya merge görevleri | GitHub profil, repo, issue veya PR linki |
-| Educational | Quiz, video, whitepaper, bookmark veya wallpaper görevleri | Kısa açıklama, kaynak linki veya ekran görüntüsü |
-| Korea/Asia | Bölgesel topluluk ve çeviri görevleri | Paylaşım, blog veya topluluk linki |
-| On-Chain | Light node, staking, transfer veya governance işlemleri | İşlem, node, panel veya resmi sistem kanıtı |
+## Destekleyici Rehberler
+
+| Kaynak | Amaç |
+|---|---|
+| [Eigenstate 2 Kanıt Gönderimi](./eigenstate-2-kanit-gonderimi.md) | Proof link, açıklama alanı, ekran görüntüsü ve zayıf kanıt örneklerini açıklar |
+| [Eigenstate 2 SSS](./eigenstate-2-sss.md) | Sık sorulan Eigenstate 2 görev sorularını yanıtlar |
+| [Genel Kanıt Linki Rehberi](./kanit-linki-rehberi.md) | Ekran görüntüsü yükleme alanı olmayan görevler için genel kanıt linki mantığını açıklar |
+
+## Önerilen Okuma Sırası
+
+1. Önce bu ana rehberi okuyun.
+2. [Eigenstate 2 Kanıt Gönderimi](./eigenstate-2-kanit-gonderimi.md) sayfasını inceleyin.
+3. Yapmak istediğiniz görevin kategori rehberini açın.
+4. Emin olmadığınız durumlarda [Eigenstate 2 SSS](./eigenstate-2-sss.md) sayfasına bakın.
+5. Görev göndermeden önce resmi görev panelindeki güncel kuralları kontrol edin.
 
 ## Genel İş Akışı
 
-1. Görev panelinde görev başlığını ve talimatları okuyun.
-2. Görevin hangi platformda yapılacağını belirleyin.
-3. Görevi tamamlamadan önce doğru hesapta olduğunuzu kontrol edin.
-4. Görev bir public link üretiyorsa linki kopyalayın.
-5. Link üretmiyorsa ekran görüntüsü alın ve hassas bilgileri kapatın.
-6. Submit alanına kanıt linkini ve kısa açıklamayı girin.
-7. Görev onaylanana kadar sonucu kesinleşmiş gibi yazmayın.
+1. Görev panelindeki başlığı ve talimatları okuyun.
+2. Hangi platform ve hesap gerektiğini belirleyin.
+3. Görevi hassas bilgi paylaşmadan tamamlayın.
+4. En güçlü kanıt linkini alın.
+5. Görev doğrudan link üretmiyorsa kanıtı paylaşılabilir bir linke dönüştürün.
+6. Kısa ve gerçekçi bir açıklama yazın.
+7. Manuel incelemeye gönderin.
+8. Görev sistemde onaylanmadan onaylanmış gibi yazmayın.
 
 ## Kanıt Linki Mantığı
 
-Bazı görevler doğrudan link verir. Bazı görevler ise sadece takip, beğeni veya izleme gibi işlem gerektirir ve link üretmez.
-
-| Durum | Uygun Kanıt |
+| Görev Sonucu | Daha Uygun Kanıt |
 |---|---|
 | Public post yazıldı | Post linki |
 | GitHub issue veya PR açıldı | Issue veya PR linki |
-| GitHub takip/star yapıldı | GitHub profil veya ilgili repo linki, gerekirse screenshot |
-| LinkedIn takip yapıldı | Sayfa linki ve kısa açıklama |
-| YouTube abonelik veya video izleme | Kanal/video linki ve kısa açıklama |
-| Bookmark veya wallpaper | Screenshot kanıtı |
-| Quiz veya trivia tamamlandı | Görev paneli açıklaması ve kısa tamamlandı notu |
+| PR merge edildi | Merge edilmiş PR linki |
+| Sosyal sayfa takip edildi | Sayfa/profil linki ve kısa açıklama |
+| Gönderi beğenildi | Gönderi linki ve kısa açıklama |
+| Quiz tamamlandı | Tamamlama notu ve ilgili resmi sayfa linki |
+| Ekran görüntüsü gerekiyor | Public proof sayfası veya erişilebilir screenshot linki |
+| On-chain işlem yapıldı | Explorer veya transaction linki |
 
-## Describe What You Did Alanına Ne Yazılır?
-
-Bu alan, görevi nasıl tamamladığınızı kısa ve net anlatmak içindir.
-
-Örnekler:
+## Açıklama Şablonu
 
 ```text
-I followed the official QoreChain LinkedIn page and submitted the page link for manual review.
+I completed the requested QoreChain task on [platform]. Since this task is reviewed manually, I submitted the related proof link and a short description for verification.
 ```
+
+Türkçe açıklama gerekiyorsa:
 
 ```text
-I completed the QoreChain educational quiz and submitted this task for manual review.
+İstenen QoreChain görevini [platform] üzerinde tamamladım. Görev manuel incelendiği için ilgili kanıt linkini ve kısa açıklamayı doğrulama için ekledim.
 ```
-
-```text
-I added QoreChain to my watchlist and included a short proof note for review.
-```
-
-Türkçe yazmak isterseniz:
-
-```text
-QoreChain sayfasını takip ettim ve manuel inceleme için ilgili sayfa linkini ekledim.
-```
-
-## Link Üretmeyen Görevlerde Dikkat
-
-Beğenme, takip etme, izleme veya bookmark gibi görevlerde bazen public link oluşmaz. Bu durumda:
-
-- resmi sayfa veya ilgili platform linkini ekleyin;
-- açıklamada ne yaptığınızı yazın;
-- ekran görüntüsü gerekiyorsa gizli bilgileri kapatın;
-- seed phrase, private key, wallet credential, e-posta veya telefon gibi bilgileri paylaşmayın;
-- görev onaylanmadan "approved" veya "accepted" gibi ifadeler kullanmayın.
-
-## GitHub Görevleri İçin Notlar
-
-GitHub görevlerinde en güçlü kanıtlar genellikle public linklerdir.
-
-| Görev | Daha Uygun Kanıt |
-|---|---|
-| QoreChain organizasyonunu takip et | GitHub profil linki veya organizasyon sayfası |
-| Repo starla | Star verilen repo linki |
-| Meaningful issue aç | Issue linki |
-| Pull request gönder | PR linki |
-| Merged PR | Merge olmuş PR linki |
-
-Bir PR merge olmadan "merged" olarak anlatılmamalıdır. Open PR için "open pull request" veya "submitted pull request" ifadeleri daha doğrudur.
-
-## Sosyal Görevlerde Notlar
-
-Sosyal medya görevlerinde kısa, doğal ve abartısız dil kullanmak daha sağlıklıdır.
-
-- Aynı metni her platforma kopyalamayın.
-- Resmi olmayan bilgileri kesin gibi yazmayın.
-- Mainnet, ödül, komisyon veya token konularında resmi duyuru yoksa temkinli olun.
-- Topluluk katkısını öne çıkarın; yatırım veya garanti dili kullanmayın.
 
 ## Güvenlik Kontrol Listesi
 
-Görev kanıtı göndermeden önce kontrol edin:
+Kanıt göndermeden önce kontrol edin:
 
-- Link doğru hesaba veya doğru posta gidiyor mu?
-- Screenshot içinde gizli bilgi var mı?
-- Wallet adresi paylaşmak gerekli mi?
-- Sunucu IP, API key, token veya login bilgisi görünüyor mu?
-- Açıklama görevi abartmadan anlatıyor mu?
-- Görev resmi olarak tamamlanmadan onaylanmış gibi yazılıyor mu?
+- Kanıt linki doğru görev, post, hesap, repo veya işleme gidiyor mu?
+- Ekran görüntüsünde özel bilgi görünüyor mu?
+- Seed phrase, private key, şifre, API key veya sunucu bilgisi açıkta mı?
+- Açıklama gerçekçi ve abartısız mı?
+- Mainnet, ödül, komisyon veya token değeri hakkında resmi olmayan iddia var mı?
+- Açık PR, merge olmadan merged gibi anlatılıyor mu?
 
-## Önerilen Kanıt Açıklama Formatı
+## On-Chain ve Mainnet Görevleri Hakkında
 
-```text
-I completed the requested QoreChain task on [platform]. Since this task is reviewed manually, I submitted the related page/proof link and a short description for verification.
-```
+On-chain görevler gerçek işlem, cüzdan bakiyesi, node operasyonu, staking, delegation, bridge veya governance faaliyeti içerebilir. Bu görevlerde acele edilmemelidir.
 
-Türkçe:
-
-```text
-İstenen QoreChain görevini [platform] üzerinde tamamladım. Görev manuel incelendiği için ilgili sayfa/kanıt linkini ve kısa açıklamayı doğrulama için ekledim.
-```
+Görev mainnet, TGE, bridge erişimi, validator kuralları veya resmi ağ parametrelerine bağlıysa işlem yapmadan önce güncel resmi talimatlar beklenmelidir.
 
 ## Not
 
-Bu doküman topluluk tarafından hazırlanan pratik bir görev rehberidir. Resmi QoreChain görev panelinin yerine geçmez. Görev kuralları, puanlar ve doğrulama yöntemleri değişebilir.
+Bu rehber topluluk tarafından hazırlanmış bilgilendirici bir kaynaktır. Görev onayı garanti etmez; finansal, hukuki veya operasyonel tavsiye değildir.
