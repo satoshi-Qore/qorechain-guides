@@ -1,57 +1,57 @@
-# Eigenstate 2 Gorevleri
+# Eigenstate 2 Görevleri
 
-Bu dokuman, QoreChain Eigenstate 2 gorevlerini daha duzenli takip etmek isteyen topluluk uyeleri icin hazirlanmistir.
+Bu doküman, QoreChain Eigenstate 2 görevlerini daha düzenli takip etmek isteyen topluluk üyeleri için hazırlanmıştır.
 
-Amac; gorevleri tamamlamak, kanitlari duzenlemek, form alanlarini dogru doldurmak ve gereksiz risk almadan incelemeye gondermek icin sade bir kontrol akisi sunmaktir.
+Amaç; görevleri tamamlamak, kanıtları düzenlemek, form alanlarını doğru doldurmak ve gereksiz risk almadan incelemeye göndermek için sade bir kontrol akışı sunmaktır.
 
 ## Kapsam
 
-Bu sayfa genel gorev surecini aciklar. Belirli bir gorevin onaylanacagini garanti etmez.
+Bu sayfa genel görev sürecini açıklar. Belirli bir görevin onaylanacağını garanti etmez.
 
-Gorev kurallari, puanlar, dogrulama yontemleri ve resmi baglantilar zamanla degisebilir. Kritik adimlarda QoreChain gorev paneli, resmi duyurular ve ilgili platformdaki guncel bilgiler kontrol edilmelidir.
+Görev kuralları, puanlar, doğrulama yöntemleri ve resmi bağlantılar zamanla değişebilir. Kritik adımlarda QoreChain görev paneli, resmi duyurular ve ilgili platformdaki güncel bilgiler kontrol edilmelidir.
 
-## Gorev Turleri
+## Görev Türleri
 
-Eigenstate 2 gorevleri genellikle su alanlara ayrilir:
+Eigenstate 2 görevleri genellikle şu alanlara ayrılır:
 
-| Kategori | Ornek Gorevler | Kanit Turu |
+| Kategori | Örnek Görevler | Kanıt Türü |
 |---|---|---|
-| Social | X, Reddit, LinkedIn veya Medium etkilesimleri | Paylasim linki, profil linki veya gorev linki |
-| Exchanges | CoinMarketCap, CoinGecko, MEXC, Binance Square etkilesimleri | Profil, post veya ekran goruntusu kaniti |
-| Developer | GitHub takip, star, issue, pull request veya merge gorevleri | GitHub profil, repo, issue veya PR linki |
-| Educational | Quiz, video, whitepaper, bookmark veya wallpaper gorevleri | Kisa aciklama, kaynak linki veya ekran goruntusu |
-| Korea/Asia | Bolgesel topluluk ve ceviri gorevleri | Paylasim, blog veya topluluk linki |
-| On-Chain | Light node, staking, transfer veya governance islemleri | Islem, node, panel veya resmi sistem kaniti |
+| Social | X, Reddit, LinkedIn veya Medium etkileşimleri | Paylaşım linki, profil linki veya görev linki |
+| Exchanges | CoinMarketCap, CoinGecko, MEXC, Binance Square etkileşimleri | Profil, post veya ekran görüntüsü kanıtı |
+| Developer | GitHub takip, star, issue, pull request veya merge görevleri | GitHub profil, repo, issue veya PR linki |
+| Educational | Quiz, video, whitepaper, bookmark veya wallpaper görevleri | Kısa açıklama, kaynak linki veya ekran görüntüsü |
+| Korea/Asia | Bölgesel topluluk ve çeviri görevleri | Paylaşım, blog veya topluluk linki |
+| On-Chain | Light node, staking, transfer veya governance işlemleri | İşlem, node, panel veya resmi sistem kanıtı |
 
-## Genel Is Akisi
+## Genel İş Akışı
 
-1. Gorev panelinde gorev basligini ve talimatlari okuyun.
-2. Gorevin hangi platformda yapilacagini belirleyin.
-3. Gorevi tamamlamadan once dogru hesapta oldugunuzu kontrol edin.
-4. Gorev bir public link uretiyorsa linki kopyalayin.
-5. Link uretmiyorsa ekran goruntusu alin ve hassas bilgileri kapatin.
-6. Submit alanina kanit linkini ve kisa aciklamayi girin.
-7. Gorev onaylanana kadar sonucu kesinlesmis gibi yazmayin.
+1. Görev panelinde görev başlığını ve talimatları okuyun.
+2. Görevin hangi platformda yapılacağını belirleyin.
+3. Görevi tamamlamadan önce doğru hesapta olduğunuzu kontrol edin.
+4. Görev bir public link üretiyorsa linki kopyalayın.
+5. Link üretmiyorsa ekran görüntüsü alın ve hassas bilgileri kapatın.
+6. Submit alanına kanıt linkini ve kısa açıklamayı girin.
+7. Görev onaylanana kadar sonucu kesinleşmiş gibi yazmayın.
 
-## Kanit Linki Mantigi
+## Kanıt Linki Mantığı
 
-Bazi gorevler dogrudan link verir. Bazi gorevler ise sadece takip, begeni veya izleme gibi islem gerektirir ve link uretmez.
+Bazı görevler doğrudan link verir. Bazı görevler ise sadece takip, beğeni veya izleme gibi işlem gerektirir ve link üretmez.
 
-| Durum | Uygun Kanit |
+| Durum | Uygun Kanıt |
 |---|---|
-| Public post yazildi | Post linki |
-| GitHub issue veya PR acildi | Issue veya PR linki |
-| GitHub takip/star yapildi | GitHub profil veya ilgili repo linki, gerekirse screenshot |
-| LinkedIn takip yapildi | Sayfa linki ve kisa aciklama |
-| YouTube abonelik veya video izleme | Kanal/video linki ve kisa aciklama |
-| Bookmark veya wallpaper | Screenshot kaniti |
-| Quiz veya trivia tamamlandi | Gorev paneli aciklamasi ve kisa tamamlandi notu |
+| Public post yazıldı | Post linki |
+| GitHub issue veya PR açıldı | Issue veya PR linki |
+| GitHub takip/star yapıldı | GitHub profil veya ilgili repo linki, gerekirse screenshot |
+| LinkedIn takip yapıldı | Sayfa linki ve kısa açıklama |
+| YouTube abonelik veya video izleme | Kanal/video linki ve kısa açıklama |
+| Bookmark veya wallpaper | Screenshot kanıtı |
+| Quiz veya trivia tamamlandı | Görev paneli açıklaması ve kısa tamamlandı notu |
 
-## Describe What You Did Alanina Ne Yazilir?
+## Describe What You Did Alanına Ne Yazılır?
 
-Bu alan, gorevi nasil tamamladiginizi kisa ve net anlatmak icindir.
+Bu alan, görevi nasıl tamamladığınızı kısa ve net anlatmak içindir.
 
-Ornekler:
+Örnekler:
 
 ```text
 I followed the official QoreChain LinkedIn page and submitted the page link for manual review.
@@ -65,68 +65,68 @@ I completed the QoreChain educational quiz and submitted this task for manual re
 I added QoreChain to my watchlist and included a short proof note for review.
 ```
 
-Turkce yazmak isterseniz:
+Türkçe yazmak isterseniz:
 
 ```text
-QoreChain sayfasini takip ettim ve manuel inceleme icin ilgili sayfa linkini ekledim.
+QoreChain sayfasını takip ettim ve manuel inceleme için ilgili sayfa linkini ekledim.
 ```
 
-## Link Uretmeyen Gorevlerde Dikkat
+## Link Üretmeyen Görevlerde Dikkat
 
-Begenme, takip etme, izleme veya bookmark gibi gorevlerde bazen public link olusmaz. Bu durumda:
+Beğenme, takip etme, izleme veya bookmark gibi görevlerde bazen public link oluşmaz. Bu durumda:
 
 - resmi sayfa veya ilgili platform linkini ekleyin;
-- aciklamada ne yaptiginizi yazin;
-- ekran goruntusu gerekiyorsa gizli bilgileri kapatin;
-- seed phrase, private key, wallet credential, e-posta veya telefon gibi bilgileri paylasmayin;
-- gorev onaylanmadan "approved" veya "accepted" gibi ifadeler kullanmayin.
+- açıklamada ne yaptığınızı yazın;
+- ekran görüntüsü gerekiyorsa gizli bilgileri kapatın;
+- seed phrase, private key, wallet credential, e-posta veya telefon gibi bilgileri paylaşmayın;
+- görev onaylanmadan "approved" veya "accepted" gibi ifadeler kullanmayın.
 
-## GitHub Gorevleri Icin Notlar
+## GitHub Görevleri İçin Notlar
 
-GitHub gorevlerinde en guclu kanitlar genellikle public linklerdir.
+GitHub görevlerinde en güçlü kanıtlar genellikle public linklerdir.
 
-| Gorev | Daha Uygun Kanit |
+| Görev | Daha Uygun Kanıt |
 |---|---|
-| QoreChain organizasyonunu takip et | GitHub profil linki veya organizasyon sayfasi |
+| QoreChain organizasyonunu takip et | GitHub profil linki veya organizasyon sayfası |
 | Repo starla | Star verilen repo linki |
-| Meaningful issue ac | Issue linki |
-| Pull request gonder | PR linki |
-| Merged PR | Merge olmus PR linki |
+| Meaningful issue aç | Issue linki |
+| Pull request gönder | PR linki |
+| Merged PR | Merge olmuş PR linki |
 
-Bir PR merge olmadan "merged" olarak anlatilmamalidir. Open PR icin "open pull request" veya "submitted pull request" ifadeleri daha dogrudur.
+Bir PR merge olmadan "merged" olarak anlatılmamalıdır. Open PR için "open pull request" veya "submitted pull request" ifadeleri daha doğrudur.
 
-## Sosyal Gorevlerde Notlar
+## Sosyal Görevlerde Notlar
 
-Sosyal medya gorevlerinde kisa, dogal ve abartisiz dil kullanmak daha sagliklidir.
+Sosyal medya görevlerinde kısa, doğal ve abartısız dil kullanmak daha sağlıklıdır.
 
-- Ayni metni her platforma kopyalamayin.
-- Resmi olmayan bilgileri kesin gibi yazmayin.
-- Mainnet, odul, komisyon veya token konularinda resmi duyuru yoksa temkinli olun.
-- Topluluk katkisini one cikarin; yatirim veya garanti dili kullanmayin.
+- Aynı metni her platforma kopyalamayın.
+- Resmi olmayan bilgileri kesin gibi yazmayın.
+- Mainnet, ödül, komisyon veya token konularında resmi duyuru yoksa temkinli olun.
+- Topluluk katkısını öne çıkarın; yatırım veya garanti dili kullanmayın.
 
-## Guvenlik Kontrol Listesi
+## Güvenlik Kontrol Listesi
 
-Gorev kaniti gondermeden once kontrol edin:
+Görev kanıtı göndermeden önce kontrol edin:
 
-- Link dogru hesaba veya dogru posta gidiyor mu?
-- Screenshot icinde gizli bilgi var mi?
-- Wallet adresi paylasmak gerekli mi?
-- Sunucu IP, API key, token veya login bilgisi gorunuyor mu?
-- Aciklama gorevi abartmadan anlatiyor mu?
-- Gorev resmi olarak tamamlanmadan onaylanmis gibi yaziliyor mu?
+- Link doğru hesaba veya doğru posta gidiyor mu?
+- Screenshot içinde gizli bilgi var mı?
+- Wallet adresi paylaşmak gerekli mi?
+- Sunucu IP, API key, token veya login bilgisi görünüyor mu?
+- Açıklama görevi abartmadan anlatıyor mu?
+- Görev resmi olarak tamamlanmadan onaylanmış gibi yazılıyor mu?
 
-## Onerilen Kanit Aciklama Formati
+## Önerilen Kanıt Açıklama Formatı
 
 ```text
 I completed the requested QoreChain task on [platform]. Since this task is reviewed manually, I submitted the related page/proof link and a short description for verification.
 ```
 
-Turkce:
+Türkçe:
 
 ```text
-Istenen QoreChain gorevini [platform] uzerinde tamamladim. Gorev manuel incelendigi icin ilgili sayfa/kanit linkini ve kisa aciklamayi dogrulama icin ekledim.
+İstenen QoreChain görevini [platform] üzerinde tamamladım. Görev manuel incelendiği için ilgili sayfa/kanıt linkini ve kısa açıklamayı doğrulama için ekledim.
 ```
 
 ## Not
 
-Bu dokuman topluluk tarafindan hazirlanan pratik bir gorev rehberidir. Resmi QoreChain gorev panelinin yerine gecmez. Gorev kurallari, puanlar ve dogrulama yontemleri degisebilir.
+Bu doküman topluluk tarafından hazırlanan pratik bir görev rehberidir. Resmi QoreChain görev panelinin yerine geçmez. Görev kuralları, puanlar ve doğrulama yöntemleri değişebilir.
