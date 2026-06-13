@@ -10,7 +10,7 @@ Bu bolum, kullanicilarin kurulum, kontrol, takip ve temel sorun giderme adimlari
 |---|---|---|
 | [Light Node Operasyonlari](./light-node-operasyonlari.md) | Kurulum, servis kontrolu, panel erisimi, log takibi ve temel sorun giderme | Aktif |
 | [QoreChain Bilgi Bankasi](./bilgi-bankasi.md) | Light Node, stake ve temel ekosistem sorulari | Aktif |
-| [QoreChain SSS](./sss.md) | Sık topluluk, gorev ve Light Node sorulari icin kisa yanitlar | Aktif |
+| [QoreChain SSS](./sss.md) | Sık sorulan topluluk, gorev ve Light Node sorulari icin kisa yanitlar | Aktif |
 | [QoreChain Terimler Sozlugu](./terimler-sozlugu.md) | Temel QoreChain, blokzincir, altyapi ve governance kavramlari | Aktif |
 | [Eigenstate 2 Gorevleri](./eigenstate-2-gorevleri.md) | Gorev akisi, kanit linki, manuel inceleme ve guvenlik notlari | Aktif |
 | [Kanit Linki Rehberi](./kanit-linki-rehberi.md) | Ekran goruntusu yukleme alani olmadiginda kanit linki hazirlama | Aktif |
