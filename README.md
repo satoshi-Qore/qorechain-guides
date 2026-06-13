@@ -45,7 +45,8 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 | [FAQ](./FAQ.md) | Sık sorulan sorular / Frequently asked questions |
 | [English FAQ](./en/faq.md) / [Türkçe SSS](./tr/sss.md) | İki dilli topluluk SSS sayfaları / Bilingual community FAQ pages |
 | [Glossary](./en/glossary.md) / [Terimler Sözlüğü](./tr/terimler-sozlugu.md) | Temel QoreChain ve blokzincir kavramları / Core QoreChain and blockchain terms |
-| [Eigenstate 2 Tasks](./en/eigenstate-2-tasks.md) / [Eigenstate 2 Görevleri](./tr/eigenstate-2-gorevleri.md) | Görev kanıtı ve manuel inceleme akışı / Task proof and manual review workflow |
+| [Eigenstate 2 Tasks](./en/eigenstate-2-tasks.md) / [Eigenstate 2 Görevleri](./tr/eigenstate-2-gorevleri.md) | 149 görev için ana topluluk rehberi / Main community guide for 149 tasks |
+| [Eigenstate 2 Proof](./en/eigenstate-2-proof-submission.md) / [Eigenstate 2 Kanıt](./tr/eigenstate-2-kanit-gonderimi.md) | Eigenstate 2 kanıt gönderimi / Eigenstate 2 proof submission |
 | [Proof Link Guide](./en/proof-link-guide.md) / [Kanıt Linki Rehberi](./tr/kanit-linki-rehberi.md) | SS yükleme alanı olmadığında kanıt linki hazırlama / Preparing proof links when there is no screenshot upload field |
 | [Roadmap](./ROADMAP.md) | Planlanan dokümantasyon başlıkları / Planned documentation work |
 | [Contributing](./CONTRIBUTING.md) | Katkı rehberi / Contribution guide |
@@ -53,6 +54,20 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 | [Support](./SUPPORT.md) | Destek ve geri bildirim akışı / Support and feedback flow |
 | [Security](./SECURITY.md) | Güvenlik notları / Security notes |
 | [License](./LICENSE.md) | Lisans bilgisi / License information |
+
+## Eigenstate 2 Bilgi Merkezi / Knowledge Base
+
+| Kategori / Category | Türkçe | English |
+|---|---|---|
+| Ana Rehber / Main Guide | [Eigenstate 2 Görevleri](./tr/eigenstate-2-gorevleri.md) | [Eigenstate 2 Tasks](./en/eigenstate-2-tasks.md) |
+| Sosyal / Social | [Sosyal Görevler](./tr/eigenstate-2-sosyal.md) | [Social Guide](./en/eigenstate-2-social.md) |
+| Analitik / Analytics | [Analitik Görevler](./tr/eigenstate-2-analitik.md) | [Analytics Guide](./en/eigenstate-2-analytics.md) |
+| Geliştirme / Development | [Geliştirme Görevleri](./tr/eigenstate-2-gelistirme.md) | [Development Guide](./en/eigenstate-2-development.md) |
+| Eğitim / Education | [Eğitim Görevleri](./tr/eigenstate-2-egitim.md) | [Education Guide](./en/eigenstate-2-education.md) |
+| Bölgesel / Regional | [Bölgesel Görevler](./tr/eigenstate-2-bolgesel.md) | [Regional Guide](./en/eigenstate-2-regional.md) |
+| On-Chain | [On-Chain Görevler](./tr/eigenstate-2-on-chain.md) | [On-Chain Guide](./en/eigenstate-2-on-chain.md) |
+| Kanıt Gönderimi / Proof Submission | [Eigenstate 2 Kanıt Gönderimi](./tr/eigenstate-2-kanit-gonderimi.md) | [Proof Submission Guide](./en/eigenstate-2-proof-submission.md) |
+| SSS / FAQ | [Eigenstate 2 SSS](./tr/eigenstate-2-sss.md) | [Eigenstate 2 FAQ](./en/eigenstate-2-faq.md) |
 
 ## İçerik Haritası / Content Map
 
