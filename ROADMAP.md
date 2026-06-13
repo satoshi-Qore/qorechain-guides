@@ -12,18 +12,18 @@ This roadmap tracks planned documentation work for QoreChain Guides.
 | Bilgi Bankasi / Knowledge Base | QoreChain, Light Node ve stake sorularini kolay bulunur tutmak / Keep common QoreChain, Light Node, and stake questions easy to find | Turkce ve Ingilizce sayfalar aktif / Turkish and English pages are active |
 | SSS / FAQ | Topluluk, gorev ve Light Node sorularina kisa yanitlar sunmak / Provide short answers for community, task, and Light Node questions | `tr/sss.md` ve `en/faq.md` aktif / `tr/sss.md` and `en/faq.md` are active |
 | Terimler Sozlugu / Glossary | QoreChain, blokzincir, altyapi ve governance kavramlarini aciklamak / Explain QoreChain, blockchain, infrastructure, and governance terms | `tr/terimler-sozlugu.md` ve `en/glossary.md` aktif / `tr/terimler-sozlugu.md` and `en/glossary.md` are active |
+| Eigenstate 2 Gorevleri / Eigenstate 2 Tasks | Gorev akisini, dogrulama adimlarini ve operator notlarini belgelemek / Document task flow, verification steps, and operator notes | `tr/eigenstate-2-gorevleri.md` ve `en/eigenstate-2-tasks.md` aktif / `tr/eigenstate-2-gorevleri.md` and `en/eigenstate-2-tasks.md` are active |
 
 ## Hazirlaniyor / Preparing
 
 | Alan / Area | Hedef / Goal | Planlanan Cikti / Planned Output |
 |---|---|---|
-| Eigenstate 2 Gorevleri / Eigenstate 2 Tasks | Gorev akisini, dogrulama adimlarini ve operator notlarini belgelemek / Document task flow, verification steps, and operator notes | `tr/eigenstate-2-gorevleri.md` ve `en/eigenstate-2-tasks.md` |
+| Operator El Kitabi / Operator Handbook | Gunluk kontrolleri, yeniden baslatma akislarini, guncelleme surecini ve takip notlarini toplamak / Collect daily checks, restart flow, update flow, and monitoring notes | Turkce ve Ingilizce el kitabi sayfalari / Turkish and English handbook pages |
 
 ## Planlandi / Planned
 
 | Alan / Area | Hedef / Goal | Planlanan Cikti / Planned Output |
 |---|---|---|
-| Operator El Kitabi / Operator Handbook | Gunluk kontrolleri, yeniden baslatma akislarini, guncelleme surecini ve takip notlarini toplamak / Collect daily checks, restart flow, update flow, and monitoring notes | Turkce ve Ingilizce el kitabi sayfalari / Turkish and English handbook pages |
 | Hata Cozumleri / Troubleshooting | Sik hatalari, kontrolleri ve pratik cozumleri toplamak / Collect common errors, checks, and practical fixes | Turkce ve Ingilizce sorun giderme sayfalari / Turkish and English troubleshooting pages |
 | Dokumantasyon Standartlari / Documentation Standards | Iki dilli sayfalari yapi ve isimlendirme olarak uyumlu tutmak / Keep bilingual pages aligned in structure and naming | `docs/documentation-standards.md` |
 
