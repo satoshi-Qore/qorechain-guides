@@ -25,7 +25,7 @@ This roadmap tracks planned documentation work for QoreChain Guides.
 
 | Alan / Area | Hedef / Goal | Planlanan Cikti / Planned Output |
 |---|---|---|
-| Hata Cozumleri / Troubleshooting | Sik hatalari, kontrolleri ve pratik cozumleri toplamak / Collect common errors, checks, and practical fixes | Turkce ve Ingilizce sorun giderme sayfalari / Turkish and English troubleshooting pages |
+| Hata Cozumleri / Troubleshooting | Sık hatalari, kontrolleri ve pratik cozumleri toplamak / Collect common errors, checks, and practical fixes | Turkce ve Ingilizce sorun giderme sayfalari / Turkish and English troubleshooting pages |
 | Dokumantasyon Standartlari / Documentation Standards | Iki dilli sayfalari yapi ve isimlendirme olarak uyumlu tutmak / Keep bilingual pages aligned in structure and naming | `docs/documentation-standards.md` |
 
 ## Dokumantasyon Oncelikleri / Documentation Priorities
