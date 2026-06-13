@@ -1,132 +1,90 @@
-# Eigenstate 2 Tasks
+# Eigenstate 2 Community Task Guide
 
-This document is prepared for community members who want to track QoreChain Eigenstate 2 tasks in a more organized way.
+This guide organizes the QoreChain Eigenstate 2 task set into a practical community-maintained knowledge base.
 
-The goal is to provide a simple workflow for completing tasks, organizing proof, filling review forms, and submitting evidence without exposing sensitive information.
+Eigenstate 2 contains 149 observed tasks across six major categories. This document acts as the main entry point for the category guides, proof submission guidance, and FAQ.
 
 ## Scope
 
-This page explains the general task process. It does not guarantee that any specific task will be approved.
+This repository is an independent community guide. It does not replace the official QoreChain task panel, official announcements, or platform-specific instructions.
 
-Task rules, points, verification methods, and official links may change over time. For critical steps, users should check the QoreChain task panel, official announcements, and the current information on the related platform.
+Task counts, points, links, verification methods, and task availability may change. Always check the official task panel before submitting proof.
 
-## Task Types
+## Category Overview
 
-Eigenstate 2 tasks are usually grouped into several areas:
+| Category | Observed Tasks | Guide |
+|---|---:|---|
+| Social | 79 | [Social Guide](./eigenstate-2-social.md) |
+| Analytics / Exchanges | 21 | [Analytics Guide](./eigenstate-2-analytics.md) |
+| Development | 6 | [Development Guide](./eigenstate-2-development.md) |
+| Education | 8 | [Education Guide](./eigenstate-2-education.md) |
+| Regional / Korea-Asia | 12 | [Regional Guide](./eigenstate-2-regional.md) |
+| On-Chain | 23 | [On-Chain Guide](./eigenstate-2-on-chain.md) |
+| Total | 149 |  |
 
-| Category | Example Tasks | Proof Type |
-|---|---|---|
-| Social | X, Reddit, LinkedIn, or Medium engagement | Post link, profile link, or task link |
-| Exchanges | CoinMarketCap, CoinGecko, MEXC, or Binance Square engagement | Profile, post, or screenshot proof |
-| Developer | GitHub follow, star, issue, pull request, or merge tasks | GitHub profile, repository, issue, or PR link |
-| Educational | Quiz, video, whitepaper, bookmark, or wallpaper tasks | Short description, source link, or screenshot |
-| Korea/Asia | Regional community and translation tasks | Post, blog, or community link |
-| On-Chain | Light node, staking, transaction, or governance tasks | Transaction, node, panel, or official system proof |
+## Supporting Guides
+
+| Resource | Purpose |
+|---|---|
+| [Proof Submission Guide](./eigenstate-2-proof-submission.md) | Explains proof links, review descriptions, screenshots, and weak proof patterns |
+| [FAQ](./eigenstate-2-faq.md) | Answers common Eigenstate 2 task questions |
+| [General Proof Link Guide](./proof-link-guide.md) | Broader proof link guidance for tasks without screenshot upload fields |
+
+## Recommended Reading Order
+
+1. Start with this main guide.
+2. Read the [Proof Submission Guide](./eigenstate-2-proof-submission.md).
+3. Open the category guide for the task you want to complete.
+4. Check the [FAQ](./eigenstate-2-faq.md) before submitting unclear proof.
+5. Confirm the current task rules in the official task panel.
 
 ## General Workflow
 
 1. Read the task title and instructions in the task panel.
-2. Identify which platform the task must be completed on.
-3. Confirm that you are using the correct account before completing the task.
-4. If the task creates a public link, copy that link.
-5. If the task does not create a link, take a screenshot and hide sensitive information.
-6. Submit the proof link and a short description in the review form.
-7. Do not describe the task as approved until the review system marks it as approved.
+2. Identify the required platform and account.
+3. Complete the action without exposing sensitive information.
+4. Collect the strongest available proof link.
+5. If the task does not create a direct link, convert evidence into a shareable proof link.
+6. Write a short and factual description.
+7. Submit for manual review.
+8. Do not describe the task as approved until the review system marks it as approved.
 
 ## Proof Link Logic
 
-Some tasks create a direct link. Other tasks, such as follows, likes, bookmarks, or video watching, may not generate a public proof link.
-
-| Situation | Suitable Proof |
+| Task Result | Better Proof |
 |---|---|
 | Public post created | Post link |
 | GitHub issue or PR opened | Issue or PR link |
-| GitHub follow or star completed | GitHub profile or repository link, with screenshot if needed |
-| LinkedIn follow completed | Page link and short description |
-| YouTube subscription or video watching | Channel/video link and short description |
-| Bookmark or wallpaper task | Screenshot proof |
-| Quiz or trivia completed | Task panel context and short completion note |
+| PR merged | Merged PR link |
+| Social page followed | Page/profile link and short description |
+| Post liked | Post link and short description |
+| Quiz completed | Completion note and related official page link |
+| Screenshot required | Public proof page or accessible screenshot link |
+| On-chain action completed | Explorer or transaction link |
 
-## What To Write In "Describe What You Did"
-
-This field should briefly explain how you completed the task.
-
-Examples:
+## Description Template
 
 ```text
-I followed the official QoreChain LinkedIn page and submitted the page link for manual review.
+I completed the requested QoreChain task on [platform]. Since this task is reviewed manually, I submitted the related proof link and a short description for verification.
 ```
-
-```text
-I completed the QoreChain educational quiz and submitted this task for manual review.
-```
-
-```text
-I added QoreChain to my watchlist and included a short proof note for review.
-```
-
-If you prefer Turkish:
-
-```text
-QoreChain sayfasini takip ettim ve manuel inceleme icin ilgili sayfa linkini ekledim.
-```
-
-## Tasks That Do Not Generate Public Links
-
-For tasks such as liking, following, watching, or bookmarking, a public proof link may not always exist. In that case:
-
-- submit the official page or related platform link;
-- explain what you did in the description field;
-- hide sensitive information if a screenshot is required;
-- do not share seed phrases, private keys, wallet credentials, emails, or phone numbers;
-- do not use words such as "approved" or "accepted" before the task is reviewed.
-
-## Notes For GitHub Tasks
-
-For GitHub tasks, the strongest proof is usually a public link.
-
-| Task | Better Proof |
-|---|---|
-| Follow the QoreChain organization | GitHub profile link or organization page |
-| Star a repository | Repository link |
-| Open a meaningful issue | Issue link |
-| Submit a pull request | PR link |
-| Merged pull request | Merged PR link |
-
-Do not describe a PR as "merged" before it is actually merged. For an open PR, use wording such as "open pull request" or "submitted pull request".
-
-## Notes For Social Tasks
-
-For social media tasks, short, natural, and non-exaggerated wording is usually better.
-
-- Do not copy the exact same text to every platform.
-- Do not present unofficial information as confirmed.
-- Be careful with mainnet, reward, commission, or token-related claims unless official information is available.
-- Focus on community contribution rather than investment or guarantee language.
 
 ## Safety Checklist
 
 Before submitting proof, check:
 
-- Does the link point to the correct account or post?
-- Does the screenshot include sensitive information?
-- Is it necessary to share a wallet address?
-- Are server IPs, API keys, tokens, or login details visible?
-- Does the description explain the task without exaggeration?
-- Does the text avoid claiming approval before review is complete?
+- the proof link points to the correct task, post, account, repository, or transaction;
+- screenshots do not expose private information;
+- no seed phrase, private key, password, API key, or server credential is visible;
+- the description is factual and not exaggerated;
+- unofficial claims about mainnet, rewards, commissions, or token value are avoided;
+- open PRs are not described as merged before they are actually merged.
 
-## Suggested Proof Description Format
+## Notes on On-Chain and Mainnet Tasks
 
-```text
-I completed the requested QoreChain task on [platform]. Since this task is reviewed manually, I submitted the related page/proof link and a short description for verification.
-```
+On-chain tasks may involve real transactions, wallet balances, node operations, staking, delegation, bridge actions, or governance activity. These tasks should not be rushed.
 
-Turkish:
-
-```text
-Istenen QoreChain gorevini [platform] uzerinde tamamladim. Gorev manuel incelendigi icin ilgili sayfa/kanit linkini ve kisa aciklamayi dogrulama icin ekledim.
-```
+If the task depends on mainnet, TGE, bridge availability, validator rules, or official network parameters, wait for current official instructions before acting.
 
 ## Disclaimer
 
-This document is a community-maintained practical task guide. It does not replace the official QoreChain task panel. Task rules, points, and verification methods may change.
+This guide is community-maintained and informational. It does not guarantee task approval and does not provide financial, legal, or operational advice.
