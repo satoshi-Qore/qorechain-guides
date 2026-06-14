@@ -2,6 +2,10 @@
 
 This FAQ collects short answers to common QoreChain community questions. It is prepared as an independent community resource and does not replace official QoreChain documentation or announcements.
 
+New to QoreChain? Start with the [Getting Started Guide](./getting-started.md).
+
+---
+
 ## General
 
 ### What is QoreChain?
@@ -16,11 +20,21 @@ No. This repository is community-maintained. For critical decisions, network par
 
 Post-quantum security addresses long-term cryptographic risks that may become more important as quantum computing develops. In blockchain systems, this topic is relevant because signatures, keys, and transaction authorization depend heavily on cryptographic assumptions.
 
+### What is the QOR token?
+
+QOR is the native token of the QoreChain network. It is used for staking (required to run a Light Node), transaction fees, and governance participation.
+
+---
+
 ## Light Node
 
 ### What is a Light Node?
 
 A Light Node is a lightweight network participant that can help with network access, request handling, and operator-side availability. Exact operational requirements should be checked against current official QoreChain instructions.
+
+### What hardware do I need?
+
+A small VPS is sufficient. Minimum: Ubuntu 20.04+, 2 CPU cores, 4 GB RAM, 50 GB SSD, Docker, Docker Compose. See [Light Node Operations](./light-node-operations.md) for the full guide.
 
 ### Do Light Node operators receive rewards?
 
@@ -30,11 +44,27 @@ Light Node operation appears as part of QoreChain ecosystem tasks and point-base
 
 Start with basic checks:
 
-- Confirm the server is online.
-- Confirm the Light Node service or container is running.
-- Check whether the correct IP address and port are being used.
-- Review firewall and provider security group settings.
-- Check logs for startup or connection errors.
+1. Confirm the server is online.
+2. Confirm the Light Node service or container is running.
+3. Check whether the correct IP address and port (8420) are being used.
+4. Review firewall settings: `ufw status` — port 8420 must be allowed.
+5. Check logs for startup or connection errors.
+
+See [Troubleshooting](./troubleshooting.md) for a full list of common issues.
+
+### How do I update my Light Node?
+
+```bash
+cd qorechain-lightnode
+git pull
+docker compose down
+docker compose pull
+docker compose up -d
+```
+
+Always check official QoreChain announcements before updating.
+
+---
 
 ## Tasks and Proof
 
@@ -50,12 +80,26 @@ Only if the task requirements match the content you created. A guide, post, issu
 
 No. Mainnet-specific claims should be avoided until the network is live and official details are available. Use neutral wording such as pre-mainnet preparation, learning notes, or community documentation.
 
+---
+
 ## Contribution
 
 ### How can I contribute to this repository?
 
-You can suggest corrections, add missing explanations, improve bilingual alignment, or contribute practical setup and troubleshooting notes.
+You can suggest corrections, add missing explanations, improve bilingual alignment, or contribute practical setup and troubleshooting notes. See [CONTRIBUTING.md](../CONTRIBUTING.md).
+
+### How do I request a new documentation page?
+
+Use the [Content Request issue template](../.github/ISSUE_TEMPLATE/content-request.md).
+
+### How do I request a translation?
+
+Use the [Translation Request issue template](../.github/ISSUE_TEMPLATE/translation-request.md).
+
+### Can I contribute in Turkish?
+
+Yes. Turkish content belongs in the `tr/` folder. The repository is fully bilingual. See [docs/translation-status.md](../docs/translation-status.md) for current coverage.
 
 ### What style should new content follow?
 
-Keep content short, practical, neutral, and easy to verify. Avoid promotional claims, unsupported reward statements, and mainnet assumptions.
+Keep content short, practical, neutral, and easy to verify. Avoid promotional claims, unsupported reward statements, and mainnet assumptions. See [STYLE_GUIDE.md](../STYLE_GUIDE.md).
