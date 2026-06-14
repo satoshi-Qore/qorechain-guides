@@ -1,125 +1,125 @@
-# QoreChain Terimler Sozlugu
+# QoreChain Terimler Sözlüğü
 
-Bu sozluk, QoreChain hakkinda yazilan topluluk rehberlerinde, teknik notlarda ve arastirma odakli iceriklerde gecen temel kavramlari aciklar. Amac, yeni kullanicilarin blokzincir, altyapi ve kuantum sonrasi guvenlik terimlerini daha kolay anlamasina yardimci olmaktir.
+Bu sözlük, QoreChain hakkında yazılan topluluk rehberlerinde, teknik notlarda ve araştırma odaklı içeriklerde geçen temel kavramları açıklar. Amaç, yeni kullanıcıların blokzincir, altyapı ve kuantum sonrası güvenlik terimlerini daha kolay anlamasına yardımcı olmaktır.
 
-Bu sayfa egitim amaclidir ve topluluk tarafindan hazirlanmistir. Resmi QoreChain dokumantasyonunun yerine gecmez.
+Bu sayfa eğitim amaçlıdır ve topluluk tarafından hazırlanmıştır. Resmi QoreChain dokümantasyonunun yerine geçmez.
 
 ## Temel Terimler
 
 ### QoreChain
 
-QoreChain, kuantum sonrasi guvenlik, yapay zeka odakli altyapi ve coklu sanal makine calisma ortami gibi basliklara odaklanan bir Katman 1 blokzincir altyapisi olarak ele alinabilir. Bu sozlukte QoreChain bir arastirma ve ekosistem konusu olarak tarafsiz sekilde incelenir.
+QoreChain, kuantum sonrası güvenlik, yapay zeka odaklı altyapı ve çoklu sanal makine çalışma ortamı gibi başlıklara odaklanan bir Katman 1 blokzincir altyapısı olarak ele alınabilir. Bu sözlükte QoreChain bir araştırma ve ekosistem konusu olarak tarafsız şekilde incelenir.
 
 ### Katman 1
 
-Katman 1, islemleri dogrudan isleyen, kendi konsensus mekanizmasina sahip olan ve uygulamalar, tokenlar, akilli sozlesmeler ve ag katilimi icin temel altyapi sunan ana blokzincir agidir.
+Katman 1, işlemleri doğrudan işleyen, kendi konsensüs mekanizmasına sahip olan ve uygulamalar, tokenlar, akıllı sözleşmeler ve ağ katılımı için temel altyapı sunan ana blokzincir ağıdır.
 
-### Kuantum Sonrasi Guvenlik
+### Kuantum Sonrası Güvenlik
 
-Kuantum sonrasi guvenlik, klasik bilgisayarlara ve gelecekteki kuantum bilgisayarlara karsi dayanikli olmasi hedeflenen kriptografik yaklasimlari ifade eder. Blokzincirlerde bu konu onemlidir cunku cuzdanlar, imzalar ve varliklar uzun vadeli guvenlik gerektirir.
+Kuantum sonrası güvenlik, klasik bilgisayarlara ve gelecekteki kuantum bilgisayarlara karşı dayanıklı olması hedeflenen kriptografik yaklaşımları ifade eder. Blokzincirlerde bu konu önemlidir çünkü cüzdanlar, imzalar ve varlıklar uzun vadeli güvenlik gerektirir.
 
-### Kuantuma Dayanikli Kriptografi
+### Kuantuma Dayanıklı Kriptografi
 
-Kuantuma dayanikli kriptografi, kuantum algoritmalarina karsi guvenli kalmasi hedeflenen kriptografik yontemleri kapsar. Genel arastirma alaninda kafes tabanli, hash tabanli, kod tabanli ve cok degiskenli yaklasimlar bu baslik altinda incelenir.
+Kuantuma dayanıklı kriptografi, kuantum algoritmalarına karşı güvenli kalması hedeflenen kriptografik yöntemleri kapsar. Genel araştırma alanında kafes tabanlı, hash tabanlı, kod tabanlı ve çok değişkenli yaklaşımlar bu başlık altında incelenir.
 
-### AI-Native Altyapi
+### Yapay Zeka Odaklı Altyapı
 
-AI-native altyapi, yapay zekanin sistem tasarimi, araclar, izleme veya operasyon sureclerinin bir parcasi olarak dusunuldugu yapilari ifade eder. Blokzincirlerde yapay zeka; akilli sozlesme inceleme, ag izleme, dokumantasyon arama ve hata cozumlerinde yardimci olabilir.
+Yapay zeka odaklı altyapı, yapay zekanın sistem tasarımı, araçlar, izleme veya operasyon süreçlerinin bir parçası olarak düşünüldüğü yapıları ifade eder. Blokzincirlerde yapay zeka; akıllı sözleşme inceleme, ağ izleme, dokümantasyon arama ve hata çözümlerinde yardımcı olabilir.
 
-### Coklu VM Mimarisi
+### Çoklu VM Mimarisi
 
-Coklu VM mimarisi, birden fazla sanal makine veya calisma ortamini destekleyen blokzincir tasarimidir. Bu yaklasim farkli ekosistemlerden gelen gelistiricilere esneklik saglayabilir; ancak guvenlik, birlikte calisabilirlik ve kullanici deneyimi acisindan ek sorular dogurur.
+Çoklu VM mimarisi, birden fazla sanal makine veya çalışma ortamını destekleyen blokzincir tasarımıdır. Bu yaklaşım farklı ekosistemlerden gelen geliştiricilere esneklik sağlayabilir; ancak güvenlik, birlikte çalışabilirlik ve kullanıcı deneyimi açısından ek sorular doğurur.
 
 ### Sanal Makine
 
-Sanal makine, akilli sozlesmelerin veya programlarin calistigi yurutme ortamidir. Blokzincirlerde sanal makineler kodun nasil calisacagini, ucretlerin nasil hesaplanacagini ve durum degisikliklerinin nasil dogrulanacagini belirler.
+Sanal makine, akıllı sözleşmelerin veya programların çalıştığı yürütme ortamıdır. Blokzincirlerde sanal makineler kodun nasıl çalışacağını, ücretlerin nasıl hesaplanacağını ve durum değişikliklerinin nasıl doğrulanacağını belirler.
 
 ### EVM
 
-EVM, Ethereum Virtual Machine ifadesinin kisaltmasidir. En yaygin akilli sozlesme calisma ortamlarindan biridir ve bircok blokzincir ekosistemi tarafindan desteklenir.
+EVM, Ethereum Virtual Machine ifadesinin kısaltmasıdır. En yaygın akıllı sözleşme çalışma ortamlarından biridir ve birçok blokzincir ekosistemi tarafından desteklenir.
 
 ### CosmWasm
 
-CosmWasm, Cosmos ekosisteminde kullanilan bir akilli sozlesme platformudur. Gelistiricilerin WebAssembly tabanli calisma ortamlari uzerinden sozlesme yazmasina imkan tanir.
+CosmWasm, Cosmos ekosisteminde kullanılan bir akıllı sözleşme platformudur. Geliştiricilerin WebAssembly tabanlı çalışma ortamları üzerinden sözleşme yazmasına imkân tanır.
 
 ### SVM
 
-SVM genellikle Solana Virtual Machine veya Solana tarzı calisma ortami anlaminda kullanilir. Yuksek islem kapasitesi ve EVM'den farkli bir yurutme modeliyle iliskilendirilir.
+SVM genellikle Solana Virtual Machine veya Solana tarzı çalışma ortamı anlamında kullanılır. Yüksek işlem kapasitesi ve EVM'den farklı bir yürütme modeliyle ilişkilendirilir.
 
-## Ag ve Altyapi Terimleri
+## Ağ ve Altyapı Terimleri
 
-### Node
+### Düğüm (Node)
 
-Node, bir blokzincir agina katilan ve veri saklama, eslerle iletisim kurma, bilgi dogrulama veya ag servislerine erisim saglama gibi islevleri olan makinedir.
+Düğüm, bir blokzincir ağına katılan ve veri saklama, eşlerle iletişim kurma, bilgi doğrulama veya ağ servislerine erişim sağlama gibi işlevleri olan makinedir.
 
-### Light Node
+### Hafif Düğüm (Light Node)
 
-Light node, genellikle tam node veya validator calistirmaya gore daha hafif bir ag katilimi modelidir. Kesin rolu ag tasarimina baglidir. QoreChain icin light node detaylari guncel resmi dokumantasyon ve gorev gereksinimleriyle kontrol edilmelidir.
+Hafif düğüm, genellikle tam düğüm veya doğrulayıcı çalıştırmaya göre daha hafif bir ağ katılımı modelidir. Kesin rolü ağ tasarımına bağlıdır. QoreChain için hafif düğüm detayları güncel resmi dokümantasyon ve görev gereksinimleriyle kontrol edilmelidir.
 
-### Validator
+### Doğrulayıcı (Validator)
 
-Validator, islemleri dogrulayan, blok uretimine veya onayina katilan ve konsensus surecini destekleyen ag katilimcisidir. Validator gereksinimleri ve tesvikleri her blokzincirde farkli olabilir.
+Doğrulayıcı, işlemleri doğrulayan, blok üretimine veya onayına katılan ve konsensüs sürecini destekleyen ağ katılımcısıdır. Doğrulayıcı gereksinimleri ve teşvikleri her blokzincirde farklı olabilir.
 
 ### Delegasyon
 
-Delegasyon, token sahiplerinin kendi validator altyapisini calistirmadan bir validatoru desteklemesine imkan veren mekanizmadir. Delegasyon kurallari agin staking ve governance modeline baglidir.
+Delegasyon, token sahiplerinin kendi doğrulayıcı altyapısını çalıştırmadan bir doğrulayıcıyı desteklemesine imkân veren mekanizmadır. Delegasyon kuralları ağın staking ve yönetim modeline bağlıdır.
 
-### RPC Endpoint
+### RPC Uç Noktası
 
-RPC endpoint, uygulamalarin, cuzdanlarin veya araclarin blokzincir node'u ile iletisim kurmak icin kullandigi erisim noktasidir. RPC kalitesi senkronizasyon, guvenilirlik ve kullanici deneyimini etkiler.
+RPC uç noktası, uygulamaların, cüzdanların veya araçların blokzincir düğümü ile iletişim kurmak için kullandığı erişim noktasıdır. RPC kalitesi senkronizasyon, güvenilirlik ve kullanıcı deneyimini etkiler.
 
-### Explorer
+### Gezgin (Explorer)
 
-Blokzincir explorer'i; islemler, bloklar, adresler, validatorler ve ag verilerini incelemeye yarayan aractir.
+Blokzincir gezgini; işlemler, bloklar, adresler, doğrulayıcılar ve ağ verilerini incelemeye yarayan araçtır.
 
-### Faucet
+### Musluk (Faucet)
 
-Faucet, genellikle test, onboarding veya gelistirme amaciyla kucuk miktarda test tokeni veya ag tokeni dagitan aractir.
+Musluk, genellikle test, ilk katılım veya geliştirme amaçlı küçük miktarda test tokeni veya ağ tokeni dağıtan araçtır.
 
-### Uptime
+### Çalışma Süresi (Uptime)
 
-Uptime, bir node, validator veya servisin ne kadar sure kesintisiz calistigini gosterir. Altyapi katilimi icin yuksek uptime onemlidir.
+Çalışma süresi, bir düğüm, doğrulayıcı veya servisin ne kadar süre kesintisiz çalıştığını gösterir. Altyapı katılımı için yüksek çalışma süresi önemlidir.
 
-## Token ve Governance Terimleri
+## Token ve Yönetim Terimleri
 
 ### QOR
 
-QOR, QoreChain ekosistemiyle iliskili tokendir. Kullanim alanlari, dagitim yapisi ve uzun vadeli ekonomik rolu resmi dokumantasyon ve gozlemlenebilir ag verileriyle degerlendirilmelidir.
+QOR, QoreChain ekosistemiyle ilişkili tokendir. Kullanım alanları, dağıtım yapısı ve uzun vadeli ekonomik rolü resmi dokümantasyon ve gözlemlenebilir ağ verileriyle değerlendirilmelidir.
 
-### Tokenomics
+### Token Ekonomisi (Tokenomics)
 
-Tokenomics, bir blokzincir tokeninin arz, dagitim, kullanim, tesvik, staking, governance ve surdurulebilirlik gibi ekonomik tasarim basliklarini kapsar.
+Token ekonomisi, bir blokzincir tokeninin arz, dağıtım, kullanım, teşvik, staking, yönetim ve sürdürülebilirlik gibi ekonomik tasarım başlıklarını kapsar.
 
 ### Staking
 
-Staking, tokenlarin ag guvenligi, validator katilimi veya governance sureclerini desteklemek icin kilitlenmesi ya da tahsis edilmesidir. Kurallar her aga gore degisir.
+Staking, tokenlerin ağ güvenliği, doğrulayıcı katılımı veya yönetim süreçlerini desteklemek için kilitlenmesi ya da tahsis edilmesidir. Kurallar her ağa göre değişir.
 
-### Governance
+### Yönetim (Governance)
 
-Governance, ag kararlarinin nasil onerildigini, tartisildigini, oylandigini ve uygulandigini ifade eder. On-chain oylama, topluluk tartismalari, validator koordinasyonu ve protokol guncellemeleri bu kapsama girebilir.
+Yönetim, ağ kararlarının nasıl önerildiğini, tartışıldığını, oylandığını ve uygulandığını ifade eder. Zincir üstü oylama, topluluk tartışmaları, doğrulayıcı koordinasyonu ve protokol güncellemeleri bu kapsama girebilir.
 
-### Proposal
+### Öneri (Proposal)
 
-Proposal, bir ag degisikligi veya governance aksiyonu icin sunulan oneridir. Blokzincire gore proposal acmak icin token depozitosu, validator destegi veya topluluk oylamasi gerekebilir.
+Öneri, bir ağ değişikliği veya yönetim aksiyonu için sunulan teklifdir. Blokzincire göre öneri açmak için token depozitosu, doğrulayıcı desteği veya topluluk oylaması gerekebilir.
 
-## Topluluk ve Dokumantasyon Terimleri
+## Topluluk ve Belgeleme Terimleri
 
 ### Topluluk Rehberi
 
-Topluluk rehberi, ekosistem katilimcilari tarafindan hazirlanan ve kullanicilara kurulum, terimler, sorun giderme veya gorev akislari hakkinda yardimci olan dokumantasyondur. Desteklenmeyen iddialardan kacinmali ve kritik konularda resmi kaynaklara yonlendirme yapmalidir.
+Topluluk rehberi, ekosistem katılımcıları tarafından hazırlanan ve kullanıcılara kurulum, terimler, sorun giderme veya görev akışları hakkında yardımcı olan belgedir. Desteklenmeyen iddialardan kaçınmalı ve kritik konularda resmi kaynaklara yönlendirme yapmalıdır.
 
-### Mainnet
+### Ana Ağ (Mainnet)
 
-Mainnet, gercek ag faaliyetlerinin gerceklestigi canli uretim agidir. Mainnet baslamadan once bircok ifade on degerlendirme olarak ele alinmali ve resmi lansman ile gozlemlenebilir verilerden sonra guncellenmelidir.
+Ana ağ, gerçek ağ faaliyetlerinin gerçekleştiği canlı üretim ağıdır. Ana ağ başlamadan önce birçok ifade ön değerlendirme olarak ele alınmalı ve resmi lansman ile gözlemlenebilir verilerden sonra güncellenmelidir.
 
-### Testnet
+### Test Ağı (Testnet)
 
-Testnet, mainnet oncesinde veya mainnet ile birlikte kullanilan test agidir. Deneme, gelistirme, onboarding ve altyapi hazirligi icin kullanilir.
+Test ağı, ana ağ öncesinde veya ana ağla birlikte kullanılan test ağıdır. Deneme, geliştirme, ilk katılım ve altyapı hazırlığı için kullanılır.
 
-### Gorev veya Quest
+### Görev (Quest)
 
-Gorev veya quest, kullanicilarin puan, inceleme veya katilim takibi icin tamamladigi ekosistem aktivitesidir. Gorev gereksinimleri dikkatle takip edilmeli ve kanitlar platformun istedigi sekilde sunulmalidir.
+Görev veya quest, kullanıcıların puan, inceleme veya katılım takibi için tamamladığı ekosistem aktivitesidir. Görev gereksinimleri dikkatle takip edilmeli ve kanıtlar platformun istediği şekilde sunulmalıdır.
 
-## Arastirma Notu
+## Araştırma Notu
 
-QoreChain ile ilgili bircok terim, dokumantasyon, mainnet sureci, governance yapisi ve ekosistem araclari gelistikce degisebilir. Bu sozluk resmi bilgiler degistiginde veya yeni teknik detaylar ortaya ciktiginda guncellenmelidir.
+QoreChain ile ilgili birçok terim, dokümantasyon, ana ağ süreci, yönetim yapısı ve ekosistem araçları geliştikçe değişebilir. Bu sözlük resmi bilgiler değiştiğinde veya yeni teknik detaylar ortaya çıktığında güncellenmelidir.
