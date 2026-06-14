@@ -12,17 +12,31 @@ Biçim: `[Tarih] Değişiklik açıklaması` / Format: `[Date] Description of ch
 
 ### 2026-06-14
 
+- `feat(en):` en/getting-started.md — Quick start guide for new users created
+- `feat(tr):` tr/baslangic-rehberi.md — Turkish getting started guide created
+- `feat(en):` en/faq.md — Frequently asked questions document created
+- `feat(tr):` tr/sss.md — Turkish FAQ document created
+- `feat(en):` en/troubleshooting.md — Node troubleshooting guide created
+- `feat(tr):` tr/sorun-giderme.md — Turkish troubleshooting guide created
+- `feat(en):` en/glossary.md — QoreChain terminology glossary created
+- `feat(tr):` tr/terimler-sozlugu.md — Turkish terminology glossary created
+- `fix(tr):` tr/terimler-sozlugu.md — Missing Turkish characters restored
+- `fix(tr):` tr/sss.md — Duplicate content removed, Turkish characters restored
+- `fix:` FAQ.md — Turkish characters restored in bilingual root FAQ
+- `fix:` LIGHTNODE_SETUP.md — Turkish characters restored in bilingual setup guide
+- `refactor:` Duplicate eigenstate files removed from tr/ directory
+- `docs:` en/README.md, tr/README.md — Troubleshooting links added to navigation tables
+- `docs:` docs/translation-status.md — Reference section added with glossary entry
+- `docs:` docs/content-map.md — Updated to include all new en/ and tr/ content pages
 - `docs:` STYLE_GUIDE.md — Türkçe karakterler düzeltildi / Turkish characters corrected
-- `docs(tr):` light-node-operasyonlari.md — Türkçe karakterler düzeltildi, sistem gereksinimleri, port tablosu ve güncelleme süreci eklendi / Turkish characters corrected, system requirements table, port table, and update process added
-- `docs(en):` light-node-operations.md — Sistem gereksinimleri tablosu, port tablosu, UFW komutları ve güncelleme süreci eklendi / System requirements table, port table, UFW commands, and update process added
-- `docs:` PR şablonu — Türkçe karakterler düzeltildi, kontrol listesi eklendi / PR template Turkish characters corrected, checklist added
-- `docs:` troubleshooting-report.md — Türkçe karakterler düzeltildi / Turkish characters corrected
-- `docs:` documentation-update.md — Türkçe karakterler düzeltildi / Turkish characters corrected
-- `docs:` CONTRIBUTING.md — Türkçe karakterler düzeltildi, dosya adlandırma ve commit format bölümleri eklendi / Turkish characters corrected, file naming and commit format sections added
-- `docs:` CHANGELOG.md oluşturuldu / created
-- `docs:` GOVERNANCE.md oluşturuldu / created
-- `docs:` docs/content-map.md oluşturuldu / created
-- `docs:` docs/translation-status.md oluşturuldu / created
+- `docs(tr):` tr/light-node-operasyonlari.md — Türkçe karakterler düzeltildi, sistem gereksinimleri, port tablosu ve güncelleme süreci eklendi / Turkish characters corrected, system requirements table, port table, and update process added
+- `docs(en):` en/light-node-operations.md — Sistem gereksinimleri tablosu, port tablosu, UFW komutları ve güncelleme süreci eklendi / System requirements table, port table, UFW commands, and update process added
+- `docs:` PR template — Turkish characters corrected, checklist added
+- `docs:` CONTRIBUTING.md — Turkish characters corrected, file naming and commit format sections added
+- `docs:` CHANGELOG.md created
+- `docs:` GOVERNANCE.md created
+- `docs:` docs/content-map.md created
+- `docs:` docs/translation-status.md created
 
 ---
 
