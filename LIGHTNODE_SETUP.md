@@ -1,28 +1,28 @@
-# QoreChain Light Node Setup / Light Node Kurulumu
+# QoreChain Light Node Kurulumu / Light Node Setup
 
 This page is a short bilingual entry point for QoreChain Light Node setup and operation notes.
 
 Bu sayfa, QoreChain Light Node kurulum ve operasyon notları için kısa iki dilli bir giriş sayfasıdır.
 
-## Full Guides / Tam Rehberler
+## Tam Rehberler / Full Guides
 
-| Language / Dil | Guide / Rehber |
+| Dil / Language | Rehber / Guide |
 |---|---|
 | Türkçe / Turkish | [Light Node Operasyonları](./tr/light-node-operasyonlari.md) |
-| English / İngilizce | [Light Node Operations](./en/light-node-operations.md) |
+| İngilizce / English | [Light Node Operations](./en/light-node-operations.md) |
 
-## Requirements / Gereksinimler
+## Gereksinimler / Requirements
 
-| English | Türkçe |
+| Türkçe | English |
 |---|---|
-| VPS or dedicated server, Ubuntu 22.04 recommended | Ubuntu 22.04 önerilen VPS veya dedicated server |
+| Ubuntu 22.04 önerilen VPS veya dedicated server | VPS or dedicated server, Ubuntu 22.04 recommended |
 | Docker | Docker |
 | Docker Compose | Docker Compose |
 | 1000 QOR stake | 1000 QOR stake |
-| Stable internet connection | Stabil internet bağlantısı |
-| Basic terminal access | Temel terminal erişimi |
+| Stabil internet bağlantısı | Stable internet connection |
+| Temel terminal erişimi | Basic terminal access |
 
-## Basic Setup / Temel Kurulum
+## Temel Kurulum / Basic Setup
 
 Download the Light Node files.
 
@@ -56,7 +56,7 @@ Expected services / Beklenen servisler:
 - qorechain-lightnode-sx
 - qorechain-lightnode-ux
 
-## Panel Access / Panel Erişimi
+## Panel Erişimi / Panel Access
 
 Open the panel in your browser.
 
@@ -70,7 +70,7 @@ Replace `YOUR_SERVER_IP` with your own server IP address.
 
 `YOUR_SERVER_IP` alanını kendi sunucu IP adresinizle değiştirin.
 
-## Logs / Loglar
+## Loglar / Logs
 
 Check the main service logs.
 
@@ -88,7 +88,7 @@ Logları canlı takip edin.
 docker logs -f qorechain-lightnode-sx
 ```
 
-## Restart / Yeniden Başlatma
+## Yeniden Başlatma / Restart
 
 Restart the services.
 
@@ -98,16 +98,16 @@ Servisleri yeniden başlatın.
 docker compose restart
 ```
 
-## Troubleshooting / Sorun Giderme
+## Sorun Giderme / Troubleshooting
 
-| Issue / Durum | Check / Kontrol | Action / Aksiyon |
+| Durum / Issue | Kontrol / Check | Aksiyon / Action |
 |---|---|---|
 | Panel does not open / Panel açılmıyor | Server IP and port / Sunucu IP ve port | Check `docker ps` and firewall settings / `docker ps` ve firewall ayarlarını kontrol edin |
 | Service is not visible / Servis görünmüyor | Container list / Container listesi | Run `docker compose up -d` again / `docker compose up -d` komutunu tekrar çalıştırın |
 | Logs show errors / Loglarda hata var | SX service logs / SX servis logları | Note the error and check again after restarting / Hatayı not alın ve yeniden başlatarak tekrar kontrol edin |
 | Node does not respond / Node yanıt vermiyor | Server resources / Sunucu kaynakları | Check CPU, RAM, and disk usage / CPU, RAM ve disk durumunu kontrol edin |
 
-## Note / Not
+## Not / Note
 
 This page is a quick reference. For the maintained operation flow, use the full Turkish or English guide linked above.
 
