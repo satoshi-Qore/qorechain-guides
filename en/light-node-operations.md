@@ -12,17 +12,38 @@ The goal is to help operators complete the setup, check services, verify panel a
 - Panel access
 - Log monitoring
 - Restart and basic troubleshooting
+- Update process
 - Operator checklist
 - Maintenance notes
 
 ## Requirements
 
-- VPS or dedicated server, Ubuntu 22.04 recommended
+| Requirement | Minimum | Recommended |
+|---|---|---|
+| Operating System | Ubuntu 20.04 | Ubuntu 22.04 |
+| CPU | 2 cores | 4 cores |
+| RAM | 4 GB | 8 GB |
+| Disk | 50 GB SSD | 100 GB SSD |
+| Internet | Stable connection | Stable connection |
+| Stake | 1000 QOR | 1000 QOR |
+
+Additional requirements:
 - Docker
 - Docker Compose
-- 1000 QOR stake
-- Stable internet connection
 - Basic terminal access
+
+## Required Ports
+
+| Port | Service | Direction |
+|---|---|---|
+| 8420 | Panel (HTTP) | Inbound |
+| 22 | SSH | Inbound |
+
+Make sure your server firewall allows inbound traffic on port 8420. If using UFW:
+
+```bash
+ufw allow 8420/tcp
+```
 
 ## Pre-Setup Check
 
@@ -34,6 +55,7 @@ Before starting the setup, check the following items on the server:
 | Docker | Docker commands run successfully |
 | Docker Compose | `docker compose` is available |
 | Network access | The server can reach the internet |
+| Port 8420 | Open in firewall |
 | Stake | The 1000 QOR requirement is met |
 
 ## Setup
@@ -92,8 +114,6 @@ Follow logs live:
 docker logs -f qorechain-lightnode-sx
 ```
 
-If repeated errors appear, note the exact error text. Checking whether the same error continues after a restart makes troubleshooting easier.
-
 ## Restart
 
 Restart the services:
@@ -108,6 +128,38 @@ After restart, check the services again:
 docker ps
 ```
 
+## Update Process
+
+Before updating, note the current service state:
+
+```bash
+docker ps
+```
+
+Pull the latest changes:
+
+```bash
+cd qorechain-lightnode
+git pull
+```
+
+Restart with the updated files:
+
+```bash
+docker compose down
+docker compose pull
+docker compose up -d
+```
+
+Verify the services are running after update:
+
+```bash
+docker ps
+docker logs qorechain-lightnode-sx
+```
+
+Before updating, always check official QoreChain announcements for breaking changes or special update instructions.
+
 ## Basic Troubleshooting
 
 | Issue | Check | Action |
@@ -116,15 +168,14 @@ docker ps
 | Service is not visible | Container list | Run `docker compose up -d` again |
 | Logs show errors | SX service logs | Note the error and check again after restart |
 | Node does not respond | Server resources | Check CPU, RAM, and disk usage |
-| Setup stopped midway | Project directory and service status | Confirm the correct directory, then rerun the command |
+| Setup stopped midway | Project directory | Confirm the correct directory, then rerun the command |
+| Port 8420 unreachable | Firewall rules | Run `ufw allow 8420/tcp` and verify with `ufw status` |
 
 ## Operator Checklist
 
-For daily or regular checks, use the following questions:
-
 - Is the server active?
 - Are Docker services running?
-- Is the panel reachable?
+- Is the panel reachable on port 8420?
 - Are SX and UX containers visible in the list?
 - Are there repeated errors in the logs?
 - Is the stake requirement met?
@@ -132,9 +183,9 @@ For daily or regular checks, use the following questions:
 
 ## Maintenance Notes
 
-Light Node processes may change based on QoreChain updates. Before critical actions, it is recommended to check official announcements, the project repository, and community updates.
+Light Node processes may change based on QoreChain updates. Before critical actions, check official announcements, the project repository, and community updates.
 
-Before running commands, confirm that you are on the correct server and inside the correct project directory. For restart, update, or cleanup actions, it is useful to note the current service state first.
+Before running commands, confirm that you are on the correct server and inside the correct project directory.
 
 ## Disclaimer
 
