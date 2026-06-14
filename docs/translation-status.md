@@ -20,6 +20,12 @@ This file tracks synchronization between English and Turkish pages. This table s
 | SSS / FAQ | en/faq.md | tr/sss.md | ✅ |
 | Sorun Giderme / Troubleshooting | en/troubleshooting.md | tr/sorun-giderme.md | ✅ |
 
+## Referans / Reference
+
+| Konu / Topic | EN | TR | Durum / Status |
+|---|---|---|---|
+| Terimler Sözlüğü / Glossary | en/glossary.md | tr/terimler-sozlugu.md | ✅ |
+
 ## Node Operasyonları / Node Operations
 
 | Konu / Topic | EN | TR | Durum / Status |
