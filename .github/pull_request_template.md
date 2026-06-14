@@ -1,33 +1,38 @@
-## Ozet / Summary
+## Özet / Summary
 
-Yapilan degisikligi kisaca aciklayin.
+Bu PR'ın amacını kısaca açıklayın.
 
-Briefly describe the change.
+Briefly describe the purpose of this PR.
 
-## Degisiklik Turu / Change Type
+## Değişiklikler / Changes
 
-- [ ] Dokumantasyon guncellemesi / Documentation update
-- [ ] Yeni konu veya rehber / New topic or guide
-- [ ] Ceviri veya dil duzeltmesi / Translation or language fix
-- [ ] Link, tablo veya format duzeltmesi / Link, table, or formatting fix
-- [ ] Sorun giderme notu / Troubleshooting note
+- [ ] Yeni içerik / New content
+- [ ] Düzeltme / Correction
+- [ ] Çeviri / Translation
+- [ ] Sorun giderme / Troubleshooting
+- [ ] Diğer / Other
 
-## Etkilenen Alan / Affected Area
+## Etkilenen Sayfalar / Affected Pages
 
-Hangi sayfalarin veya bolumlerin degistigini yazin.
+Değiştirilen veya eklenen dosyaları listeleyin.
 
-List the pages or sections changed.
+List the files changed or added.
+
+## Dil / Language
+
+- [ ] Türkçe / Turkish
+- [ ] İngilizce / English
+- [ ] İkisi de / Both
 
 ## Kontrol Listesi / Checklist
 
-- [ ] Linkleri kontrol ettim / I checked links
-- [ ] Komutlar dogru baglamda / Commands are in the correct context
-- [ ] Turkce ve Ingilizce yapi uyumlu / Turkish and English structure is aligned
-- [ ] Kritik adimlarda resmi kaynak notu var / Critical steps mention official sources
-- [ ] Gizli bilgi veya hassas veri yok / No secrets or sensitive data included
+- [ ] Linkler çalışıyor / Links work
+- [ ] Komutlar doğru bağlamda / Commands are in correct context
+- [ ] Türkçe ve İngilizce sayfalar yapısal olarak uyumlu / Turkish and English pages are structurally aligned
+- [ ] Resmi kaynaklara yönlendirme yapıldı (gerekiyorsa) / Points to official sources where needed
 
-## Ek Notlar / Notes
+## Notlar / Notes
 
-Ek baglam veya inceleme notlari varsa ekleyin.
+Gözden geçirenler için ek bağlam varsa ekleyin.
 
-Add extra context or review notes if needed.
+Add any extra context for reviewers.
