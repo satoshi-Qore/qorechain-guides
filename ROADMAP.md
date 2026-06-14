@@ -25,9 +25,9 @@ This roadmap tracks planned documentation work for QoreChain Guides.
 
 ## Planlandı / Planned
 
-Yeni başlıklar ihtiyaç geldikçe eklenecek.
+Yeni başlıklar topluluk ihtiyacı netleştikçe eklenecek.
 
-New topics will be added as documentation needs become clearer.
+New topics will be added as community documentation needs become clearer.
 
 ## Dokümantasyon Öncelikleri / Documentation Priorities
 
