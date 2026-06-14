@@ -30,11 +30,18 @@ For synchronization status, see: [translation-status.md](./translation-status.md
 
 ## İngilizce İçerik / English Content (`en/`)
 
+### Başlangıç / Getting Started
+
+| Dosya / File | Açıklama / Description | Durum / Status |
+|---|---|---|
+| en/getting-started.md | Hızlı başlangıç rehberi / Quick start guide | Aktif / Active |
+
 ### Node Operasyonları / Node Operations
 
 | Dosya / File | Açıklama / Description | Durum / Status |
 |---|---|---|
 | en/light-node-operations.md | Kurulum, servis, panel, log, sorun giderme / Setup, service, panel, log, troubleshooting | Aktif / Active |
+| en/troubleshooting.md | Sorun giderme rehberi / Troubleshooting guide | Aktif / Active |
 
 ### Topluluk Görevleri / Community Tasks
 
@@ -63,11 +70,18 @@ For synchronization status, see: [translation-status.md](./translation-status.md
 
 ## Türkçe İçerik / Turkish Content (`tr/`)
 
+### Başlangıç / Getting Started
+
+| Dosya / File | Açıklama / Description | Durum / Status |
+|---|---|---|
+| tr/baslangic-rehberi.md | Hızlı başlangıç rehberi | Aktif / Active |
+
 ### Node Operasyonları / Node Operations
 
 | Dosya / File | Açıklama / Description | Durum / Status |
 |---|---|---|
 | tr/light-node-operasyonlari.md | Kurulum, servis, panel, log, sorun giderme | Aktif / Active |
+| tr/sorun-giderme.md | Sorun giderme rehberi | Aktif / Active |
 
 ### Topluluk Görevleri / Community Tasks
 
@@ -100,8 +114,6 @@ For synchronization status, see: [translation-status.md](./translation-status.md
 |---|---|---|
 | en/node-operations/operator-handbook.md | Operatör el kitabı / Operator handbook | Yüksek / High |
 | tr/node-operasyonlari/operator-el-kitabi.md | Operatör el kitabı (Türkçe) | Yüksek / High |
-| en/node-operations/troubleshooting.md | Sorun giderme / Troubleshooting | Yüksek / High |
-| tr/node-operasyonlari/sorun-giderme.md | Sorun giderme (Türkçe) | Yüksek / High |
 | en/getting-started/what-is-qorechain.md | QoreChain nedir / What is QoreChain | Orta / Medium |
 | tr/baslangic/qorechain-nedir.md | QoreChain nedir (Türkçe) | Orta / Medium |
 | en/getting-started/choose-your-path.md | Kitle yönlendirici / Audience router | Orta / Medium |
