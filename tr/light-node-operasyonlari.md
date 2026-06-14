@@ -1,141 +1,153 @@
-# QoreChain Light Node Operasyon Dokumani
+# QoreChain Light Node Operasyon Dokümanı
 
-Bu dokuman, QoreChain Light Node kurulumu ve temel operasyon sureclerini duzenli bir sekilde takip etmek icin hazirlanmistir.
+Bu doküman, QoreChain Light Node kurulumu ve temel operasyon süreçlerini düzenli bir şekilde takip etmek için hazırlanmıştır.
 
-Amac, operatorlerin kurulumu tamamlamasi, servisleri kontrol etmesi, panel erisimini dogrulamasi ve temel sorun giderme adimlarini hizli sekilde uygulayabilmesidir.
+Amaç, operatörlerin kurulumu tamamlaması, servisleri kontrol etmesi, panel erişimini doğrulaması ve temel sorun giderme adımlarını hızlı şekilde uygulayabilmesidir.
 
-## Operasyon Kapsami
+## Operasyon Kapsamı
 
 - Sunucu gereksinimleri
 - Light Node kurulumu
-- Servis durumu kontrolu
-- Panel erisimi
-- Log takibi
-- Yeniden baslatma ve temel sorun giderme
-- Operator kontrol listesi
-- Bakim notlari
+- Servis durum kontrolleri
+- Panel erişim doğrulaması
+- Sorun giderme adımları
+- Güncelleme süreci
 
-## Gereksinimler
+## Sistem Gereksinimleri
 
-- Ubuntu 22.04 onerilen VPS veya dedicated server
-- Docker
-- Docker Compose
-- 1000 QOR stake
-- Stabil internet baglantisi
-- Temel terminal erisimi
-
-## Kurulum Oncesi Kontrol
-
-Kuruluma baslamadan once sunucuda asagidaki basliklari kontrol edin:
-
-| Kontrol | Beklenen Durum |
-|---|---|
-| Sunucu erisimi | SSH baglantisi kurulabiliyor |
-| Docker | Docker komutlari calisiyor |
-| Docker Compose | `docker compose` komutu kullanilabiliyor |
-| Ag erisimi | Sunucu internete cikabiliyor |
-| Stake | 1000 QOR gereksinimi karsilaniyor |
-
-## Kurulum
-
-Light Node dosyalarini sunucuya indirin:
-
-```bash
-git clone https://github.com/qorechain/qorechain-lightnode.git
-cd qorechain-lightnode
-```
-
-Servisleri baslatin:
-
-```bash
-docker compose up -d
-```
-
-## Servis Kontrolu
-
-Calisan container durumunu kontrol edin:
-
-```bash
-docker ps
-```
-
-Beklenen servisler:
-
-- qorechain-lightnode-sx
-- qorechain-lightnode-ux
-
-Container listesinde bu servisler gorunuyorsa Light Node temel olarak calismaya baslamistir.
-
-## Panel Erisimi
-
-Tarayicidan asagidaki adrese gidin:
-
-```text
-http://YOUR_SERVER_IP:8420
-```
-
-`YOUR_SERVER_IP` alanini kendi sunucu IP adresinizle degistirin.
-
-Panel aciliyorsa arayuz tarafindaki temel erisim dogrulanmis olur. Panel acilmiyorsa once container durumunu, sonra sunucu firewall ve port ayarlarini kontrol edin.
-
-## Log Takibi
-
-Ana servis loglarini kontrol etmek icin:
-
-```bash
-docker logs qorechain-lightnode-sx
-```
-
-Loglari canli izlemek icin:
-
-```bash
-docker logs -f qorechain-lightnode-sx
-```
-
-Tekrar eden hata mesajlari gorulurse hata metnini not alin. Yeniden baslatma sonrasi ayni hatanin devam edip etmedigini kontrol etmek sorun cozme surecini kolaylastirir.
-
-## Yeniden Baslatma
-
-Servisleri yeniden baslatmak icin:
-
-```bash
-docker compose restart
-```
-
-Yeniden baslatma sonrasi tekrar kontrol edin:
-
-```bash
-docker ps
-```
-
-## Temel Sorun Giderme
-
-| Durum | Kontrol | Aksiyon |
+| Bileşen | Minimum | Önerilen |
 |---|---|---|
-| Panel acilmiyor | Sunucu IP ve port kontrolu | `docker ps` ve firewall ayarlarini kontrol edin |
-| Servis gorunmuyor | Container listesi | `docker compose up -d` komutunu tekrar calistirin |
-| Loglarda hata var | SX servis loglari | Hatayi not alin ve yeniden baslatma sonrasi tekrar kontrol edin |
-| Node yanit vermiyor | Sunucu kaynaklari | CPU, RAM ve disk durumunu kontrol edin |
-| Kurulum yarida kaldi | Proje klasoru ve servis durumu | Klasorde oldugunuzu dogrulayin, sonra komutu yeniden calistirin |
+| İşletim Sistemi | Ubuntu 20.04 LTS | Ubuntu 22.04 LTS |
+| CPU | 2 çekirdek | 4 çekirdek |
+| RAM | 4 GB | 8 GB |
+| Disk | 50 GB SSD | 100 GB SSD |
+| İnternet | 10 Mbps | 50 Mbps+ |
+| Minimum Stake | Resmi duyuruya göre | Resmi duyuruya göre |
 
-## Operator Kontrol Listesi
+> **Not:** Stake gereksinimleri ağ güncellemeleriyle değişebilir. Güncel değerler için resmi QoreChain duyurularını takip edin.
 
-Gunluk veya duzenli kontrolde asagidaki sorular kullanilabilir:
+## Gerekli Portlar
 
-- Sunucu aktif mi?
-- Docker servisleri calisiyor mu?
-- Panel erisilebilir mi?
-- SX ve UX containerlari listede gorunuyor mu?
-- Loglarda tekrar eden hata var mi?
-- Stake gereksinimi karsilaniyor mu?
-- Son resmi duyurularda operatorleri etkileyen bir guncelleme var mi?
+| Port | Protokol | Kullanım |
+|---|---|---|
+| 8420 | TCP | Node yönetim paneli |
+| 22 | TCP | SSH erişimi |
 
-## Bakim Notlari
+Güvenlik duvarı kuralları (UFW):
 
-Light Node surecleri QoreChain tarafindaki guncellemelere gore degisebilir. Kritik islemlerden once resmi duyurulari, proje deposunu ve topluluk bildirimlerini kontrol etmek onerilir.
+```bash
+sudo ufw allow 22/tcp
+sudo ufw allow 8420/tcp
+sudo ufw enable
+sudo ufw status
+```
 
-Komutlari calistirmadan once dogru sunucuda ve dogru proje klasorunde oldugunuzu kontrol edin. Ozellikle yeniden baslatma, guncelleme veya temizlik islemlerinde mevcut servis durumunu not almak faydali olur.
+## Kurulum Adımları
 
-## Not
+Kurulum komutları resmi QoreChain belgelerinden alınmalıdır. Bu doküman yalnızca operasyonel rehberlik sağlar; resmi kurulum talimatları güncellenmiş olabilir.
 
-Bu dokuman topluluk kullanimi icin hazirlanmis operasyon odakli bir kaynaktir. Resmi dokumantasyon yerine gecmez; guncel komutlar ve ag kurallari icin resmi kaynaklar kontrol edilmelidir.
+## Servis Kontrol Komutları
+
+### Servis Durumunu Görüntüleme
+
+```bash
+systemctl status qore-node
+```
+
+### Servisi Yeniden Başlatma
+
+```bash
+sudo systemctl restart qore-node
+```
+
+### Sistem Loglarını Görüntüleme
+
+```bash
+journalctl -u qore-node -n 100 --no-pager
+```
+
+### Anlık Log Takibi
+
+```bash
+journalctl -u qore-node -f
+```
+
+## Panel Erişim Doğrulama
+
+Node paneline tarayıcıdan `http://<sunucu-ip>:8420` adresinden erişilebilir.
+
+Beklenen durum: Panelin erişilebilir olması ve node durumunun gösterilmesi.
+
+Panel erişilemiyor ise:
+
+```bash
+# Portun açık olduğunu doğrula
+sudo ufw status
+
+# Servisin çalıştığını doğrula
+systemctl status qore-node
+
+# IP adresini doğrula
+curl ifconfig.me
+```
+
+## Yaygın Sorun Giderme
+
+| Sorun | Olası Neden | Yapılacak Adım |
+|---|---|---|
+| Servis başlamıyor | Yanlış yapılandırma | Log kontrol et: `journalctl -u qore-node -n 50` |
+| Panel erişilemiyor | Port kapalı veya servis çalışmıyor | UFW kurallarını ve servis durumunu kontrol et |
+| Node senkronize olmuyor | Ağ gecikmesi veya yapılandırma sorunu | Logu incele, resmi duyuruları kontrol et |
+| Yüksek kaynak kullanımı | Donanım yetersizliği | CPU ve RAM kullanımını kontrol et: `htop` |
+
+## Güncelleme Süreci
+
+> **Uyarı:** Güncel ve doğrulanmış güncelleme komutları için resmi QoreChain belgelerini kontrol edin. Aşağıdaki adımlar genel bir rehber niteliğindedir.
+
+### Güncelleme Öncesi Hazırlık
+
+1. Mevcut node sürümünü not edin
+2. Yapılandırma dosyalarının yedeğini alın
+3. Güncelleme öncesi node durumunu kaydedin
+
+### Güncelleme Adımları
+
+```bash
+# Servisi durdur
+sudo systemctl stop qore-node
+
+# Güncellemeyi uygula (resmi komutlara göre)
+# [Resmi belgelere bakın]
+
+# Servisi yeniden başlat
+sudo systemctl start qore-node
+
+# Durumu doğrula
+systemctl status qore-node
+```
+
+### Güncelleme Sonrası Doğrulama
+
+- Servisin başarıyla başladığını doğrulayın
+- Panel erişimini test edin
+- Log çıktısını birkaç dakika izleyin
+
+## Operatör Kontrol Listesi
+
+- [ ] Sunucu `systemctl status qore-node` ile aktif olarak çalışıyor mu?
+- [ ] Docker servisleri (kullanılıyorsa) çalışıyor mu?
+- [ ] Panel `http://<sunucu-ip>:8420` adresinden erişilebilir mi?
+- [ ] SX ve UX core bileşenleri çalışıyor mu?
+- [ ] Tekrarlayan hata mesajları var mı?
+- [ ] Stake gereksinimi karşılanıyor mu?
+- [ ] Herhangi bir güncelleme bekliyor mu?
+
+## Bakım Notları
+
+Light Node süreçleri resmi QoreChain duyurularıyla değişebilir. Yüksek etkili eylemler (ağ kuralları, stake değişiklikleri) için resmi duyuruları, proje deposunu ve topluluk kanallarını kontrol edin.
+
+Güncelleme komutlarını çalıştırmadan önce proje dizininde olduğunuzdan emin olun.
+
+## Sorumluluk Reddi
+
+Bu doküman topluluk tarafından hazırlanmış bir operasyon kaynağıdır. Resmi belgelerin yerine geçmez; güncel komutlar ve ağ kuralları için resmi kaynaklar kontrol edilmelidir.
