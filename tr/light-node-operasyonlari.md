@@ -1,39 +1,53 @@
-# QoreChain Light Node Operasyon Dokümanı
+# QoreChain Light Node Operasyonları
 
-Bu doküman, QoreChain Light Node kurulumu ve temel operasyon süreçlerini düzenli bir şekilde takip etmek için hazırlanmıştır.
+Bu doküman, QoreChain Light Node kurulumu ve temel operasyon süreçlerini daha düzenli takip etmek isteyen operatörler için hazırlanmıştır.
 
-Amaç, operatörlerin kurulumu tamamlaması, servisleri kontrol etmesi, panel erişimini doğrulaması ve temel sorun giderme adımlarını hızlı şekilde uygulayabilmesidir.
+Amaç; kurulum öncesi kontrolleri, Docker tabanlı servis takibini, panel erişimini, log incelemeyi, güncelleme sürecini ve temel sorun giderme adımlarını tek bir pratik akışta toplamaktır.
 
 ## Operasyon Kapsamı
 
-- Sunucu gereksinimleri
-- Light Node kurulumu
-- Servis durum kontrolleri
-- Panel erişim doğrulaması
-- Sorun giderme adımları
-- Güncelleme süreci
+Bu sayfa şu konuları kapsar:
 
-## Sistem Gereksinimleri
+- sunucu gereksinimleri;
+- gerekli portlar;
+- Docker ve Docker Compose kontrolleri;
+- Light Node başlatma;
+- panel erişimi;
+- log takibi;
+- yeniden başlatma;
+- güncelleme süreci;
+- temel sorun giderme;
+- operatör kontrol listesi.
 
-| Bileşen | Minimum | Önerilen |
-|---|---|---|
-| İşletim Sistemi | Ubuntu 20.04 LTS | Ubuntu 22.04 LTS |
+Bu doküman resmi kurulum talimatlarının yerine geçmez. Kritik adımlarda resmi QoreChain kaynakları ve güncel duyurular kontrol edilmelidir.
+
+## Gereksinimler
+
+| Gereksinim | Minimum | Önerilen |
+|---|---:|---:|
 | CPU | 2 çekirdek | 4 çekirdek |
 | RAM | 4 GB | 8 GB |
 | Disk | 50 GB SSD | 100 GB SSD |
-| İnternet | 10 Mbps | 50 Mbps+ |
-| Minimum Stake | Resmi duyuruya göre | Resmi duyuruya göre |
+| İşletim Sistemi | Ubuntu 20.04+ | Ubuntu 22.04 LTS |
 
-> **Not:** Stake gereksinimleri ağ güncellemeleriyle değişebilir. Güncel değerler için resmi QoreChain duyurularını takip edin.
+Ek gereksinimler:
+
+- Docker
+- Docker Compose
+- SSH erişimi
+- Açık panel portu
+- Güncel resmi QoreChain kurulum bilgileri
 
 ## Gerekli Portlar
 
-| Port | Protokol | Kullanım |
-|---|---|---|
-| 8420 | TCP | Node yönetim paneli |
-| 22 | TCP | SSH erişimi |
+| Port | Servis | Yön |
+|---:|---|---|
+| 22 | SSH | Gelen |
+| 8420 | Light Node paneli | Gelen |
 
-Güvenlik duvarı kuralları (UFW):
+Sunucuda güvenlik duvarı kullanılıyorsa 8420 portunun açık olduğundan emin olun.
+
+UFW örneği:
 
 ```bash
 sudo ufw allow 22/tcp
@@ -42,112 +56,131 @@ sudo ufw enable
 sudo ufw status
 ```
 
-## Kurulum Adımları
+## Kurulum Öncesi Kontrol
 
-Kurulum komutları resmi QoreChain belgelerinden alınmalıdır. Bu doküman yalnızca operasyonel rehberlik sağlar; resmi kurulum talimatları güncellenmiş olabilir.
+| Kontrol | Beklenen Durum |
+|---|---|
+| Sunucu erişimi | SSH bağlantısı çalışıyor |
+| Docker | Docker komutları çalışıyor |
+| Docker Compose | `docker compose` kullanılabilir |
+| Port 8420 | Güvenlik duvarında açık |
+| Disk alanı | Yeterli boş alan var |
+| Resmi talimatlar | Güncel kurulum akışı kontrol edildi |
+| Stake gereksinimi | Güncel gereksinim resmi kaynaklardan doğrulandı |
 
-## Servis Kontrol Komutları
+## Kurulum Akışı
 
-### Servis Durumunu Görüntüleme
+Kurulum komutları resmi QoreChain kaynaklarından alınmalıdır. Bu topluluk dokümanı, komutların güncel olduğunu garanti etmez.
+
+Genel Docker akışı:
 
 ```bash
-systemctl status qore-node
+docker compose up -d
 ```
 
-### Servisi Yeniden Başlatma
+Çalışan servisleri kontrol etmek için:
 
 ```bash
-sudo systemctl restart qore-node
+docker ps
 ```
 
-### Sistem Loglarını Görüntüleme
+## Panel Erişimi
 
-```bash
-journalctl -u qore-node -n 100 --no-pager
+Light Node paneli genellikle şu adresten kontrol edilir:
+
+```text
+http://SUNUCU_IP:8420
 ```
 
-### Anlık Log Takibi
+Panel açılıyorsa temel arayüz erişimi doğrulanmış olur. Panel açılmıyorsa önce container durumunu, ardından güvenlik duvarı ve port ayarlarını kontrol edin.
+
+## Log Takibi
+
+SX bileşeni için örnek log kontrolü:
 
 ```bash
-journalctl -u qore-node -f
+docker logs qorechain-lightnode-sx
 ```
 
-## Panel Erişim Doğrulama
-
-Node paneline tarayıcıdan `http://<sunucu-ip>:8420` adresinden erişilebilir.
-
-Beklenen durum: Panelin erişilebilir olması ve node durumunun gösterilmesi.
-
-Panel erişilemiyor ise:
+Anlık log takibi:
 
 ```bash
-# Portun açık olduğunu doğrula
-sudo ufw status
+docker logs -f qorechain-lightnode-sx
+```
 
-# Servisin çalıştığını doğrula
-systemctl status qore-node
+UX bileşeni için container adını mevcut servis adınıza göre kontrol edin:
 
-# IP adresini doğrula
-curl ifconfig.me
+```bash
+docker ps
+```
+
+## Yeniden Başlatma
+
+Docker Compose ile yeniden başlatma:
+
+```bash
+docker compose restart
+```
+
+Yeniden başlatmadan sonra servisleri kontrol edin:
+
+```bash
+docker ps
+```
+
+## Güncelleme Süreci
+
+Uyarı: Güncel ve doğrulanmış güncelleme komutları için resmi QoreChain belgelerini kontrol edin. Aşağıdaki adımlar genel bir Docker bakım akışı olarak verilmiştir.
+
+Güncellemeden önce:
+
+- mevcut çalışan container durumunu kontrol edin;
+- varsa yapılandırma dosyalarını yedekleyin;
+- resmi duyurularda özel güncelleme talimatı olup olmadığını kontrol edin;
+- node durumunu ve panel erişimini not edin.
+
+Genel güncelleme akışı:
+
+```bash
+docker ps
+docker compose down
+docker compose pull
+docker compose up -d
+```
+
+Güncellemeden sonra:
+
+```bash
+docker ps
+docker logs qorechain-lightnode-sx
 ```
 
 ## Yaygın Sorun Giderme
 
-| Sorun | Olası Neden | Yapılacak Adım |
+| Sorun | Kontrol | Yapılacak Adım |
 |---|---|---|
-| Servis başlamıyor | Yanlış yapılandırma | Log kontrol et: `journalctl -u qore-node -n 50` |
-| Panel erişilemiyor | Port kapalı veya servis çalışmıyor | UFW kurallarını ve servis durumunu kontrol et |
-| Node senkronize olmuyor | Ağ gecikmesi veya yapılandırma sorunu | Logu incele, resmi duyuruları kontrol et |
-| Yüksek kaynak kullanımı | Donanım yetersizliği | CPU ve RAM kullanımını kontrol et: `htop` |
-
-## Güncelleme Süreci
-
-> **Uyarı:** Güncel ve doğrulanmış güncelleme komutları için resmi QoreChain belgelerini kontrol edin. Aşağıdaki adımlar genel bir rehber niteliğindedir.
-
-### Güncelleme Öncesi Hazırlık
-
-1. Mevcut node sürümünü not edin
-2. Yapılandırma dosyalarının yedeğini alın
-3. Güncelleme öncesi node durumunu kaydedin
-
-### Güncelleme Adımları
-
-```bash
-# Servisi durdur
-sudo systemctl stop qore-node
-
-# Güncellemeyi uygula (resmi komutlara göre)
-# [Resmi belgelere bakın]
-
-# Servisi yeniden başlat
-sudo systemctl start qore-node
-
-# Durumu doğrula
-systemctl status qore-node
-```
-
-### Güncelleme Sonrası Doğrulama
-
-- Servisin başarıyla başladığını doğrulayın
-- Panel erişimini test edin
-- Log çıktısını birkaç dakika izleyin
+| Panel açılmıyor | Sunucu IP ve port | `docker ps` ve güvenlik duvarı ayarlarını kontrol edin |
+| Servis görünmüyor | Container listesi | `docker compose up -d` komutunu tekrar çalıştırın |
+| Node yanıt vermiyor | Sunucu kaynakları | CPU, RAM ve disk kullanımını kontrol edin |
+| Loglarda hata var | Container logları | İlgili hata mesajını resmi duyurular ve repo notlarıyla karşılaştırın |
+| 8420 portuna erişilemiyor | Güvenlik duvarı | `sudo ufw allow 8420/tcp` ve `sudo ufw status` ile doğrulayın |
 
 ## Operatör Kontrol Listesi
 
-- [ ] Sunucu `systemctl status qore-node` ile aktif olarak çalışıyor mu?
-- [ ] Docker servisleri (kullanılıyorsa) çalışıyor mu?
-- [ ] Panel `http://<sunucu-ip>:8420` adresinden erişilebilir mi?
-- [ ] SX ve UX core bileşenleri çalışıyor mu?
-- [ ] Tekrarlayan hata mesajları var mı?
-- [ ] Stake gereksinimi karşılanıyor mu?
-- [ ] Herhangi bir güncelleme bekliyor mu?
+- Docker servisleri çalışıyor mu?
+- Panel 8420 portundan erişilebilir mi?
+- SX ve UX bileşenleri çalışıyor mu?
+- Loglarda tekrarlayan hata var mı?
+- Sunucu kaynakları yeterli mi?
+- Güncel resmi duyurularda operatörleri etkileyen bir değişiklik var mı?
+- Güncelleme gerekiyorsa önce yapılandırma dosyaları yedeklendi mi?
 
 ## Bakım Notları
 
-Light Node süreçleri resmi QoreChain duyurularıyla değişebilir. Yüksek etkili eylemler (ağ kuralları, stake değişiklikleri) için resmi duyuruları, proje deposunu ve topluluk kanallarını kontrol edin.
+Light Node süreçleri QoreChain güncellemelerine göre değişebilir. Ağ kuralları, stake gereksinimleri, panel davranışı veya güncelleme komutları değiştiğinde resmi duyurular ve proje kaynakları kontrol edilmelidir.
 
-Güncelleme komutlarını çalıştırmadan önce proje dizininde olduğunuzdan emin olun.
+Komutları çalıştırmadan önce doğru proje dizininde olduğunuzdan emin olun.
 
 ## Sorumluluk Reddi
 
-Bu doküman topluluk tarafından hazırlanmış bir operasyon kaynağıdır. Resmi belgelerin yerine geçmez; güncel komutlar ve ağ kuralları için resmi kaynaklar kontrol edilmelidir.
+Bu doküman topluluk tarafından hazırlanmış bir operasyon kaynağıdır. Resmi belgelerin yerine geçmez; güncel komutlar, ağ kuralları ve güvenlik gereksinimleri için resmi kaynaklar kontrol edilmelidir.
