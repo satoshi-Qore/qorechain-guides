@@ -1,31 +1,31 @@
 # QoreChain Guides Stil Rehberi / Style Guide
 
-Bu rehber, QoreChain Guides deposundaki dokumantasyon sayfalarinin tutarli kalmasi icin hazirlanmistir.
+Bu rehber, QoreChain Guides deposundaki dokümantasyon sayfalarının tutarlı kalması için hazırlanmıştır.
 
 This guide keeps documentation pages in QoreChain Guides consistent.
 
-## Genel Ilkeler / General Principles
+## Genel İlkeler / General Principles
 
-| Turkce | English |
+| Türkçe | English |
 |---|---|
-| Adimlari kisa, acik ve uygulanabilir yazin. | Keep steps short, clear, and practical. |
-| Kritik adimlarda resmi kaynaklara yonlendirin. | Point users to official sources for critical steps. |
-| Komutlari dogru baglamla birlikte verin. | Give commands with the correct context. |
-| Uzun paragraflar yerine tablo ve kontrol listesi kullanin. | Prefer tables and checklists over long paragraphs. |
-| Tahminleri gercek bilgi gibi yazmayin. | Do not present assumptions as facts. |
+| Adımları kısa, açık ve uygulanabilir yazın. | Keep steps short, clear, and practical. |
+| Kritik adımlarda resmi kaynaklara yönlendirin. | Point users to official sources for critical steps. |
+| Komutları doğru bağlamla birlikte verin. | Give commands with the correct context. |
+| Uzun paragraflar yerine tablo ve kontrol listesi kullanın. | Prefer tables and checklists over long paragraphs. |
+| Tahminleri gerçek bilgi gibi yazmayın. | Do not present assumptions as facts. |
 
-## Iki Dilli Yapi / Bilingual Structure
+## İki Dilli Yapı / Bilingual Structure
 
-| Sayfa Turu / Page Type | Beklenen Yapi / Expected Structure |
+| Sayfa Türü / Page Type | Beklenen Yapı / Expected Structure |
 |---|---|
-| Koke eklenen ortak dosyalar / Shared root files | Turkce ve Ingilizce birlikte olmali / Should include both Turkish and English |
-| `tr/` altindaki dosyalar / Files under `tr/` | Turkce olmali / Should be Turkish |
-| `en/` altindaki dosyalar / Files under `en/` | Ingilizce olmali / Should be English |
-| Issue ve PR sablonlari / Issue and PR templates | Iki dilli olmali / Should be bilingual |
+| Köke eklenen ortak dosyalar / Shared root files | Türkçe ve İngilizce birlikte olmalı / Should include both Turkish and English |
+| `tr/` altındaki dosyalar / Files under `tr/` | Türkçe olmalı / Should be Turkish |
+| `en/` altındaki dosyalar / Files under `en/` | İngilizce olmalı / Should be English |
+| Issue ve PR şablonları / Issue and PR templates | İki dilli olmalı / Should be bilingual |
 
-## Komut Yazimi / Command Style
+## Komut Yazımı / Command Style
 
-Komutlari her zaman kod blogu icinde yazin.
+Komutları her zaman kod bloğu içinde yazın.
 
 Always write commands inside fenced code blocks.
 
@@ -33,31 +33,31 @@ Always write commands inside fenced code blocks.
 docker ps
 ```
 
-Komuttan once ne yaptigini, komuttan sonra ne beklenmesi gerektigini aciklayin.
+Komuttan önce ne yaptığını, komuttan sonra ne beklenmesi gerektiğini açıklayın.
 
 Explain what the command does before it, and what the user should expect after it.
 
 ## Linkler / Links
 
-- Depo icindeki linklerde goreli yollar kullanin.
+- Depo içindeki linklerde göreli yollar kullanın.
 - Use relative links for files inside the repository.
-- Dis kaynaklarda resmi veya guvenilir kaynaklara oncelik verin.
+- Dış kaynaklarda resmi veya güvenilir kaynaklara öncelik verin.
 - Prefer official or trusted sources for external links.
 
 ## Durum Etiketleri / Status Labels
 
 | Durum / Status | Anlam / Meaning |
 |---|---|
-| Aktif / Active | Sayfa kullanima hazir / The page is ready to use |
-| Hazirlaniyor / Preparing | Konu belirlenmis, icerik planlaniyor / Topic is defined and content is being planned |
-| Planlandi / Planned | Konu yol haritasinda, henuz sayfa yok / Topic is on the roadmap but no page exists yet |
+| Aktif / Active | Sayfa kullanıma hazır / The page is ready to use |
+| Hazırlanıyor / Preparing | Konu belirlenmiş, içerik planlanıyor / Topic is defined and content is being planned |
+| Planlandı / Planned | Konu yol haritasında, henüz sayfa yok / Topic is on the roadmap but no page exists yet |
 
-## Guvenlik Dili / Safety Language
+## Güvenlik Dili / Safety Language
 
-Kullaniciya seed phrase, private key, API key veya benzeri gizli bilgileri paylastirmayin.
+Kullanıcıya seed phrase, private key, API key veya benzeri gizli bilgileri paylaştırmayın.
 
 Do not ask users to share seed phrases, private keys, API keys, or similar secrets.
 
-Kritik ag, stake veya guvenlik adimlarinda resmi QoreChain kaynaklarinin kontrol edilmesi gerektigini belirtin.
+Kritik ağ, stake veya güvenlik adımlarında resmi QoreChain kaynaklarının kontrol edilmesi gerektiğini belirtin.
 
 For critical network, stake, or security steps, remind users to check official QoreChain sources.
