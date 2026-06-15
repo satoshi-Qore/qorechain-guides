@@ -10,7 +10,7 @@ Ekosistem genellikle şu alanlarda tartışılır:
 
 - kuantum sonrası kriptografi;
 - EVM, CosmWasm ve SVM uyumluluğu;
-- Hafif Düğüm katılımı;
+- Light Node katılımı;
 - topluluk dokümantasyonu ve katılım rehberleri;
 - geliştirici ve operatör eğitimi.
 
@@ -21,7 +21,7 @@ Bu sayfa topluluk tarafından sürdürülen bir giriş rehberidir. Resmi QoreCha
 | Hedef Kitle | Önerilen Başlangıç Noktası |
 |---|---|
 | Yeni topluluk üyesi | Önce SSS ve sözlüğü okuyun |
-| Hafif Düğüm operatörü | Hafif Düğüm Operasyonları ve Sorun Giderme ile başlayın |
+| Light Node operatörü | Light Node Operasyonları ve Sorun Giderme ile başlayın |
 | Görev katılımcısı | Eigenstate 2 Görevleri ve Kanıt Gönderimi ile başlayın |
 | Katkıda bulunan | Katkıda Bulunma Rehberi ve Stil Rehberini okuyun |
 | Geliştirici | Mevcut depolar ve geliştirici notlarını inceleyin |
@@ -31,7 +31,7 @@ Bu sayfa topluluk tarafından sürdürülen bir giriş rehberidir. Resmi QoreCha
 1. [QoreChain SSS](./sss.md)
 2. [QoreChain Terimler Sözlüğü](./terimler-sozlugu.md)
 3. [QoreChain Bilgi Bankası](./bilgi-bankasi.md)
-4. [Hafif Düğüm Operasyonları](./light-node-operasyonlari.md)
+4. [Light Node Operasyonları](./light-node-operasyonlari.md)
 5. [Sorun Giderme](./sorun-giderme.md)
 6. [Eigenstate 2 Görevleri](./eigenstate-2-gorevleri.md)
 7. [Kanıt Linki Rehberi](./kanit-linki-rehberi.md)
@@ -42,15 +42,15 @@ Bu sayfa topluluk tarafından sürdürülen bir giriş rehberidir. Resmi QoreCha
 |---|---|
 | `en/` | İngilizce rehberler |
 | `tr/` | Türkçe rehberler |
-| `LIGHTNODE_SETUP.md` | Hafif Düğüm kurulum bağlantıları |
+| `LIGHTNODE_SETUP.md` | Light Node kurulum bağlantıları |
 | `CONTRIBUTING.md` | Katkıda bulunma kuralları |
 | `STYLE_GUIDE.md` | Yazım ve biçimlendirme standartları |
 | `CHANGELOG.md` | Değişiklik geçmişi |
 | `docs/` | Meta dosyalar ve içerik haritası |
 
-## Hafif Düğüm Operatörleri için Temel Gereksinimler / Basic Requirements for Light Node Operators
+## Light Node Operatörleri için Temel Gereksinimler / Basic Requirements for Light Node Operators
 
-Hafif Düğüm çalıştırmadan önce en güncel resmi talimatları inceleyin ve ortamınızın uygun olduğunu doğrulayın.
+Light Node çalıştırmadan önce en güncel resmi talimatları inceleyin ve ortamınızın uygun olduğunu doğrulayın.
 
 | Gereksinim | Önerilen Temel Değer |
 |---|---|
@@ -62,20 +62,20 @@ Hafif Düğüm çalıştırmadan önce en güncel resmi talimatları inceleyin v
 | Docker Compose | Kurulu |
 | Ağ erişimi | Güncel talimatlara göre gerekli portlar açık |
 
-Tam operasyon rehberi için [Hafif Düğüm Operasyonları](./light-node-operasyonlari.md) sayfasına bakın.
+Tam operasyon rehberi için [Light Node Operasyonları](./light-node-operasyonlari.md) sayfasına bakın.
 
 ## Yaygın İlk Adımlar / Common First Steps
 
 - Tekrarlayan sorular sormadan önce SSS'yi okuyun.
 - Temel terimleri sözlükten öğrenin.
-- Hafif Düğüm rehberini yalnızca güncel resmi talimatları kontrol ettikten sonra kullanın.
+- Light Node rehberini yalnızca güncel resmi talimatları kontrol ettikten sonra kullanın.
 - Ekran görüntülerini ve kanıt linklerini hassas bilgilerden arındırın.
 - Özel anahtarları, seed phrase'leri, API anahtarlarını veya sunucu kimlik bilgilerini paylaşmayın.
 - Mainnet, doğrulayıcı, stake ve ödülle ilgili ayrıntıları güncellemeye duyarlı bilgiler olarak değerlendirin.
 
 ## Sorun Giderme / Troubleshooting
 
-Kurulum veya panel erişim sorunlarıyla karşılaşırsanız [Sorun Giderme Rehberi](./sorun-giderme.md) ile başlayın. Panel erişimi, container'lar, loglar, güncellemeler ve kaynak kontrolleri gibi yaygın Hafif Düğüm sorunlarını kapsar.
+Kurulum veya panel erişim sorunlarıyla karşılaşırsanız [Sorun Giderme Rehberi](./sorun-giderme.md) ile başlayın. Panel erişimi, container'lar, loglar, güncellemeler ve kaynak kontrolleri gibi yaygın Light Node sorunlarını kapsar.
 
 ## Katkı Yolu / Contribution Path
 
