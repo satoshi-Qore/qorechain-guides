@@ -34,7 +34,7 @@ A Light Node is a lightweight network participant that can help with network acc
 
 ### What hardware do I need?
 
-A small VPS is sufficient. Minimum: Ubuntu 20.04+, 2 CPU cores, 4 GB RAM, 50 GB SSD, Docker, Docker Compose. See [Light Node Operations](./light-node-operations.md) for the full guide.
+A small VPS is sufficient. Minimum: Ubuntu 22.04+, 2 CPU cores, 4 GB RAM, 50 GB SSD, Docker, Docker Compose. See [Light Node Operations](./light-node-operations.md) for the full guide.
 
 ### Do Light Node operators receive rewards?
 
