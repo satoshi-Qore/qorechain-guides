@@ -20,7 +20,7 @@ The goal is to help operators complete the setup, check services, verify panel a
 
 | Requirement | Minimum | Recommended |
 |---|---|---|
-| Operating System | Ubuntu 20.04 | Ubuntu 22.04 |
+| Operating System | Ubuntu 22.04 | Ubuntu 22.04 |
 | CPU | 2 cores | 4 cores |
 | RAM | 4 GB | 8 GB |
 | Disk | 50 GB SSD | 100 GB SSD |
