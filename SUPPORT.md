@@ -6,7 +6,7 @@ This page explains support and feedback flows for the QoreChain Guides repositor
 
 ## Ne Icin Issue Acabilirsiniz? / What Can You Open an Issue For?
 
-- Eksik veya belirsiz dokumantasyon
+- Eksik veya belirsiz dokümantasyon
 - Kurulum adimlarinda acik olmayan bolumler
 - Light Node operasyon notlari
 - Hata veya log aciklamalari
@@ -26,7 +26,7 @@ Yeni issue acarken uygun sablonu secin:
 
 Choose the relevant template when opening a new issue:
 
-- Documentation update / Dokumantasyon guncellemesi
+- Documentation update / Dokümantasyon guncellemesi
 - Troubleshooting report / Sorun giderme bildirimi
 
 ## Neleri Paylasmayin? / What Not To Share
@@ -44,6 +44,6 @@ Do not share the following information in issues, pull requests, or comments:
 
 ## Resmi Kaynak Notu / Official Source Note
 
-Bu depo topluluk tarafindan hazirlanan bagimsiz bir bilgi merkezidir. Kritik ag, stake, guvenlik veya resmi duyuru konularinda resmi QoreChain kaynaklari kontrol edilmelidir.
+Bu depo topluluk tarafindan hazirlanan bagimsiz bir bilgi merkezidir. Kritik ag, stake, güvenlik veya resmi duyuru konularinda resmi QoreChain kaynaklari kontrol edilmelidir.
 
 This repository is an independent community-maintained knowledge hub. Official QoreChain sources should be checked for critical network, stake, security, or announcement-related topics.
