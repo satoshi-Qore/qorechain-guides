@@ -45,6 +45,20 @@ Kısa açıklama örneği:
 I followed the QoreChain page on the requested platform and submitted the related page link for manual review.
 ```
 
+## Açıklama Örnekleri
+
+```text
+QoreChain'i izleme listeme ekledim ve manuel inceleme için kamuya açık kanıt linkini gönderdim.
+```
+
+```text
+Talep edilen analitik platformda QoreChain hakkında 100 kelimeyi aşan bir gönderi yazdım ve gönderi linkini sundum.
+```
+
+```text
+QoreChain gönderisine ilgili bir yorum yaptım ve inceleme için gönderi linkini sundum.
+```
+
 ## Dikkat Edilecek Noktalar
 
 - Aynı metni her platforma birebir kopyalamayın.
