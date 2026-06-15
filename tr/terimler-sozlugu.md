@@ -52,9 +52,9 @@ SVM genellikle Solana Virtual Machine veya Solana tarzı çalışma ortamı anla
 
 Düğüm, bir blokzincir ağına katılan ve veri saklama, eşlerle iletişim kurma, bilgi doğrulama veya ağ servislerine erişim sağlama gibi işlevleri olan makinedir.
 
-### Hafif Düğüm (Light Node)
+### Light Node
 
-Hafif düğüm, genellikle tam düğüm veya doğrulayıcı çalıştırmaya göre daha hafif bir ağ katılımı modelidir. Kesin rolü ağ tasarımına bağlıdır. QoreChain için hafif düğüm detayları güncel resmi dokümantasyon ve görev gereksinimleriyle kontrol edilmelidir.
+Light Node, genellikle tam düğüm veya doğrulayıcı çalıştırmaya göre daha hafif bir ağ katılımı modelidir. Kesin rolü ağ tasarımına bağlıdır. QoreChain için Light Node detayları güncel resmi dokümantasyon ve görev gereksinimleriyle kontrol edilmelidir.
 
 ### Doğrulayıcı (Validator)
 
