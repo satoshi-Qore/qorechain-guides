@@ -34,11 +34,11 @@ This repository is an independent community-maintained documentation hub. It is 
 
 Bu depo topluluk tarafindan hazirlanan bagimsiz bir dokümantasyon merkezidir. Resmi QoreChain dokümantasyonu degildir; sponsorluk, onay veya resmi statu anlami tasimaz.
 
-## Attribution / Kaynak Gosterimi
+## Attribution / Kaynak Gösterimi
 
 Suggested attribution:
 
-Önerilen kaynak gosterimi:
+Önerilen kaynak gösterimi:
 
 ```text
 QoreChain Guides by satoshi-Qore
