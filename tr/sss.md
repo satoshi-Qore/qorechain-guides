@@ -34,7 +34,7 @@ Hafif Düğüm (Light Node), tam blok zinciri verisi gerektirmeksizin ağ erişi
 
 ### Hangi donanıma ihtiyacım var?
 
-Küçük bir VPS yeterlidir. Minimum: Ubuntu 20.04+, 2 CPU çekirdeği, 4 GB RAM, 50 GB SSD, Docker, Docker Compose. Tam rehber için [Hafif Düğüm Operasyonları](./light-node-operasyonlari.md) sayfasına bakın.
+Küçük bir VPS yeterlidir. Minimum: Ubuntu 22.04+, 2 CPU çekirdeği, 4 GB RAM, 50 GB SSD, Docker, Docker Compose. Tam rehber için [Hafif Düğüm Operasyonları](./light-node-operasyonlari.md) sayfasına bakın.
 
 ### Hafif Düğüm operatörleri ödül alıyor mu?
 
