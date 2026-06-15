@@ -94,6 +94,21 @@ http://SUNUCU_IP:8420
 
 Panel açılıyorsa temel arayüz erişimi doğrulanmış olur. Panel açılmıyorsa önce container durumunu, ardından güvenlik duvarı ve port ayarlarını kontrol edin.
 
+## Servis Kontrolü
+
+Çalışan container'ları kontrol edin:
+
+```bash
+docker ps
+```
+
+Beklenen servisler:
+
+- qorechain-lightnode-sx
+- qorechain-lightnode-ux
+
+Bu servisler container listesinde görünüyorsa, Light Node temel düzeyde başlamış demektir.
+
 ## Log Takibi
 
 SX bileşeni için örnek log kontrolü:
