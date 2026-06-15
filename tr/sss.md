@@ -74,6 +74,14 @@ Doğrudan kanıt linki oluşmuyorsa, mevcut en ilgili genel linki gönderin ve t
 
 ---
 
+### Topluluk oluşturduğu rehberleri kanıt olarak gönderebilir miyim?
+
+Yalnızca görev gereksinimleri oluşturduğunuz içerikle örtüşüyorsa. Bir rehber, gönderi, issue veya pull request; gönderildiği göreve uygun olmalıdır.
+
+### Mainnet yayına girmeden önce mainnet sonuçlarını talep etmeli miyim?
+
+Hayır. Mainnet'e özgü talepler, ağ yayına girene ve resmi bilgiler yayımlanana kadar kaçınılmalıdır. Tarafsız ifadeler kullanın: mainnet öncesi hazırlık, öğrenme notları veya topluluk belgeleri gibi.
+
 ## Katkı
 
 ### Bu depoya nasıl katkıda bulunabilirim?
