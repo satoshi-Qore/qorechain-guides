@@ -59,7 +59,7 @@ assignees: ""
 
 ## Sorun / Issue
 
-Sorunu veya belirsiz adimi aciklayin.
+Sorunu veya belirsiz adimi açıklayın.
 
 Describe the problem or unclear step.
 
@@ -92,7 +92,7 @@ Paste the relevant log lines or error message.
 
 ## Beklenen Sonuc / Expected Result
 
-Ne olmasini beklediginizi aciklayin.
+Ne olmasini beklediginizi açıklayın.
 
 Describe what you expected to happen.
 
