@@ -132,6 +132,22 @@ Tam operasyon rehberi için [Hafif Düğüm Operasyonları](./light-node-operasy
 
 ---
 
+## Ağ ve Stake Sorunları
+
+### Düğüm çevrimdışı veya bağlantısız görünüyor
+
+Şunları kontrol edin:
+- Docker container'ları çalışıyor mu? (`docker ps`)
+- 8420 portu internetten erişilebilir mi?
+- Stake gereksinimi karşılanıyor mu? (minimum 1000 QOR)
+- Son resmi QoreChain duyurularında ağ değişikliği var mı?
+
+### Stake kontrolü başarısız oluyor
+
+1000 QOR stake'i tutan cüzdan adresinin Light Node'a kayıtlı adres olduğunu doğrulayın. Stake rehberi için resmi QoreChain kanallarını kontrol edin.
+
+---
+
 ## Genel Kontrol Listesi
 
 Emin olmadığınızda bu kontrol listesini çalıştırın:
