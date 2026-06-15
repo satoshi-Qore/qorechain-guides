@@ -1,62 +1,94 @@
-# QoreChain'e Başlangıç Rehberi
+# QoreChain ile Başlangıç / Getting Started with QoreChain
 
-QoreChain topluluk dokümantasyon merkezine hoş geldiniz. Bu rehber, yeni katılımcıların QoreChain ekosistemini anlamasına ve doğru başlangıç noktasını bulmasına yardımcı olur.
+QoreChain topluluk dokümantasyon merkezine hoş geldiniz. Bu rehber, yeni katılımcıların ekosistemi anlamasına ve doğru başlangıç noktasını seçmesine yardımcı olur.
 
-## QoreChain Nedir?
+## QoreChain Nedir? / What Is QoreChain?
 
-QoreChain, kuantum sonrası kriptografiyi temelinde barındıran bir Katman 1 blok zinciridir. EVM (Ethereum Sanal Makinesi), CosmWasm ve SVM (Solana Sanal Makinesi) ile uyumludur; geliştiricilerin tanıdık araçlarla çalışırken yeni nesil güvenlikten yararlanmasını sağlar.
+QoreChain; kuantum sonrası güvenlik, çoklu VM uyumluluğu ve topluluk erişimine açık altyapı katılımına odaklanan bir Layer 1 blokzinciri ekosistemidir.
 
-Temel özellikler:
-- Kuantum sonrası dirençli kriptografi
-- Çoklu VM uyumluluğu (EVM / CosmWasm / SVM)
-- Topluluk tarafından yönetilen ağ
-- Hafif Düğüm (Light Node) katılım modeli — ağır donanım gerektirmez
+Ekosistem genellikle şu alanlarda tartışılır:
 
-## Nasıl Katılabilirim?
+- kuantum sonrası kriptografi;
+- EVM, CosmWasm ve SVM uyumluluğu;
+- Hafif Düğüm katılımı;
+- topluluk dokümantasyonu ve katılım rehberleri;
+- geliştirici ve operatör eğitimi.
 
-### Hafif Düğüm Çalıştır
+Bu sayfa topluluk tarafından sürdürülen bir giriş rehberidir. Resmi QoreChain dokümantasyonu veya duyurularının yerini tutmaz.
 
-Hafif Düğüm operatörleri ağın kullanılabilirliğini korumaya yardımcı olur. Gereksinimler mütevazıdır — küçük bir VPS yeterlidir.
+## Bu Rehber Kime Yöneliktir? / Who Should Use This Guide?
 
-Buradan başlayın: [Hafif Düğüm Operasyonları](./light-node-operasyonlari.md)
-
-## Depo Yapısı
-
-```
-qorechain-guides/
-├── en/          # İngilizce belgeler
-├── tr/          # Türkçe belgeler
-├── docs/        # Meta dosyalar (içerik haritası, çeviri durumu)
-├── assets/      # Görseller ve statik dosyalar
-└── .github/     # Issue şablonları, PR şablonları, Actions
-```
-
-## Ön Koşullar
-
-Hafif Düğüm çalıştırmak için:
-
-| Gereksinim | Minimum |
+| Hedef Kitle | Önerilen Başlangıç Noktası |
 |---|---|
-| İşletim Sistemi | Ubuntu 22.04+ |
-| CPU | 2 çekirdek |
-| RAM | 4 GB |
-| Disk | 50 GB SSD |
+| Yeni topluluk üyesi | Önce SSS ve sözlüğü okuyun |
+| Hafif Düğüm operatörü | Hafif Düğüm Operasyonları ve Sorun Giderme ile başlayın |
+| Görev katılımcısı | Eigenstate 2 Görevleri ve Kanıt Gönderimi ile başlayın |
+| Katkıda bulunan | Katkıda Bulunma Rehberi ve Stil Rehberini okuyun |
+| Geliştirici | Mevcut depolar ve geliştirici notlarını inceleyin |
+
+## Önerilen Okuma Sırası / Recommended Reading Order
+
+1. [QoreChain SSS](./sss.md)
+2. [QoreChain Terimler Sözlüğü](./terimler-sozlugu.md)
+3. [QoreChain Bilgi Bankası](./bilgi-bankasi.md)
+4. [Hafif Düğüm Operasyonları](./light-node-operasyonlari.md)
+5. [Sorun Giderme](./sorun-giderme.md)
+6. [Eigenstate 2 Görevleri](./eigenstate-2-gorevleri.md)
+7. [Kanıt Linki Rehberi](./kanit-linki-rehberi.md)
+
+## Depo Yapısı / Repository Structure
+
+| Klasör / Dosya | İçerik |
+|---|---|
+| `en/` | İngilizce rehberler |
+| `tr/` | Türkçe rehberler |
+| `LIGHTNODE_SETUP.md` | Hafif Düğüm kurulum bağlantıları |
+| `CONTRIBUTING.md` | Katkıda bulunma kuralları |
+| `STYLE_GUIDE.md` | Yazım ve biçimlendirme standartları |
+| `CHANGELOG.md` | Değişiklik geçmişi |
+| `docs/` | Meta dosyalar ve içerik haritası |
+
+## Hafif Düğüm Operatörleri için Temel Gereksinimler / Basic Requirements for Light Node Operators
+
+Hafif Düğüm çalıştırmadan önce en güncel resmi talimatları inceleyin ve ortamınızın uygun olduğunu doğrulayın.
+
+| Gereksinim | Önerilen Temel Değer |
+|---|---|
+| İşletim sistemi | Ubuntu 22.04+ |
+| CPU | 2 çekirdek veya daha fazlası |
+| RAM | 4 GB veya daha fazlası |
+| Disk | 50 GB SSD veya daha fazlası |
 | Docker | Kurulu |
 | Docker Compose | Kurulu |
-| Stake | 1000 QOR |
+| Ağ erişimi | Güncel talimatlara göre gerekli portlar açık |
 
-## Sık Sorulan Sorular
+Tam operasyon rehberi için [Hafif Düğüm Operasyonları](./light-node-operasyonlari.md) sayfasına bakın.
 
-Yaygın sorular için [SSS](./sss.md) sayfasına bakın.
+## Yaygın İlk Adımlar / Common First Steps
 
-## Sorun Giderme
+- Tekrarlayan sorular sormadan önce SSS'yi okuyun.
+- Temel terimleri sözlükten öğrenin.
+- Hafif Düğüm rehberini yalnızca güncel resmi talimatları kontrol ettikten sonra kullanın.
+- Ekran görüntülerini ve kanıt linklerini hassas bilgilerden arındırın.
+- Özel anahtarları, seed phrase'leri, API anahtarlarını veya sunucu kimlik bilgilerini paylaşmayın.
+- Mainnet, doğrulayıcı, stake ve ödülle ilgili ayrıntıları güncellemeye duyarlı bilgiler olarak değerlendirin.
 
-Düğüm kurulumunda sorunla karşılaşırsanız [Sorun Giderme Rehberi](./sorun-giderme.md) sayfasına bakın.
+## Sorun Giderme / Troubleshooting
 
-## İçerik Haritası
+Kurulum veya panel erişim sorunlarıyla karşılaşırsanız [Sorun Giderme Rehberi](./sorun-giderme.md) ile başlayın. Panel erişimi, container'lar, loglar, güncellemeler ve kaynak kontrolleri gibi yaygın Hafif Düğüm sorunlarını kapsar.
 
-Mevcut tüm belgeler için [docs/content-map.md](../docs/content-map.md) sayfasına bakın.
+## Katkı Yolu / Contribution Path
 
-## Sorumluluk Reddi
+Topluluk katkıda bulunanları şu şekillerde yardımcı olabilir:
 
-Bu, topluluk tarafından sürdürülen bir kaynaktır ve resmi QoreChain belgelerinin yerini almaz. Ağ üzerinde işlem yapmadan önce her zaman resmi kaynakları doğrulayın.
+- belirsiz sayfaları geliştirerek;
+- Türkçe ve İngilizce içerikleri çevirerek;
+- güncel olmayan talimatları bildirerek;
+- güvenli sorun giderme örnekleri ekleyerek;
+- eksik SSS veya sözlük maddeleri önererek.
+
+Katkıda bulunmadan önce depodaki [Katkıda Bulunma Rehberi](../CONTRIBUTING.md) ve [Stil Rehberi](../STYLE_GUIDE.md) belgelerini okuyun.
+
+## Sorumluluk Reddi / Disclaimer
+
+Bu, topluluk tarafından sürdürülen bir kaynaktır. Resmi QoreChain dokümantasyonunun yerini tutmaz. Kritik ağ kuralları, komutlar, stake gereksinimleri ve mainnet'e ilişkin ayrıntılar her zaman resmi kaynaklardan doğrulanmalıdır.
