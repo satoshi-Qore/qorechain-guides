@@ -1,9 +1,9 @@
-# QoreChain Hafif Düğüm Sorun Giderme
+# QoreChain Light Node Sorun Giderme
 
-Bu rehber, QoreChain Hafif Düğüm kurulumu ve işletişi sırasında karşılaşılan yaygın sorunları ve çözüm adımlarını kapsar.
+Bu rehber, QoreChain Light Node kurulumu ve işletişi sırasında karşılaşılan yaygın sorunları ve çözüm adımlarını kapsar.
 
 Genel bakış için [Başlangıç Rehberi](./baslangic-rehberi.md) sayfasına bakın.
-Tam operasyon rehberi için [Hafif Düğüm Operasyonları](./light-node-operasyonlari.md) sayfasına bakın.
+Tam operasyon rehberi için [Light Node Operasyonları](./light-node-operasyonlari.md) sayfasına bakın.
 
 ---
 
