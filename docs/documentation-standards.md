@@ -56,7 +56,7 @@ Community-maintained note and official-source reminder.
 ### Turkce
 
 - Cumleleri kisa ve uygulanabilir tutun.
-- Teknik terimleri ilk kullanildiginda aciklayin.
+- Teknik terimleri ilk kullanildiginda açıklayın.
 - Gerektiginde Ingilizce terimi parantez icinde verin.
 - Orneklerde `YOUR_RPC_URL`, `YOUR_SERVER_IP`, `YOUR_CHAIN_ID` gibi placeholder kullanin.
 
