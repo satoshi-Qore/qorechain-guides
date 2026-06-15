@@ -22,37 +22,37 @@ Kuantum bilişimin gelişmesiyle mevcut kriptografik algoritmalar kırılabilir 
 
 ### QOR tokeni nedir?
 
-QOR, QoreChain ağının yerli tokenıdır. Stake (Hafif Düğüm çalıştırmak için gerekli), işlem ücretleri ve yönetişime katılım için kullanılır.
+QOR, QoreChain ağının yerli tokenıdır. Stake (Light Node çalıştırmak için gerekli), işlem ücretleri ve yönetişime katılım için kullanılır.
 
 ---
 
-## Hafif Düğüm
+## Light Node
 
-### Hafif Düğüm nedir?
+### Light Node nedir?
 
-Hafif Düğüm (Light Node), tam blok zinciri verisi gerektirmeksizin ağ erişimi, istek işleme ve operatör tarafı kullanılabilirliğine yardımcı olan hafif bir ağ katılımcısıdır.
+Light Node (Light Node), tam blok zinciri verisi gerektirmeksizin ağ erişimi, istek işleme ve operatör tarafı kullanılabilirliğine yardımcı olan hafif bir ağ katılımcısıdır.
 
 ### Hangi donanıma ihtiyacım var?
 
-Küçük bir VPS yeterlidir. Minimum: Ubuntu 22.04+, 2 CPU çekirdeği, 4 GB RAM, 50 GB SSD, Docker, Docker Compose. Tam rehber için [Hafif Düğüm Operasyonları](./light-node-operasyonlari.md) sayfasına bakın.
+Küçük bir VPS yeterlidir. Minimum: Ubuntu 22.04+, 2 CPU çekirdeği, 4 GB RAM, 50 GB SSD, Docker, Docker Compose. Tam rehber için [Light Node Operasyonları](./light-node-operasyonlari.md) sayfasına bakın.
 
-### Hafif Düğüm operatörleri ödül alıyor mu?
+### Light Node operatörleri ödül alıyor mu?
 
-Hafif Düğüm çalıştırmak QoreChain ekosistem görevleri ve puan tabanlı etkinliklerin bir parçası olarak görünmektedir. Gerçek token ödülü veya ana ağ teşviği ayrıntıları resmi duyurulardan doğrulanmalıdır.
+Light Node çalıştırmak QoreChain ekosistem görevleri ve puan tabanlı etkinliklerin bir parçası olarak görünmektedir. Gerçek token ödülü veya ana ağ teşviği ayrıntıları resmi duyurulardan doğrulanmalıdır.
 
 ### Panel 8420 portunda açılmıyorsa ne yapmalıyım?
 
 Temel kontrolleri yapın:
 
 1. Sunucunun çevrimiçi olduğunu doğrulayın.
-2. Hafif Düğüm servisinin çalıştığını doğrulayın.
+2. Light Node servisinin çalıştığını doğrulayın.
 3. Doğru IP ve port (8420) kullanıldığını kontrol edin.
 4. Güvenlik duvarı ayarlarını kontrol edin: `ufw status` — 8420 portuna izin verilmiş olmalı.
 5. Başlatma veya bağlantı hataları için logları kontrol edin.
 
 Yaygın sorunların tam listesi için [Sorun Giderme](./sorun-giderme.md) sayfasına bakın.
 
-### Hafif Düğümü nasıl güncellerim?
+### Light Nodeü nasıl güncellerim?
 
 ```bash
 cd qorechain-lightnode
