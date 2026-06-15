@@ -1,14 +1,14 @@
-# License / Lisans
+# Lisans / License
 
-## Documentation / Dokumantasyon
+## Documentation / Dokümantasyon
 
 QoreChain Guides documentation is licensed under the Creative Commons Attribution 4.0 International License.
 
-QoreChain Guides dokumantasyonu Creative Commons Attribution 4.0 International License kapsaminda lisanslanmistir.
+QoreChain Guides dokümantasyonu Creative Commons Attribution 4.0 International License kapsaminda lisanslanmistir.
 
 You are free to share and adapt the documentation as long as appropriate credit is given.
 
-Uygun kaynak gosterildigi surece dokumantasyonu paylasabilir ve uyarlayabilirsiniz.
+Uygun kaynak gosterildigi surece dokümantasyonu paylasabilir ve uyarlayabilirsiniz.
 
 License text:
 
@@ -32,13 +32,13 @@ QoreChain adlari, logolari ve ilgili markalar kendi sahiplerine aittir.
 
 This repository is an independent community-maintained documentation hub. It is not official QoreChain documentation and does not imply sponsorship, endorsement, or official status.
 
-Bu depo topluluk tarafindan hazirlanan bagimsiz bir dokumantasyon merkezidir. Resmi QoreChain dokumantasyonu degildir; sponsorluk, onay veya resmi statu anlami tasimaz.
+Bu depo topluluk tarafindan hazirlanan bagimsiz bir dokümantasyon merkezidir. Resmi QoreChain dokümantasyonu degildir; sponsorluk, onay veya resmi statu anlami tasimaz.
 
 ## Attribution / Kaynak Gosterimi
 
 Suggested attribution:
 
-Onerilen kaynak gosterimi:
+Önerilen kaynak gosterimi:
 
 ```text
 QoreChain Guides by satoshi-Qore
