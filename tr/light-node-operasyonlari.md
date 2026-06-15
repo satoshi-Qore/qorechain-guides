@@ -28,7 +28,7 @@ Bu doküman resmi kurulum talimatlarının yerine geçmez. Kritik adımlarda res
 | CPU | 2 çekirdek | 4 çekirdek |
 | RAM | 4 GB | 8 GB |
 | Disk | 50 GB SSD | 100 GB SSD |
-| İşletim Sistemi | Ubuntu 20.04+ | Ubuntu 22.04 LTS |
+| İşletim Sistemi | Ubuntu 22.04+ | Ubuntu 22.04 LTS |
 
 Ek gereksinimler:
 
