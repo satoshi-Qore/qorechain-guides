@@ -34,7 +34,7 @@ This repository is an independent community-maintained documentation hub. It is 
 
 Bu depo topluluk tarafindan hazirlanan bagimsiz bir dokümantasyon merkezidir. Resmi QoreChain dokümantasyonu degildir; sponsorluk, onay veya resmi statu anlami tasimaz.
 
-## Attribution / Kaynak Gösterimi
+## Kaynak Gösterimi / Attribution
 
 Suggested attribution:
 
