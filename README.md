@@ -41,7 +41,6 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 
 | Kaynak / Resource | Açıklama / Description |
 |---|---|
-| [Getting Started](./en/getting-started.md) / [Başlangıç Rehberi](./tr/baslangic-rehberi.md) | Yeni kullanıcılar için başlangıç rehberi / New user guide for the ecosystem |
 | [Light Node Setup](./LIGHTNODE_SETUP.md) | Kısa iki dilli kurulum referansı / Short bilingual setup reference |
 | [FAQ](./FAQ.md) | Sık sorulan sorular / Frequently asked questions |
 | [English FAQ](./en/faq.md) / [Türkçe SSS](./tr/sss.md) | İki dilli topluluk SSS sayfaları / Bilingual community FAQ pages |
@@ -55,6 +54,15 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 | [Support](./SUPPORT.md) | Destek ve geri bildirim akışı / Support and feedback flow |
 | [Security](./SECURITY.md) | Güvenlik notları / Security notes |
 | [License](./LICENSE.md) | Lisans bilgisi / License information |
+
+## Katkı Rehberleri / Contributing Guides
+
+| Rehber / Guide | Açıklama / Description |
+|---|---|
+| [contributing/first-contribution.md](./contributing/first-contribution.md) | İlk katkı adımları / First contribution steps |
+| [contributing/code-standards.md](./contributing/code-standards.md) | Kod standartları / Code standards |
+| [contributing/documentation-standards.md](./contributing/documentation-standards.md) | Dokümantasyon standartları / Documentation standards |
+| [contributing/pull-request-template.md](./contributing/pull-request-template.md) | PR şablonu / PR template |
 
 ## Eigenstate 2 Bilgi Merkezi / Knowledge Base
 
@@ -74,15 +82,15 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 
 | Alan / Area | Türkçe | English | Durum / Status |
 |---|---|---|---|
-| Başlangıç / Getting Started | [Başlangıç Rehberi](./tr/baslangic-rehberi.md) | [Getting Started](./en/getting-started.md) | Aktif / Active |
 | Light Node | [Light Node Operasyonları](./tr/light-node-operasyonlari.md) | [Light Node Operations](./en/light-node-operations.md) | Aktif / Active |
 | Bilgi Bankası | [QoreChain Bilgi Bankası](./tr/bilgi-bankasi.md) | [QoreChain Knowledge Base](./en/knowledge-base.md) | Aktif / Active |
 | SSS / FAQ | [QoreChain SSS](./tr/sss.md) | [QoreChain FAQ](./en/faq.md) | Aktif / Active |
-| Sorun Giderme | [Sorun Giderme](./tr/sorun-giderme.md) | [Troubleshooting](./en/troubleshooting.md) | Aktif / Active |
 | Terimler | [Terimler Sözlüğü](./tr/terimler-sozlugu.md) | [Glossary](./en/glossary.md) | Aktif / Active |
 | Eigenstate 2 | [Eigenstate 2 Görevleri](./tr/eigenstate-2-gorevleri.md) | [Eigenstate 2 Tasks](./en/eigenstate-2-tasks.md) | Aktif / Active |
 | Kanıt Linkleri / Proof Links | [Kanıt Linki Rehberi](./tr/kanit-linki-rehberi.md) | [Proof Link Guide](./en/proof-link-guide.md) | Aktif / Active |
+| Katkı / Contributing | [Katkı Rehberleri](./contributing/first-contribution.md) | [Contributing Guides](./contributing/first-contribution.md) | Aktif / Active |
 | Operatör Rehberi | Operatör El Kitabı | Operator Handbook | Planlandı / Planned |
+| Sorun Giderme | Hata Çözümleri | Troubleshooting | Planlandı / Planned |
 
 ## Kimler İçin? / Who Is This For?
 
@@ -98,7 +106,7 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 
 ## QoreChain Hakkında / About QoreChain
 
-QoreChain, kuantum sonrası güvenlik yaklaşımını merkeze alan yeni nesil bir Katman 1 blokzincir altyapısıdır. EVM uyumluluğu, CosmWasm desteği, SVM desteği, yapay zeka odaklı altyapı ve ağlar arası doğrulaycı mimarisi gibi başlıklarla merkeziyetsiz altyapının gelecek ihtiyaçlarına odaklanır.
+QoreChain, kuantum sonrası güvenlik yaklaşımını merkeze alan yeni nesil bir Katman 1 blokzincir altyapısıdır. EVM uyumluluğu, CosmWasm desteği, SVM desteği, yapay zeka odaklı altyapı ve ağlar arası doğrulayıcı mimarisi gibi başlıklarla merkeziyetsiz altyapının gelecek ihtiyaçlarına odaklanır.
 
 QoreChain is a next-generation Layer 1 blockchain infrastructure focused on post-quantum security, EVM compatibility, CosmWasm support, SVM support, AI-native infrastructure, and cross-network validator architecture.
 
@@ -131,7 +139,7 @@ For detailed writing and formatting rules, use the [Style Guide](./STYLE_GUIDE.m
 
 ## Katkı ve Geri Bildirim / Contribution and Feedback
 
-Eksik gördügünüz konular, yeni görev notları, kurulum iyileştirmeleri veya sorun çözümü önerileri için issue açabilir ya da pull request gönderebilirsiniz.
+Eksik gördüğünüz konular, yeni görev notları, kurulum iyileştirmeleri veya sorun çözümü önerileri için issue açabilir ya da pull request gönderebilirsiniz.
 
 You can open an issue or submit a pull request for missing topics, new task notes, setup improvements, or troubleshooting suggestions.
 
