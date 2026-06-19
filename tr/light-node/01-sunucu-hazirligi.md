@@ -68,7 +68,7 @@ Bu rehber Ubuntu 24.04 üzerinde hazırlanmıştır.
 
 - **Basic** plan seçin.
 - CPU seçeneklerinden **Regular (Shared CPU)** seçin.
-- En az **2 GB RAM** içeren bir paket tercih edin.
+- En az **4 GB RAM** ve **2 vCPU** içeren bir paket tercih edin.
 
 ### 4. Sunucu Bölgesini Seçin
 
