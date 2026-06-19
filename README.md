@@ -52,6 +52,7 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 | [Roadmap](./ROADMAP.md) | Planlanan dokümantasyon başlıkları / Planned documentation work |
 | [Contributing](./CONTRIBUTING.md) | Katkı rehberi / Contribution guide |
 | [Style Guide](./STYLE_GUIDE.md) | Yazım ve format kuralları / Writing and formatting rules |
+| [Content Maintenance Checklist](./docs/content-maintenance-checklist.md) | Link, iki dilli uyum, güvenlik ve güncellik kontrolü / Link, bilingual alignment, safety, and freshness checks |
 | [Support](./SUPPORT.md) | Destek ve geri bildirim akışı / Support and feedback flow |
 | [Security](./SECURITY.md) | Güvenlik notları / Security notes |
 | [License](./LICENSE.md) | Lisans bilgisi / License information |
@@ -84,6 +85,7 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 | Alan / Area | Türkçe | English | Durum / Status |
 |---|---|---|---|
 | Academy Learning Paths | [Öğrenme Yolları](./docs/academy-learning-paths.md) | [Learning Paths](./docs/academy-learning-paths.md) | Aktif / Active |
+| Content Maintenance | [Bakım Kontrol Listesi](./docs/content-maintenance-checklist.md) | [Maintenance Checklist](./docs/content-maintenance-checklist.md) | Aktif / Active |
 | Light Node | [Light Node Rehberi](./tr/light-node/) | [Light Node Guide](./en/light-node/) | Aktif / Active |
 | Bilgi Bankası | [QoreChain Bilgi Bankası](./tr/bilgi-bankasi.md) | [QoreChain Knowledge Base](./en/knowledge-base.md) | Aktif / Active |
 | SSS / FAQ | [QoreChain SSS](./tr/sss.md) | [QoreChain FAQ](./en/faq.md) | Aktif / Active |
@@ -131,6 +133,10 @@ Documents in this repository follow these principles:
 Daha ayrıntılı yazım ve format kuralları için [Stil Rehberi](./STYLE_GUIDE.md) sayfasını kullanabilirsiniz.
 
 For detailed writing and formatting rules, use the [Style Guide](./STYLE_GUIDE.md).
+
+Bakım kontrolleri için [İçerik Bakım Kontrol Listesi](./docs/content-maintenance-checklist.md) sayfasını kullanabilirsiniz.
+
+For maintenance checks, use the [Content Maintenance Checklist](./docs/content-maintenance-checklist.md).
 
 ## Bağlantılı Projeler / Related Projects
 
