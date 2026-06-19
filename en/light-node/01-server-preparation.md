@@ -1,14 +1,14 @@
-————# Chapter 01 — Server Preparation
+# Chapter 01 — Server Preparation
 
 This is the first chapter of the QoreChain Light Node Guide.
 
-Before installing any software, you need a properly configured server. This chapter walks through choosing a VPS provider, creating a server, connecting via SSH, applying system updates, and setting up a basic firewall.
+Before installing any software, your server must be correctly configured. This chapter covers VPS provider selection, server creation, SSH access, system updates, and basic firewall setup.
 
 ---
 
 ## Recommended Server Requirements
 
-The following specifications are the recommended minimum baseline for running a QoreChain Light Node.
+The following table shows the minimum values recommended to run a QoreChain Light Node.
 
 | Component | Minimum | Recommended |
 |---|---|---|
@@ -19,43 +19,115 @@ The following specifications are the recommended minimum baseline for running a 
 | Network | 100 Mbps | 1 Gbps |
 | Architecture | x86\_64 | x86\_64 |
 
-> Always check the latest official QoreChain announcements before provisioning. Hardware requirements may change as the network evolves.
+> Check official QoreChain announcements before preparing your server. Hardware requirements may change as the network evolves.
 
 ---
 
 ## VPS Provider Selection
 
-Any VPS provider that offers Ubuntu 24.04 and SSD-backed storage is suitable. The following are commonly used by the operator community.
+Any VPS provider offering Ubuntu 24.04 and SSD storage can be used. The following providers are commonly used by the operator community.
 
-| Provider | Notable For |
+| Provider | Notable Feature |
 |---|---|
-| Hetzner | Cost-effective, EU and US locations |
-| DigitalOcean | Simple UI, well-documented |
+| DigitalOcean | Simple UI, good documentation, easy onboarding for individual users |
+| Hetzner | Competitive pricing, EU and US locations |
 | Vultr | Global locations, flexible plans |
-| Contabo | High storage per dollar |
-| OVHcloud | European operator-friendly pricing |
+| Contabo | High storage capacity for the price |
+| OVHcloud | Competitive pricing for European operators |
 
-Choose a provider based on your budget and preferred server location. Avoid providers that throttle network bandwidth during peak hours.
+Choose a provider based on your budget and preferred server location. Avoid providers that throttle bandwidth during peak hours.
 
----
-
-## Creating an Ubuntu 24.04 Server
-
-The exact steps vary by provider, but the general flow is the same.
-
-1. Log in to your VPS provider's dashboard.
-2. Click **Create** or **Deploy New Server**.
-3. Select **Ubuntu 24.04 LTS** as the operating system.
-4. Choose a plan that meets the minimum requirements above.
-5. Set your **authentication method** — SSH key is strongly recommended over password.
-6. Assign a server hostname (for example: `qorechain-lightnode`).
-7. Click **Deploy** and wait for the server to become active (usually under two minutes).
-
-Once the server is active, note down the **public IP address**. You will use it in the next step.
+> **Note:** This guide was prepared using [DigitalOcean](https://www.digitalocean.com/?refcode=f69c6b528fe5&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge) as the example VPS provider. Its straightforward interface and fast server creation process make it a suitable option especially for newcomers.
+>
+> [![DigitalOcean](https://img.shields.io/badge/DigitalOcean-Used%20in%20this%20guide%20%C2%B7%20No%20KYC-0080FF?logo=digitalocean&logoColor=white&style=flat-square)](https://www.digitalocean.com/?refcode=f69c6b528fe5&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
 ---
 
-## SSH Connection
+## Creating Your First Server on DigitalOcean
+
+This guide is intended for users who have never used a VPS before.
+
+### 1. Create a DigitalOcean Account
+
+- Log in to your [DigitalOcean](https://www.digitalocean.com/?refcode=f69c6b528fe5&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge) account.
+- Once in the control panel, click the **Create** button in the top right corner.
+- Select **Droplets** from the dropdown menu.
+
+### 2. Choose an Operating System
+
+Under "Choose an image":
+
+- Select **Ubuntu**.
+- Choose **Ubuntu 24.04 LTS** as the version.
+
+This guide was prepared on Ubuntu 24.04.
+
+### 3. Choose a Server Plan
+
+Under "Choose Size":
+
+- Select the **Basic** plan.
+- Under CPU options, select **Regular (Shared CPU)**.
+- Choose a plan with at least **4 GB RAM** and **2 vCPU**.
+
+### 4. Choose a Region
+
+Under "Choose Region", select the data center closest to you. For example:
+
+- Frankfurt
+- Amsterdam
+- London
+
+Region selection may affect performance but does not change any installation steps.
+
+### 5. Set Authentication Method
+
+Under "Authentication":
+
+For beginners:
+
+- Select **Password**.
+- Create a strong root password.
+
+More experienced users may use an SSH Key instead.
+
+### 6. Create the Droplet
+
+Click the **Create Droplet** button at the bottom of the page. Your server will be ready in approximately 1–2 minutes.
+
+### 7. Find Your Server IP Address
+
+After the server is created, your new Droplet will appear in the control panel. An IP address similar to the following will appear next to the server name:
+
+```
+123.45.67.89
+```
+
+This address is used to connect to your server.
+
+### 8. Connect to Your Server
+
+**For Windows users:**
+
+Open PowerShell and run the following command:
+
+```powershell
+ssh root@YOUR_SERVER_IP
+```
+
+Example:
+
+```powershell
+ssh root@123.45.67.89
+```
+
+If prompted with a confirmation on first connection, type `yes` and press Enter. When asked for a password, enter the root password you created.
+
+If login is successful, you are now connected to your server's terminal and can proceed to Light Node installation.
+
+---
+
+## SSH Access
 
 ### Generating an SSH Key
 
@@ -64,7 +136,7 @@ If you do not already have an SSH key, generate one with the following command.
 **Linux / macOS:**
 
 ```bash
-ssh-keygen -t ed25519 -C "your-email@example.com"
+ssh-keygen -t ed25519 -C "your@email.com"
 ```
 
 Press Enter to accept the default file location. The key pair is saved to `~/.ssh/`.
@@ -72,37 +144,10 @@ Press Enter to accept the default file location. The key pair is saved to `~/.ss
 **Windows (PowerShell):**
 
 ```powershell
-ssh-keygen -t ed25519 -C "your-email@example.com"
+ssh-keygen -t ed25519 -C "your@email.com"
 ```
 
 The key pair is saved to `C:\Users\YourUsername\.ssh\`.
-
----
-
-### Connecting to the Server
-
-Replace `YOUR_SERVER_IP` with your actual server IP address.
-
-**Linux / macOS:**
-
-```bash
-ssh root@YOUR_SERVER_IP
-```
-
-**Windows (PowerShell or Windows Terminal):**
-
-```powershell
-ssh root@YOUR_SERVER_IP
-```
-
-On first connection, you will see a fingerprint confirmation prompt:
-
-```
-The authenticity of host 'YOUR_SERVER_IP' can't be established.
-Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-```
-
-Type `yes` and press Enter.
 
 ---
 
@@ -115,33 +160,33 @@ sed -i 's/^#*PasswordAuthentication.*/PasswordAuthentication no/' /etc/ssh/sshd_
 systemctl restart ssh
 ```
 
-Verify that you can still connect via SSH key before closing the current session.
+Verify you can still connect with your SSH key before closing the current session.
 
 ---
 
-## System Updates
+## System Update
 
-After connecting, update the package lists and upgrade installed packages.
+After connecting, update the package list and upgrade installed packages.
 
 ```bash
 apt update && apt upgrade -y
 ```
 
-This may take a few minutes. If a prompt asks about restarting services, press Enter to accept the defaults.
+This may take a few minutes. If prompted to restart services, press Enter to accept the defaults.
 
-Reboot the server to apply any kernel updates.
+Reboot to apply kernel updates.
 
 ```bash
 reboot
 ```
 
-Wait about 30 seconds, then reconnect via SSH.
+Wait approximately 30 seconds, then reconnect via SSH.
 
 ---
 
 ## Resource Verification
 
-Confirm the server resources match what you provisioned.
+Verify server resources match the plan you purchased.
 
 **Check CPU core count:**
 
@@ -173,15 +218,15 @@ Expected output for the OS check:
 Description:    Ubuntu 24.04 LTS
 ```
 
-If any value is significantly below the recommended baseline, consider upgrading the plan before proceeding.
+If any value is significantly below the recommended minimum, consider upgrading the plan before continuing.
 
 ---
 
 ## Basic UFW Firewall Setup
 
-UFW (Uncomplicated Firewall) is included with Ubuntu. Enable it and allow only the ports you need.
+UFW (Uncomplicated Firewall) comes with Ubuntu. Allow only the ports you need.
 
-Allow SSH first — this is critical. Do not skip this step or you will lock yourself out.
+Allow SSH first — this step is critical. Skipping it may lock you out of the server.
 
 ```bash
 ufw allow ssh
@@ -209,13 +254,13 @@ To                         Action      From
 22/tcp (v6)                ALLOW IN    Anywhere (v6)
 ```
 
-> Additional ports required by the Light Node (such as the panel port `8420`) will be opened in a later chapter after Docker is installed and the node is running.
+> Additional ports required by the Light Node (for example, panel port `8420`) will be opened in a later chapter after Docker is installed and the node is running.
 
 ---
 
 ## Internet Connectivity Test
 
-Confirm the server can reach the internet.
+Verify the server can reach the internet.
 
 ```bash
 ping -c 4 google.com
@@ -227,24 +272,24 @@ Expected output shows four packets sent and received with no packet loss:
 4 packets transmitted, 4 received, 0% packet loss
 ```
 
-Also confirm DNS resolution is working:
+Verify DNS resolution is also working:
 
 ```bash
 curl -s https://api.github.com | head -c 100
 ```
 
-If both commands return expected output, the server has internet access and DNS is functioning correctly.
+If both commands return expected output, the server has internet access and working DNS.
 
 ---
 
 ## Pre-Installation Checklist
 
-Before moving to the next chapter, verify the following items.
+Verify the following items before moving to the next chapter.
 
 | Check | Expected State |
 |---|---|
-| Server active | SSH connection works |
-| OS version | Ubuntu 24.04 LTS |
+| Server active | SSH connection working |
+| Operating system | Ubuntu 24.04 LTS |
 | CPU | 2+ cores confirmed |
 | RAM | 4 GB+ confirmed |
 | Disk | 50 GB+ free space |
@@ -260,7 +305,7 @@ If all items pass, the server is ready for the next step.
 
 **[Chapter 02 — Docker Installation](./02-docker-installation.md)**
 
-The next chapter covers installing Docker and Docker Compose on Ubuntu 24.04, verifying the installation, and preparing the environment for the Light Node setup.
+The next chapter covers installing Docker and Docker Compose on Ubuntu 24.04, verifying the installation, and preparing the environment for Light Node setup.
 
 ---
 
