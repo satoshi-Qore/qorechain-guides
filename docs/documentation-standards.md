@@ -4,6 +4,8 @@ This page defines basic documentation standards for QoreChain Guides.
 
 The goal is to keep community-maintained pages clear, bilingual, practical, and safe to use before and after mainnet updates.
 
+For ongoing review after a page is published, use the [Content Maintenance Checklist](./content-maintenance-checklist.md).
+
 ## Core Principles
 
 | Principle | Guidance |
@@ -53,12 +55,12 @@ Community-maintained note and official-source reminder.
 - Define technical terms when first used.
 - Use placeholders such as `YOUR_RPC_URL`, `YOUR_SERVER_IP`, and `YOUR_CHAIN_ID`.
 
-### Turkce
+### Turkish
 
-- Cumleleri kisa ve uygulanabilir tutun.
-- Teknik terimleri ilk kullanildiginda açıklayın.
-- Gerektiginde Ingilizce terimi parantez icinde verin.
-- Orneklerde `YOUR_RPC_URL`, `YOUR_SERVER_IP`, `YOUR_CHAIN_ID` gibi placeholder kullanin.
+- Cümleleri kısa ve uygulanabilir tutun.
+- Teknik terimleri ilk kullanıldığında açıklayın.
+- Gerektiğinde İngilizce terimi parantez içinde verin.
+- Örneklerde `YOUR_RPC_URL`, `YOUR_SERVER_IP`, `YOUR_CHAIN_ID` gibi placeholder kullanın.
 
 ## Mainnet-Sensitive Content
 
@@ -118,6 +120,8 @@ Before publishing a page, check:
 - Are critical details marked as subject to official updates?
 - Is the page easy for a beginner to scan?
 - Is there a matching Turkish or English page planned?
+
+After publishing a page, use the [Content Maintenance Checklist](./content-maintenance-checklist.md) for link review, bilingual alignment, mainnet-sensitive wording, safety checks, and periodic review.
 
 ## Disclaimer
 
