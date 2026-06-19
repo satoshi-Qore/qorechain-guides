@@ -10,6 +10,7 @@ Dil: Türkçe | [English](../en/README.md) | [Depo Ana Sayfası](../README.md)
 
 | Amaç | Buradan Başla | Sonra Oku |
 |---|---|---|
+| Doğru öğrenme yolunu seçmek | [Academy Öğrenme Yolları](../docs/academy-learning-paths.md) | [Roadmap](../ROADMAP.md) |
 | Ekosistem temellerini öğrenmek | [QoreChain Bilgi Bankası](./bilgi-bankasi.md) | [QoreChain Terimler Sözlüğü](./terimler-sozlugu.md) |
 | Light Node çalıştırmak veya anlamak | [Light Node Rehberi](./light-node/) | [Hata Çözümleri](./sorun-giderme.md) |
 | Eigenstate 2 görevlerini tamamlamak | [Eigenstate 2 Görevleri](./eigenstate-2-gorevleri.md) | [Eigenstate 2 Kanıt Gönderimi](./eigenstate-2-kanit-gonderimi.md) |
@@ -20,6 +21,7 @@ Dil: Türkçe | [English](../en/README.md) | [Depo Ana Sayfası](../README.md)
 
 | Kaynak | İçerik | Durum |
 |---|---|---|
+| [Academy Öğrenme Yolları](../docs/academy-learning-paths.md) | Yeni kullanıcı, operatör, görev katılımcısı, katkıcı ve teknik okuyucu için rol bazlı okuma yolları | Aktif |
 | [Light Node Rehberi](./light-node/) | 5 bölümlük kurulum, servis kontrolü, panel erişimi, log takibi ve sorun giderme rehberi | Aktif |
 | [QoreChain Bilgi Bankası](./bilgi-bankasi.md) | Light Node, stake ve temel ekosistem soruları | Aktif |
 | [QoreChain SSS](./sss.md) | Sık sorulan topluluk, görev ve Light Node soruları için kısa yanıtlar | Aktif |
@@ -46,7 +48,7 @@ Dil: Türkçe | [English](../en/README.md) | [Depo Ana Sayfası](../README.md)
 
 ## Hızlı Başlangıç
 
-Light Node çalıştırmak isteyen operatörler önce [Light Node Rehberi](./light-node/) sayfasını takip edebilir. Genel sorular için [QoreChain Bilgi Bankası](./bilgi-bankasi.md) ve [QoreChain SSS](./sss.md) sayfaları kısa yanıtlar sunar. Yeni kullanıcılar temel kavramlar için [QoreChain Terimler Sözlüğü](./terimler-sozlugu.md) sayfasını da inceleyebilir. Görev süreçleri için [Eigenstate 2 Görevleri](./eigenstate-2-gorevleri.md), kanıt linki soruları için [Kanıt Linki Rehberi](./kanit-linki-rehberi.md) veya [Eigenstate 2 Kanıt Gönderimi](./eigenstate-2-kanit-gonderimi.md) sayfası kullanılabilir.
+Nereden başlayacağınızdan emin değilseniz önce [Academy Öğrenme Yolları](../docs/academy-learning-paths.md) sayfasını kullanın. Light Node çalıştırmak isteyen operatörler ardından [Light Node Rehberi](./light-node/) sayfasını takip edebilir. Genel sorular için [QoreChain Bilgi Bankası](./bilgi-bankasi.md) ve [QoreChain SSS](./sss.md) sayfaları kısa yanıtlar sunar. Yeni kullanıcılar temel kavramlar için [QoreChain Terimler Sözlüğü](./terimler-sozlugu.md) sayfasını da inceleyebilir. Görev süreçleri için [Eigenstate 2 Görevleri](./eigenstate-2-gorevleri.md), kanıt linki soruları için [Kanıt Linki Rehberi](./kanit-linki-rehberi.md) veya [Eigenstate 2 Kanıt Gönderimi](./eigenstate-2-kanit-gonderimi.md) sayfası kullanılabilir.
 
 ## Belge Durumları
 
