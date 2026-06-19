@@ -10,6 +10,7 @@ Language: English | [Türkçe](../tr/README.md) | [Repository Home](../README.md
 
 | Goal | Start Here | Then Read |
 |---|---|---|
+| Choose the right learning path | [Academy Learning Paths](../docs/academy-learning-paths.md) | [Roadmap](../ROADMAP.md) |
 | Learn the ecosystem basics | [QoreChain Knowledge Base](./knowledge-base.md) | [QoreChain Glossary](./glossary.md) |
 | Run or understand a Light Node | [Light Node Guide](./light-node/) | [Troubleshooting](./troubleshooting.md) |
 | Complete Eigenstate 2 tasks | [Eigenstate 2 Tasks](./eigenstate-2-tasks.md) | [Proof Submission Guide](./eigenstate-2-proof-submission.md) |
@@ -20,6 +21,7 @@ Language: English | [Türkçe](../tr/README.md) | [Repository Home](../README.md
 
 | Resource | Content | Status |
 |---|---|---|
+| [Academy Learning Paths](../docs/academy-learning-paths.md) | Role-based reading paths for new users, operators, task participants, contributors, and technical readers | Active |
 | [Light Node Guide](./light-node/) | 5-chapter guide covering setup, service checks, panel access, log monitoring, and troubleshooting | Active |
 | [QoreChain Knowledge Base](./knowledge-base.md) | Light Node, stake, and ecosystem questions | Active |
 | [QoreChain FAQ](./faq.md) | Short answers for common community, task, and Light Node questions | Active |
@@ -46,7 +48,7 @@ Language: English | [Türkçe](../tr/README.md) | [Repository Home](../README.md
 
 ## Quick Start
 
-Operators who want to run a Light Node can start with the [Light Node Guide](./light-node/). For general questions, [QoreChain Knowledge Base](./knowledge-base.md) and [QoreChain FAQ](./faq.md) provide short answers. New users can also review the [QoreChain Glossary](./glossary.md) for common terms. For task workflows, use [Eigenstate 2 Tasks](./eigenstate-2-tasks.md). For proof link questions, use the [Proof Link Guide](./proof-link-guide.md) or the [Eigenstate 2 Proof Submission Guide](./eigenstate-2-proof-submission.md).
+If you are not sure where to begin, start with [Academy Learning Paths](../docs/academy-learning-paths.md). Operators who want to run a Light Node can continue with the [Light Node Guide](./light-node/). For general questions, [QoreChain Knowledge Base](./knowledge-base.md) and [QoreChain FAQ](./faq.md) provide short answers. New users can also review the [QoreChain Glossary](./glossary.md) for common terms. For task workflows, use [Eigenstate 2 Tasks](./eigenstate-2-tasks.md). For proof link questions, use the [Proof Link Guide](./proof-link-guide.md) or the [Eigenstate 2 Proof Submission Guide](./eigenstate-2-proof-submission.md).
 
 ## Document Status
 
