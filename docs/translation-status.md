@@ -20,15 +20,9 @@ This file tracks synchronization between English and Turkish pages. This table s
 | SSS / FAQ | en/faq.md | tr/sss.md | ✅ |
 | Sorun Giderme / Troubleshooting | en/troubleshooting.md | tr/sorun-giderme.md | ✅ |
 
-## Referans / Reference
-
-| Konu / Topic | EN | TR | Durum / Status |
-|---|---|---|---|
-| Terimler Sözlüğü / Glossary | en/glossary.md | tr/terimler-sozlugu.md | ✅ |
-
 ## Node Operasyonları / Node Operations
 
 | Konu / Topic | EN | TR | Durum / Status |
 |---|---|---|---|
-| Light Node Operasyonları | en/light-node-operations.md | tr/light-node-operasyonlari.md | ✅ |
+| Light Node (5 Bölüm / Chapters) | en/light-node/ | tr/light-node/ | ✅ |
 | Operatör El Kitabı / Operator Handbook | en/ (hazırlanıyor) | tr/ (hazırlanıyor) | 🔄 |
