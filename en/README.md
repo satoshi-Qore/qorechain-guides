@@ -8,14 +8,13 @@ This section helps users follow setup, verification, monitoring, and basic troub
 
 | Resource | Content | Status |
 |---|---|---|
-| [Getting Started](./getting-started.md) | New user guide for the QoreChain ecosystem | Active |
-| [Light Node Operations](./light-node-operations.md) | Setup, service checks, panel access, log monitoring, and basic troubleshooting | Active |
+| [Light Node Guide](./light-node/) | 5-chapter guide covering setup, service checks, panel access, log monitoring, and troubleshooting | Active |
 | [QoreChain Knowledge Base](./knowledge-base.md) | Light Node, stake, and ecosystem questions | Active |
 | [QoreChain FAQ](./faq.md) | Short answers for common community, task, and Light Node questions | Active |
 | [QoreChain Glossary](./glossary.md) | Core QoreChain, blockchain, infrastructure, and governance terms | Active |
 | [Eigenstate 2 Tasks](./eigenstate-2-tasks.md) | Main Eigenstate 2 community task guide covering 149 observed tasks | Active |
 | [Proof Link Guide](./proof-link-guide.md) | How to prepare proof links when there is no screenshot upload field | Active |
-| [Troubleshooting](./troubleshooting.md) | Common issues and practical fixes for Light Node operation | Active |
+| [Troubleshooting](./troubleshooting.md) | Common issues and practical fixes | Active |
 | Operator Handbook | Logs, restart, updates, and monitoring process | Preparing |
 
 ## Eigenstate 2 Knowledge Base
@@ -34,7 +33,7 @@ This section helps users follow setup, verification, monitoring, and basic troub
 
 ## Quick Start
 
-New users can start with [Getting Started](./getting-started.md) for an overview of the ecosystem. Operators who want to run a Light Node can then follow [Light Node Operations](./light-node-operations.md). For general questions, [QoreChain Knowledge Base](./knowledge-base.md) and [QoreChain FAQ](./faq.md) provide short answers. New users can also review the [QoreChain Glossary](./glossary.md) for common terms. For task workflows, use [Eigenstate 2 Tasks](./eigenstate-2-tasks.md). If you run into issues, see [Troubleshooting](./troubleshooting.md). For proof link questions, use the [Proof Link Guide](./proof-link-guide.md) or the [Eigenstate 2 Proof Submission Guide](./eigenstate-2-proof-submission.md).
+Operators who want to run a Light Node can start with the [Light Node Guide](./light-node/). For general questions, [QoreChain Knowledge Base](./knowledge-base.md) and [QoreChain FAQ](./faq.md) provide short answers. New users can also review the [QoreChain Glossary](./glossary.md) for common terms. For task workflows, use [Eigenstate 2 Tasks](./eigenstate-2-tasks.md). For proof link questions, use the [Proof Link Guide](./proof-link-guide.md) or the [Eigenstate 2 Proof Submission Guide](./eigenstate-2-proof-submission.md).
 
 ## Document Status
 
