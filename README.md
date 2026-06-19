@@ -41,62 +41,6 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 
 | Kaynak / Resource | Açıklama / Description |
 |---|---|
-| [Light Node Setup](./LIGHTNODE_SETUP.md) | Kısa iki dilli kurulum referansı / Short bilingual setup reference |
-| [FAQ](./FAQ.md) | Sık sorulan sorular / Frequently asked questions |
-| [English FAQ](./en/faq.md) / [Türkçe SSS](./tr/sss.md) | İki dilli topluluk SSS sayfaları / Bilingual community FAQ pages |
-| [Glossary](./en/glossary.md) / [Terimler Sözlüğü](./tr/terimler-sozlugu.md) | Temel QoreChain ve blokzincir kavramları / Core QoreChain and blockchain terms |
-| [Eigenstate 2 Tasks](./en/eigenstate-2-tasks.md) / [Eigenstate 2 Görevleri](./tr/eigenstate-2-gorevleri.md) | 149 görev için ana topluluk rehberi / Main community guide for 149 tasks |
-| [Eigenstate 2 Proof](./en/eigenstate-2-proof-submission.md) / [Eigenstate 2 Kanıt](./tr/eigenstate-2-kanit-gonderimi.md) | Eigenstate 2 kanıt gönderimi / Eigenstate 2 proof submission |
-| [Proof Link Guide](./en/proof-link-guide.md) / [Kanıt Linki Rehberi](./tr/kanit-linki-rehberi.md) | SS yükleme alanı olmadığında kanıt linki hazırlama / Preparing proof links when there is no screenshot upload field |
-| [Roadmap](./ROADMAP.md) | Planlanan dokümantasyon başlıkları / Planned documentation work |
-| [Contributing](./CONTRIBUTING.md) | Katkı rehberi / Contribution guide |
-| [Style Guide](./STYLE_GUIDE.md) | Yazım ve format kuralları / Writing and formatting rules |
-| [Support](./SUPPORT.md) | Destek ve geri bildirim akışı / Support and feedback flow |
-| [Security](./SECURITY.md) | Güvenlik notları / Security notes |
-| [License](./LICENSE.md) | Lisans bilgisi / License information |
-
-<img src="./assets/qorechain-guides-banner.png" alt="QoreChain Guides" />
-</p>
-
-<h1 align="center">QoreChain Hub</h1>
-
-<p align="center">
-Türkçe ve İngilizce teknik kaynaklar, node operasyon notları ve görev süreçleri.<br />
-Bilingual technical resources, node operation notes, and task workflows.
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/docs-bilingual-blue" alt="Bilingual documentation" />
-<img src="https://img.shields.io/badge/status-active-brightgreen" alt="Active status" />
-<img src="https://img.shields.io/badge/community-maintained-lightgrey" alt="Community maintained" />
-</p>
-
-<p align="center">
-<a href="./tr/README.md">Türkçe Kaynaklar</a> -
-<a href="./en/README.md">English Resources</a> -
-<a href="./ROADMAP.md">Roadmap</a> -
-<a href="./CONTRIBUTING.md">Contributing</a> -
-<a href="./SUPPORT.md">Support</a> -
-<a href="./LICENSE.md">License</a>
-</p>
-
----
-
-QoreChain Hub, QoreChain ekosistemi için hazırlanan topluluk odaklı bir bilgi merkezidir. Amaç; kurulum, kontrol, takip ve temel sorun giderme süreçlerini tek bir yerde, sade ve uygulanabilir bir düzenle toplamaktır.
-
-QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem. Its goal is to keep setup, verification, monitoring, and basic troubleshooting flows in one clear and practical place.
-
-## Dil Seçimi / Language
-
-| Dil | Bölüm | Durum |
-|---|---|---|
-| Türkçe | [Türkçe Kaynaklar](./tr/README.md) | Aktif |
-| English | [English Resources](./en/README.md) | Active |
-
-## Hızlı Linkler / Quick Links
-
-| Kaynak / Resource | Açıklama / Description |
-|---|---|
 | [Light Node Rehberi](./tr/light-node/) / [Light Node Guide](./en/light-node/) | 5 bölümlük kurulum ve operasyon rehberi / 5-chapter setup and operations guide |
 | [FAQ](./FAQ.md) | Sık sorulan sorular / Frequently asked questions |
 | [English FAQ](./en/faq.md) / [Türkçe SSS](./tr/sss.md) | İki dilli topluluk SSS sayfaları / Bilingual community FAQ pages |
