@@ -30,28 +30,100 @@ Ubuntu 24.04 ve SSD desteği sunan herhangi bir VPS sağlayıcı kullanılabilir
 | Sağlayıcı | Öne Çıkan Özellik |
 |---|---|
 | Hetzner | Uygun fiyat, AB ve ABD konumları |
-| DigitalOcean | Sade arayüz, iyi dokümantasyon |
+| DigitalOcean | Sade arayüz, iyi dokümantasyon, bireysel kullanıcılar için kolay başlangıç |
 | Vultr | Global konumlar, esnek planlar |
 | Contabo | Fiyata göre yüksek depolama kapasitesi |
 | OVHcloud | Avrupa operatörleri için uygun fiyatlama |
 
 Bütçenize ve tercih ettiğiniz sunucu konumuna göre bir sağlayıcı seçin. Yoğun saatlerde bant genişliğini kısıtlayan sağlayıcılardan kaçının.
 
+> **Not:** Bu rehber hazırlanırken örnek VPS sağlayıcısı olarak [DigitalOcean](https://www.digitalocean.com/?refcode=f69c6b528fe5&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge) kullanılmıştır. Basit arayüzü ve hızlı sunucu oluşturma süreci nedeniyle özellikle yeni başlayan kullanıcılar için uygun bir seçenek olabilir.
+>
+> [![DigitalOcean](https://img.shields.io/badge/DigitalOcean-Bu%20rehberde%20kullan%C4%B1ld%C4%B1%20%C2%B7%20KYC%20yok-0080FF?logo=digitalocean&logoColor=white&style=flat-square)](https://www.digitalocean.com/?refcode=f69c6b528fe5&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
 ---
 
-## Ubuntu 24.04 Sunucu Oluşturma
+## DigitalOcean'da İlk Sunucunuzu Oluşturma
 
-Adımlar sağlayıcıya göre farklılık gösterebilir, ancak genel akış aynıdır.
+Bu rehber, daha önce hiç VPS kullanmamış kullanıcılar için hazırlanmıştır.
 
-1. VPS sağlayıcınızın paneline giriş yapın.
-2. **Oluştur** veya **Yeni Sunucu Dağıt** seçeneğine tıklayın.
-3. İşletim sistemi olarak **Ubuntu 24.04 LTS** seçin.
-4. Minimum gereksinimleri karşılayan bir plan seçin.
-5. **Kimlik doğrulama yöntemi** olarak SSH anahtarı seçin — parola yerine SSH anahtarı kesinlikle önerilir.
-6. Bir sunucu adı belirleyin (örnek: `qorechain-lightnode`).
-7. **Dağıt**'a tıklayın ve sunucunun aktif hale gelmesini bekleyin (genellikle iki dakikadan az sürer).
+### 1. DigitalOcean Hesabı Oluşturun
 
-Sunucu aktif hale geldiğinde **genel IP adresini** not alın. Bir sonraki adımda bu adresi kullanacaksınız.
+- [DigitalOcean](https://www.digitalocean.com/?refcode=f69c6b528fe5&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge) hesabınıza giriş yapın.
+- Kontrol paneline ulaştığınızda sağ üst köşedeki **Create** butonuna tıklayın.
+- Açılan menüden **Droplets** seçeneğini seçin.
+
+### 2. İşletim Sistemini Seçin
+
+"Choose an image" bölümünde:
+
+- **Ubuntu** seçin.
+- Sürüm olarak **Ubuntu 24.04 LTS** seçin.
+
+Bu rehber Ubuntu 24.04 üzerinde hazırlanmıştır.
+
+### 3. Sunucu Paketini Seçin
+
+"Choose Size" bölümünde:
+
+- **Basic** plan seçin.
+- CPU seçeneklerinden **Regular (Shared CPU)** seçin.
+- En az **2 GB RAM** içeren bir paket tercih edin.
+
+### 4. Sunucu Bölgesini Seçin
+
+"Choose Region" bölümünde size en yakın veri merkezini seçebilirsiniz. Örneğin:
+
+- Frankfurt
+- Amsterdam
+- London
+
+Bölge seçimi performansı etkileyebilir ancak kurulum adımlarını değiştirmez.
+
+### 5. Giriş Yöntemini Belirleyin
+
+"Authentication" bölümünde:
+
+Yeni başlayanlar için:
+
+- **Password** seçeneğini seçin.
+- Güçlü bir root şifresi oluşturun.
+
+Daha deneyimli kullanıcılar SSH Key kullanabilir.
+
+### 6. Sunucuyu Oluşturun
+
+Sayfanın altındaki **Create Droplet** butonuna tıklayın. Yaklaşık 1–2 dakika içinde sunucunuz hazır olacaktır.
+
+### 7. Sunucu IP Adresini Bulun
+
+Sunucu oluşturulduktan sonra kontrol panelinde yeni Droplet'iniz görünecektir. Sunucu adının yanında şuna benzer bir IP adresi yer alacaktır:
+
+```
+123.45.67.89
+```
+
+Bu adres sunucunuza bağlanmak için kullanılacaktır.
+
+### 8. Sunucuya Bağlanın
+
+**Windows kullanıcıları için:**
+
+PowerShell'i açın ve aşağıdaki komutu çalıştırın:
+
+```powershell
+ssh root@SUNUCU_IP_ADRESI
+```
+
+Örnek:
+
+```powershell
+ssh root@123.45.67.89
+```
+
+İlk bağlantıda onay sorulursa `yes` yazıp Enter'a basın. Şifre istendiğinde oluşturduğunuz root şifresini girin.
+
+Başarılı giriş yaptıysanız artık sunucunuzun terminaline bağlanmış olursunuz ve Light Node kurulumuna geçebilirsiniz.
 
 ---
 
@@ -76,33 +148,6 @@ ssh-keygen -t ed25519 -C "email@adresiniz.com"
 ```
 
 Anahtar çifti `C:\Users\KullaniciAdiniz\.ssh\` dizinine kaydedilir.
-
----
-
-### Sunucuya Bağlanma
-
-`SUNUCU_IP` kısmını gerçek IP adresinizle değiştirin.
-
-**Linux / macOS:**
-
-```bash
-ssh root@SUNUCU_IP
-```
-
-**Windows (PowerShell veya Windows Terminal):**
-
-```powershell
-ssh root@SUNUCU_IP
-```
-
-İlk bağlantıda parmak izi onayı istenir:
-
-```
-The authenticity of host 'SUNUCU_IP' can't be established.
-Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-```
-
-`yes` yazıp Enter'a basın.
 
 ---
 
