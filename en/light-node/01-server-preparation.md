@@ -1,4 +1,4 @@
-# Chapter 01 — Server Preparation
+————# Chapter 01 — Server Preparation
 
 This is the first chapter of the QoreChain Light Node Guide.
 
