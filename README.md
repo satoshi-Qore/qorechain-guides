@@ -41,6 +41,7 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 
 | Kaynak / Resource | Açıklama / Description |
 |---|---|
+| [Academy Learning Paths](./docs/academy-learning-paths.md) | Kullanıcı rolüne göre önerilen okuma yolları / Role-based reading paths |
 | [Light Node Rehberi](./tr/light-node/) / [Light Node Guide](./en/light-node/) | 5 bölümlük kurulum ve operasyon rehberi / 5-chapter setup and operations guide |
 | [FAQ](./FAQ.md) | Sık sorulan sorular / Frequently asked questions |
 | [English FAQ](./en/faq.md) / [Türkçe SSS](./tr/sss.md) | İki dilli topluluk SSS sayfaları / Bilingual community FAQ pages |
@@ -82,6 +83,7 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 
 | Alan / Area | Türkçe | English | Durum / Status |
 |---|---|---|---|
+| Academy Learning Paths | [Öğrenme Yolları](./docs/academy-learning-paths.md) | [Learning Paths](./docs/academy-learning-paths.md) | Aktif / Active |
 | Light Node | [Light Node Rehberi](./tr/light-node/) | [Light Node Guide](./en/light-node/) | Aktif / Active |
 | Bilgi Bankası | [QoreChain Bilgi Bankası](./tr/bilgi-bankasi.md) | [QoreChain Knowledge Base](./en/knowledge-base.md) | Aktif / Active |
 | SSS / FAQ | [QoreChain SSS](./tr/sss.md) | [QoreChain FAQ](./en/faq.md) | Aktif / Active |
