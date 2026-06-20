@@ -5,8 +5,8 @@
 <h1 align="center">QoreChain Hub</h1>
 
 <p align="center">
-  Türkçe ve İngilizce teknik kaynaklar, node operasyon notları ve görev süreçleri.<br />
-  Bilingual technical resources, node operation notes, and task workflows.
+  Topluluk odaklı QoreChain Academy bilgi merkezi: teknik kaynaklar, node operasyon notları ve görev süreçleri.<br />
+  Community-driven QoreChain Academy knowledge base: technical resources, node operation notes, and task workflows.
 </p>
 
 <p align="center">
@@ -26,9 +26,9 @@
 
 ---
 
-QoreChain Hub, QoreChain ekosistemi için hazırlanan topluluk odaklı bir bilgi merkezidir. Amaç; kurulum, kontrol, takip ve temel sorun giderme süreçlerini tek bir yerde, sade ve uygulanabilir bir düzenle toplamaktır.
+QoreChain Hub, QoreChain ekosistemi için hazırlanan topluluk odaklı bir bilgi merkezidir. Amaç; kullanıcılar, node operatörleri, doğrulayıcılar, geliştiriciler, katkıcılar ve araştırmacılar için kurulum, kontrol, takip ve temel sorun giderme süreçlerini tek bir yerde, sade ve uygulanabilir bir düzenle toplamaktır.
 
-QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem. Its goal is to keep setup, verification, monitoring, and basic troubleshooting flows in one clear and practical place.
+QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem. Its goal is to keep setup, verification, monitoring, and basic troubleshooting flows in one clear and practical place for users, node operators, validators, developers, contributors, and researchers.
 
 ## Dil Seçimi / Language
 
@@ -84,15 +84,19 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 
 ## Kimler İçin? / Who Is This For?
 
-- QoreChain Light Node çalıştırmak isteyen operatörler
-- Kurulum ve servis kontrol adımlarını takip etmek isteyen kullanıcılar
-- Sık sorulan sorulara hızlı yanıt arayan topluluk üyeleri
+- QoreChain ekosistemini öğrenmek ve temel süreçleri takip etmek isteyen kullanıcılar
+- QoreChain Light Node çalıştırmak isteyen node operatörleri
+- Doğrulayıcı operasyonları ve ağ süreçleri için topluluk kaynaklarını takip etmek isteyen doğrulayıcılar
+- Teknik kaynak, araç ve entegrasyon notları arayan geliştiriciler
 - Türkçe ve İngilizce kaynakları aynı yapıda tutmak isteyen katkıcılar
+- Ekosistem dokümantasyonu, terminoloji ve araştırma notlarını inceleyen araştırmacılar
 
-- Operators who want to run a QoreChain Light Node
-- Users who need setup and service-check steps
-- Community members looking for quick answers to common questions
+- Users who want to learn the QoreChain ecosystem and follow basic workflows
+- Node operators who want to run a QoreChain Light Node
+- Validators who want community resources for operations and network processes
+- Developers looking for technical resources, tools, and integration notes
 - Contributors who want to keep Turkish and English resources aligned
+- Researchers reviewing ecosystem documentation, terminology, and research notes
 
 ## QoreChain Hakkında / About QoreChain
 
