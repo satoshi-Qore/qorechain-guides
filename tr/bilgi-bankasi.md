@@ -82,4 +82,4 @@ docker logs -f qorechain-lightnode-sx
 
 ## Not
 
-Bu bilgi bankası kısa yanıtlar için hazırlanmıştır. Daha detaylı operasyon adımları için [Light Node Operasyonları](./light-node-operasyonlari.md) dokümanını takip edebilirsiniz.
+Bu bilgi bankası kısa yanıtlar için hazırlanmıştır. Daha detaylı operasyon adımları için [Light Node Rehberi](./light-node/) sayfasını takip edebilirsiniz.
