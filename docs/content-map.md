@@ -24,7 +24,6 @@ For synchronization status, see: [translation-status.md](./translation-status.md
 | SECURITY.md | Güvenlik notları / Security notes |
 | LICENSE.md | Lisans bilgisi / License information |
 | FAQ.md | Kısa genel SSS (kök) / Short general FAQ (root) |
-| LIGHTNODE_SETUP.md | Kısa kurulum referansı (kök) / Short setup reference (root) |
 
 ---
 
@@ -40,7 +39,7 @@ For synchronization status, see: [translation-status.md](./translation-status.md
 
 | Dosya / File | Açıklama / Description | Durum / Status |
 |---|---|---|
-| en/light-node-operations.md | Kurulum, servis, panel, log, sorun giderme / Setup, service, panel, log, troubleshooting | Aktif / Active |
+| en/light-node/ | Kurulum, servis, panel, log, sorun giderme / Setup, service, panel, log, troubleshooting | Aktif / Active |
 | en/troubleshooting.md | Sorun giderme rehberi / Troubleshooting guide | Aktif / Active |
 
 ### Topluluk Görevleri / Community Tasks
@@ -80,7 +79,7 @@ For synchronization status, see: [translation-status.md](./translation-status.md
 
 | Dosya / File | Açıklama / Description | Durum / Status |
 |---|---|---|
-| tr/light-node-operasyonlari.md | Kurulum, servis, panel, log, sorun giderme | Aktif / Active |
+| tr/light-node/ | Kurulum, servis, panel, log, sorun giderme | Aktif / Active |
 | tr/sorun-giderme.md | Sorun giderme rehberi | Aktif / Active |
 
 ### Topluluk Görevleri / Community Tasks
