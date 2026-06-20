@@ -1,9 +1,9 @@
-# QoreChain Light Node Sorun Giderme
+# QoreChain Hafif Düğüm Sorun Giderme
 
-Bu rehber, QoreChain Light Node kurulumu ve işletişi sırasında karşılaşılan yaygın sorunları ve çözüm adımlarını kapsar.
+Bu rehber, QoreChain Hafif Düğüm kurulumu ve işletişi sırasında karşılaşılan yaygın sorunları ve çözüm adımlarını kapsar.
 
 Genel bakış için [Başlangıç Rehberi](./baslangic-rehberi.md) sayfasına bakın.
-Tam operasyon rehberi için [Light Node Operasyonları](./light-node-operasyonlari.md) sayfasına bakın.
+Tam operasyon rehberi için [Light Node Rehberi](./light-node/) sayfasına bakın.
 
 ---
 
@@ -124,27 +124,11 @@ Tam operasyon rehberi için [Light Node Operasyonları](./light-node-operasyonla
    docker compose up -d
    ```
 
-4. Güncelleme sonrası servislerin çalıştığını doğrulayun:
+4. Güncelleme sonrası servislerin çalıştığını doğrulayın:
    ```bash
    docker ps
    docker logs qorechain-lightnode-sx --tail=20
    ```
-
----
-
-## Ağ ve Stake Sorunları
-
-### Düğüm çevrimdışı veya bağlantısız görünüyor
-
-Şunları kontrol edin:
-- Docker container'ları çalışıyor mu? (`docker ps`)
-- 8420 portu internetten erişilebilir mi?
-- Stake gereksinimi karşılanıyor mu? (minimum 1000 QOR)
-- Son resmi QoreChain duyurularında ağ değişikliği var mı?
-
-### Stake kontrolü başarısız oluyor
-
-1000 QOR stake'i tutan cüzdan adresinin Light Node'a kayıtlı adres olduğunu doğrulayın. Stake rehberi için resmi QoreChain kanallarını kontrol edin.
 
 ---
 
@@ -164,4 +148,4 @@ Emin olmadığınızda bu kontrol listesini çalıştırın:
 
 ## Sorumluluk Reddi
 
-Bu rehber topluluk tarafından sürdürülen bir kaynaktır. QoreChain güncellemeleriyle komutlar ve prosedürler değişebilir. Herhangi bir işlem yapmadan önce her zaman resmi kaynaklar ve duyuruları doğrulayun.
+Bu rehber topluluk tarafından sürdürülen bir kaynaktır. QoreChain güncellemeleriyle komutlar ve prosedürler değişebilir. Herhangi bir işlem yapmadan önce her zaman resmi kaynaklar ve duyuruları doğrulayın.
