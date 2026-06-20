@@ -59,6 +59,6 @@ If mainnet is not active or a task depends on a future network state, do not cla
 
 ## Related Guides
 
-- [Light Node Operations](./light-node-operations.md)
+- [Light Node Guide](./light-node/)
 - [Eigenstate 2 Tasks](./eigenstate-2-tasks.md)
 - [Proof Link Guide](./proof-link-guide.md)
