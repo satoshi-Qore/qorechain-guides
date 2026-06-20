@@ -82,4 +82,4 @@ Check the container status first. If the services are running, review the server
 
 ## Note
 
-This knowledge base is prepared for short answers. For more detailed operation steps, follow the [Light Node Operations](./light-node-operations.md) document.
+This knowledge base is prepared for short answers. For more detailed operation steps, follow the [Light Node Guide](./light-node/) documentation.
