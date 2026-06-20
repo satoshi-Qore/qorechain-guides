@@ -20,7 +20,7 @@ The stake helps prevent Sybil attacks and aligns operators with network success.
 
 ## 1000 QOR bir ücret midir? / Is the 1000 QOR a fee?
 
-Hayır. Bu miktar bir ücret değil, node çalıştığı süreçe kilitli kalan stake miktarıdır.
+Hayır. Bu miktar bir ücret değil, node çalıştığı süresince kilitli kalan stake miktarıdır.
 
 No. It is a stake that remains locked while the node operates.
 
