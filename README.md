@@ -41,8 +41,7 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 
 | Kaynak / Resource | Açıklama / Description |
 |---|---|
-| [Academy Learning Paths](./docs/academy-learning-paths.md) | Kullanıcı rolüne göre önerilen okuma yolları / Role-based reading paths |
-| [Light Node Rehberi](./tr/light-node/) / [Light Node Guide](./en/light-node/) | 5 bölümlük kurulum ve operasyon rehberi / 5-chapter setup and operations guide |
+| [Light Node Rehberi](./tr/light-node/) / [Light Node Guide](./en/light-node/) | Kurulum, servis, panel, log, sorun giderme / Setup, service, panel, log, troubleshooting |
 | [FAQ](./FAQ.md) | Sık sorulan sorular / Frequently asked questions |
 | [English FAQ](./en/faq.md) / [Türkçe SSS](./tr/sss.md) | İki dilli topluluk SSS sayfaları / Bilingual community FAQ pages |
 | [Glossary](./en/glossary.md) / [Terimler Sözlüğü](./tr/terimler-sozlugu.md) | Temel QoreChain ve blokzincir kavramları / Core QoreChain and blockchain terms |
@@ -52,19 +51,9 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 | [Roadmap](./ROADMAP.md) | Planlanan dokümantasyon başlıkları / Planned documentation work |
 | [Contributing](./CONTRIBUTING.md) | Katkı rehberi / Contribution guide |
 | [Style Guide](./STYLE_GUIDE.md) | Yazım ve format kuralları / Writing and formatting rules |
-| [Content Maintenance Checklist](./docs/content-maintenance-checklist.md) | Link, iki dilli uyum, güvenlik ve güncellik kontrolü / Link, bilingual alignment, safety, and freshness checks |
 | [Support](./SUPPORT.md) | Destek ve geri bildirim akışı / Support and feedback flow |
 | [Security](./SECURITY.md) | Güvenlik notları / Security notes |
 | [License](./LICENSE.md) | Lisans bilgisi / License information |
-
-## Katkı Rehberleri / Contributing Guides
-
-| Rehber / Guide | Açıklama / Description |
-|---|---|
-| [contributing/first-contribution.md](./contributing/first-contribution.md) | İlk katkı adımları / First contribution steps |
-| [contributing/code-standards.md](./contributing/code-standards.md) | Kod standartları / Code standards |
-| [contributing/documentation-standards.md](./contributing/documentation-standards.md) | Dokümantasyon standartları / Documentation standards |
-| [contributing/pull-request-template.md](./contributing/pull-request-template.md) | PR şablonu / PR template |
 
 ## Eigenstate 2 Bilgi Merkezi / Knowledge Base
 
@@ -84,17 +73,14 @@ QoreChain Hub is a community-focused knowledge base for the QoreChain ecosystem.
 
 | Alan / Area | Türkçe | English | Durum / Status |
 |---|---|---|---|
-| Academy Learning Paths | [Öğrenme Yolları](./docs/academy-learning-paths.md) | [Learning Paths](./docs/academy-learning-paths.md) | Aktif / Active |
-| Content Maintenance | [Bakım Kontrol Listesi](./docs/content-maintenance-checklist.md) | [Maintenance Checklist](./docs/content-maintenance-checklist.md) | Aktif / Active |
 | Light Node | [Light Node Rehberi](./tr/light-node/) | [Light Node Guide](./en/light-node/) | Aktif / Active |
 | Bilgi Bankası | [QoreChain Bilgi Bankası](./tr/bilgi-bankasi.md) | [QoreChain Knowledge Base](./en/knowledge-base.md) | Aktif / Active |
 | SSS / FAQ | [QoreChain SSS](./tr/sss.md) | [QoreChain FAQ](./en/faq.md) | Aktif / Active |
 | Terimler | [Terimler Sözlüğü](./tr/terimler-sozlugu.md) | [Glossary](./en/glossary.md) | Aktif / Active |
 | Eigenstate 2 | [Eigenstate 2 Görevleri](./tr/eigenstate-2-gorevleri.md) | [Eigenstate 2 Tasks](./en/eigenstate-2-tasks.md) | Aktif / Active |
 | Kanıt Linkleri / Proof Links | [Kanıt Linki Rehberi](./tr/kanit-linki-rehberi.md) | [Proof Link Guide](./en/proof-link-guide.md) | Aktif / Active |
-| Katkı / Contributing | [Katkı Rehberleri](./contributing/first-contribution.md) | [Contributing Guides](./contributing/first-contribution.md) | Aktif / Active |
-| Sorun Giderme | [Hata Çözümleri](./tr/sorun-giderme.md) | [Troubleshooting](./en/troubleshooting.md) | Aktif / Active |
 | Operatör Rehberi | Operatör El Kitabı | Operator Handbook | Planlandı / Planned |
+| Sorun Giderme | Hata Çözümleri | Troubleshooting | Planlandı / Planned |
 
 ## Kimler İçin? / Who Is This For?
 
@@ -133,10 +119,6 @@ Documents in this repository follow these principles:
 Daha ayrıntılı yazım ve format kuralları için [Stil Rehberi](./STYLE_GUIDE.md) sayfasını kullanabilirsiniz.
 
 For detailed writing and formatting rules, use the [Style Guide](./STYLE_GUIDE.md).
-
-Bakım kontrolleri için [İçerik Bakım Kontrol Listesi](./docs/content-maintenance-checklist.md) sayfasını kullanabilirsiniz.
-
-For maintenance checks, use the [Content Maintenance Checklist](./docs/content-maintenance-checklist.md).
 
 ## Bağlantılı Projeler / Related Projects
 
