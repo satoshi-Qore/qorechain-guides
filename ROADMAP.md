@@ -74,7 +74,7 @@ QoreChain Guides should evolve beyond a collection of individual guides into a s
 - Uzun açıklamalar yerine kontrol listeleri, tablolar ve sorun giderme akışlarını tercih etmek.
 - Görev kanıtlarında özel bilgi, cüzdan anahtarı, erişim tokeni veya hassas ekran görüntüsü paylaşılmamasını hatırlatmak.
 - Topluluk içeriğini resmi kaynak yerine geçmeyecek şekilde konumlandırmak.
-- Yayındaki içerikler için [İçerik Bakım Kontrol Listesi](./docs/content-maintenance-checklist.md) kullanılmalıdır.
+- Yayındaki içerikler için İçerik Bakım Kontrol Listesi kullanılmalıdır (hazırlanıyor).
 
 - Keep operator-facing steps short and verifiable.
 - Add commands only when they are clear and useful.
@@ -83,7 +83,7 @@ QoreChain Guides should evolve beyond a collection of individual guides into a s
 - Prefer checklists, tables, and troubleshooting flows over long prose.
 - Remind users not to share private data, wallet keys, access tokens, or sensitive screenshots in proof submissions.
 - Position community content as a complement to official sources, not a replacement.
-- Use the [Content Maintenance Checklist](./docs/content-maintenance-checklist.md) for published content.
+- Use the Content Maintenance Checklist for published content (being prepared).
 
 ## Durum Etiketleri / Status Labels
 
