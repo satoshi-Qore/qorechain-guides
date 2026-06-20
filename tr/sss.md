@@ -2,7 +2,7 @@
 
 Bu SSS, yaygın QoreChain topluluk sorularına kısa yanıtlar sunar. Bağımsız bir topluluk kaynağı olarak hazırlanmıştır ve resmi QoreChain belgelerinin veya duyurularının yerini tutmaz.
 
-QoreChain'e yeni mi başlıyorsunuz? [Başlangıç Rehberi](./baslangic-rehberi.md) ile başlayın.
+QoreChain'e yeni mi başlıyorsunuz? Başlangıç rehberi hazırlanıyor.
 
 ---
 
@@ -22,37 +22,37 @@ Kuantum bilişimin gelişmesiyle mevcut kriptografik algoritmalar kırılabilir 
 
 ### QOR tokeni nedir?
 
-QOR, QoreChain ağının yerli tokenıdır. Stake (Light Node çalıştırmak için gerekli), işlem ücretleri ve yönetişime katılım için kullanılır.
+QOR, QoreChain ağının yerli tokenıdır. Stake (Hafif Düğüm çalıştırmak için gerekli), işlem ücretleri ve yönetişime katılım için kullanılır.
 
 ---
 
-## Light Node
+## Hafif Düğüm
 
-### Light Node nedir?
+### Hafif Düğüm nedir?
 
-Light Node (Light Node), tam blok zinciri verisi gerektirmeksizin ağ erişimi, istek işleme ve operatör tarafı kullanılabilirliğine yardımcı olan hafif bir ağ katılımcısıdır.
+Hafif Düğüm (Light Node), tam blok zinciri verisi gerektirmeksizin ağ erişimi, istek işleme ve operatör tarafı kullanılabilirliğine yardımcı olan hafif bir ağ katılımcısıdır.
 
 ### Hangi donanıma ihtiyacım var?
 
-Küçük bir VPS yeterlidir. Minimum: Ubuntu 22.04+, 2 CPU çekirdeği, 4 GB RAM, 50 GB SSD, Docker, Docker Compose. Tam rehber için [Light Node Operasyonları](./light-node-operasyonlari.md) sayfasına bakın.
+Küçük bir VPS yeterlidir. Minimum: Ubuntu 20.04+, 2 CPU çekirdeği, 4 GB RAM, 50 GB SSD, Docker, Docker Compose. Tam rehber için [Light Node Rehberi](./light-node/) sayfasına bakın.
 
-### Light Node operatörleri ödül alıyor mu?
+### Hafif Düğüm operatörleri ödül alıyor mu?
 
-Light Node çalıştırmak QoreChain ekosistem görevleri ve puan tabanlı etkinliklerin bir parçası olarak görünmektedir. Gerçek token ödülü veya ana ağ teşviği ayrıntıları resmi duyurulardan doğrulanmalıdır.
+Hafif Düğüm çalıştırmak QoreChain ekosistem görevleri ve puan tabanlı etkinliklerin bir parçası olarak görünmektedir. Gerçek token ödülü veya ana ağ teşviği ayrıntıları resmi duyurulardan doğrulanmalıdır.
 
 ### Panel 8420 portunda açılmıyorsa ne yapmalıyım?
 
 Temel kontrolleri yapın:
 
 1. Sunucunun çevrimiçi olduğunu doğrulayın.
-2. Light Node servisinin çalıştığını doğrulayın.
+2. Hafif Düğüm servisinin çalıştığını doğrulayın.
 3. Doğru IP ve port (8420) kullanıldığını kontrol edin.
 4. Güvenlik duvarı ayarlarını kontrol edin: `ufw status` — 8420 portuna izin verilmiş olmalı.
 5. Başlatma veya bağlantı hataları için logları kontrol edin.
 
-Yaygın sorunların tam listesi için [Sorun Giderme](./sorun-giderme.md) sayfasına bakın.
+Yaygın sorunların tam listesi için Sorun Giderme sayfası hazırlanıyor.
 
-### Light Nodeü nasıl güncellerim?
+### Hafif Düğümü nasıl güncellerim?
 
 ```bash
 cd qorechain-lightnode
@@ -74,14 +74,6 @@ Doğrudan kanıt linki oluşmuyorsa, mevcut en ilgili genel linki gönderin ve t
 
 ---
 
-### Topluluk oluşturduğu rehberleri kanıt olarak gönderebilir miyim?
-
-Yalnızca görev gereksinimleri oluşturduğunuz içerikle örtüşüyorsa. Bir rehber, gönderi, issue veya pull request; gönderildiği göreve uygun olmalıdır.
-
-### Mainnet yayına girmeden önce mainnet sonuçlarını talep etmeli miyim?
-
-Hayır. Mainnet'e özgü talepler, ağ yayına girene ve resmi bilgiler yayımlanana kadar kaçınılmalıdır. Tarafsız ifadeler kullanın: mainnet öncesi hazırlık, öğrenme notları veya topluluk belgeleri gibi.
-
 ## Katkı
 
 ### Bu depoya nasıl katkıda bulunabilirim?
@@ -98,7 +90,7 @@ Düzeltme önerebilir, eksik açıklamalar ekleyebilir, iki dilli uyumu iyileşt
 
 ### Türkçe katkıda bulunabilir miyim?
 
-Evet. Türkçe içerik `tr/` klasörüne aittir. Mevcut çeviri durumu için [docs/translation-status.md](../docs/translation-status.md) sayfasına bakın.
+Evet. Türkçe içerik `tr/` klasörüne aittir. Mevcut çeviri durumu için docs/translation-status.md sayfasına bakın.
 
 ### Yeni içerik hangi stili izlemelidir?
 
