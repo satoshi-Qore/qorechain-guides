@@ -12,7 +12,7 @@ QoreChain, kuantum sonrası güvenlik, yapay zeka odaklı altyapı ve çoklu san
 
 ### Katman 1
 
-Katman 1, işlemleri doğrudan işleyen, kendi konsensüs mekanizmasına sahip olan ve uygulamalar, tokenlar, akıllı sözleşmeler ve ağ katılımı için temel altyapı sunan ana blokzincir ağıdır.
+Katman 1, işlemleri doğrudan işleyen, kendi konsensus mekanizmasına sahip olan ve uygulamalar, tokenlar, akıllı sözleşmeler ve ağ katılımı için temel altyapı sunan ana blokzincir ağıdır.
 
 ### Kuantum Sonrası Güvenlik
 
@@ -22,9 +22,9 @@ Kuantum sonrası güvenlik, klasik bilgisayarlara ve gelecekteki kuantum bilgisa
 
 Kuantuma dayanıklı kriptografi, kuantum algoritmalarına karşı güvenli kalması hedeflenen kriptografik yöntemleri kapsar. Genel araştırma alanında kafes tabanlı, hash tabanlı, kod tabanlı ve çok değişkenli yaklaşımlar bu başlık altında incelenir.
 
-### Yapay Zeka Odaklı Altyapı
+### AI-Native Altyapı
 
-Yapay zeka odaklı altyapı, yapay zekanın sistem tasarımı, araçlar, izleme veya operasyon süreçlerinin bir parçası olarak düşünüldüğü yapıları ifade eder. Blokzincirlerde yapay zeka; akıllı sözleşme inceleme, ağ izleme, dokümantasyon arama ve hata çözümlerinde yardımcı olabilir.
+AI-native altyapı, yapay zekanın sistem tasarımı, araçlar, izleme veya operasyon süreçlerinin bir parçası olarak düşünüldüğü yapıları ifade eder. Blokzincirlerde yapay zeka; akıllı sözleşme inceleme, ağ izleme, dokümantasyon arama ve hata çözümlerinde yardımcı olabilir.
 
 ### Çoklu VM Mimarisi
 
@@ -48,78 +48,78 @@ SVM genellikle Solana Virtual Machine veya Solana tarzı çalışma ortamı anla
 
 ## Ağ ve Altyapı Terimleri
 
-### Düğüm (Node)
+### Node
 
-Düğüm, bir blokzincir ağına katılan ve veri saklama, eşlerle iletişim kurma, bilgi doğrulama veya ağ servislerine erişim sağlama gibi işlevleri olan makinedir.
+Node, bir blokzincir ağına katılan ve veri saklama, eşlerle iletişim kurma, bilgi doğrulama veya ağ servislerine erişim sağlama gibi işlevleri olan makinedir.
 
 ### Light Node
 
-Light Node, genellikle tam düğüm veya doğrulayıcı çalıştırmaya göre daha hafif bir ağ katılımı modelidir. Kesin rolü ağ tasarımına bağlıdır. QoreChain için Light Node detayları güncel resmi dokümantasyon ve görev gereksinimleriyle kontrol edilmelidir.
+Light node, genellikle tam node veya validator çalıştırmaya göre daha hafif bir ağ katılımı modelidir. Kesin rolü ağ tasarımına bağlıdır. QoreChain için light node detayları güncel resmi dokümantasyon ve görev gereksinimleriyle kontrol edilmelidir.
 
-### Doğrulayıcı (Validator)
+### Validator
 
-Doğrulayıcı, işlemleri doğrulayan, blok üretimine veya onayına katılan ve konsensüs sürecini destekleyen ağ katılımcısıdır. Doğrulayıcı gereksinimleri ve teşvikleri her blokzincirde farklı olabilir.
+Validator, işlemleri doğrulayan, blok üretimine veya onayına katılan ve konsensus sürecini destekleyen ağ katılımcısıdır. Validator gereksinimleri ve teşvikleri her blokzincirde farklı olabilir.
 
 ### Delegasyon
 
-Delegasyon, token sahiplerinin kendi doğrulayıcı altyapısını çalıştırmadan bir doğrulayıcıyı desteklemesine imkân veren mekanizmadır. Delegasyon kuralları ağın staking ve yönetim modeline bağlıdır.
+Delegasyon, token sahiplerinin kendi validator altyapısını çalıştırmadan bir validatoru desteklemesine imkân veren mekanizmadır. Delegasyon kuralları ağın staking ve governance modeline bağlıdır.
 
-### RPC Uç Noktası
+### RPC Endpoint
 
-RPC uç noktası, uygulamaların, cüzdanların veya araçların blokzincir düğümü ile iletişim kurmak için kullandığı erişim noktasıdır. RPC kalitesi senkronizasyon, güvenilirlik ve kullanıcı deneyimini etkiler.
+RPC endpoint, uygulamaların, cüzdanların veya araçların blokzincir node'u ile iletişim kurmak için kullandığı erişim noktasıdır. RPC kalitesi senkronizasyon, güvenilirlik ve kullanıcı deneyimini etkiler.
 
-### Gezgin (Explorer)
+### Explorer
 
-Blokzincir gezgini; işlemler, bloklar, adresler, doğrulayıcılar ve ağ verilerini incelemeye yarayan araçtır.
+Blokzincir explorer'ı; işlemler, bloklar, adresler, validatorler ve ağ verilerini incelemeye yarayan araçtır.
 
-### Musluk (Faucet)
+### Faucet
 
-Musluk, genellikle test, ilk katılım veya geliştirme amaçlı küçük miktarda test tokeni veya ağ tokeni dağıtan araçtır.
+Faucet, genellikle test, onboarding veya geliştirme amacıyla küçük miktarda test tokeni veya ağ tokeni dağıtan araçtır.
 
-### Çalışma Süresi (Uptime)
+### Uptime
 
-Çalışma süresi, bir düğüm, doğrulayıcı veya servisin ne kadar süre kesintisiz çalıştığını gösterir. Altyapı katılımı için yüksek çalışma süresi önemlidir.
+Uptime, bir node, validator veya servisin ne kadar süre kesintisiz çalıştığını gösterir. Altyapı katılımı için yüksek uptime önemlidir.
 
-## Token ve Yönetim Terimleri
+## Token ve Governance Terimleri
 
 ### QOR
 
 QOR, QoreChain ekosistemiyle ilişkili tokendir. Kullanım alanları, dağıtım yapısı ve uzun vadeli ekonomik rolü resmi dokümantasyon ve gözlemlenebilir ağ verileriyle değerlendirilmelidir.
 
-### Token Ekonomisi (Tokenomics)
+### Tokenomics
 
-Token ekonomisi, bir blokzincir tokeninin arz, dağıtım, kullanım, teşvik, staking, yönetim ve sürdürülebilirlik gibi ekonomik tasarım başlıklarını kapsar.
+Tokenomics, bir blokzincir tokeninin arz, dağıtım, kullanım, teşvik, staking, governance ve sürdürülebilirlik gibi ekonomik tasarım başlıklarını kapsar.
 
 ### Staking
 
-Staking, tokenlerin ağ güvenliği, doğrulayıcı katılımı veya yönetim süreçlerini desteklemek için kilitlenmesi ya da tahsis edilmesidir. Kurallar her ağa göre değişir.
+Staking, tokenlerin ağ güvenliği, validator katılımı veya governance süreçlerini desteklemek için kilitlenmesi ya da tahsis edilmesidir. Kurallar her ağa göre değişir.
 
-### Yönetim (Governance)
+### Governance
 
-Yönetim, ağ kararlarının nasıl önerildiğini, tartışıldığını, oylandığını ve uygulandığını ifade eder. Zincir üstü oylama, topluluk tartışmaları, doğrulayıcı koordinasyonu ve protokol güncellemeleri bu kapsama girebilir.
+Governance, ağ kararlarının nasıl önerildiğini, tartışıldığını, oylandığını ve uygulandığını ifade eder. On-chain oylama, topluluk tartışmaları, validator koordinasyonu ve protokol güncellemeleri bu kapsama girebilir.
 
-### Öneri (Proposal)
+### Proposal
 
-Öneri, bir ağ değişikliği veya yönetim aksiyonu için sunulan teklifdir. Blokzincire göre öneri açmak için token depozitosu, doğrulayıcı desteği veya topluluk oylaması gerekebilir.
+Proposal, bir ağ değişikliği veya governance aksiyonu için sunulan öneridir. Blokzincire göre proposal açmak için token depozitosu, validator desteği veya topluluk oylaması gerekebilir.
 
-## Topluluk ve Belgeleme Terimleri
+## Topluluk ve Dokümantasyon Terimleri
 
 ### Topluluk Rehberi
 
-Topluluk rehberi, ekosistem katılımcıları tarafından hazırlanan ve kullanıcılara kurulum, terimler, sorun giderme veya görev akışları hakkında yardımcı olan belgedir. Desteklenmeyen iddialardan kaçınmalı ve kritik konularda resmi kaynaklara yönlendirme yapmalıdır.
+Topluluk rehberi, ekosistem katılımcıları tarafından hazırlanan ve kullanıcılara kurulum, terimler, sorun giderme veya görev akışları hakkında yardımcı olan dokümantasyondur. Desteklenmeyen iddialardan kaçınmalı ve kritik konularda resmi kaynaklara yönlendirme yapmalıdır.
 
-### Ana Ağ (Mainnet)
+### Mainnet
 
-Ana ağ, gerçek ağ faaliyetlerinin gerçekleştiği canlı üretim ağıdır. Ana ağ başlamadan önce birçok ifade ön değerlendirme olarak ele alınmalı ve resmi lansman ile gözlemlenebilir verilerden sonra güncellenmelidir.
+Mainnet, gerçek ağ faaliyetlerinin gerçekleştiği canlı üretim ağıdır. Mainnet başlamadan önce birçok ifade ön değerlendirme olarak ele alınmalı ve resmi lansman ile gözlemlenebilir verilerden sonra güncellenmelidir.
 
-### Test Ağı (Testnet)
+### Testnet
 
-Test ağı, ana ağ öncesinde veya ana ağla birlikte kullanılan test ağıdır. Deneme, geliştirme, ilk katılım ve altyapı hazırlığı için kullanılır.
+Testnet, mainnet öncesinde veya mainnet ile birlikte kullanılan test ağıdır. Deneme, geliştirme, onboarding ve altyapı hazırlığı için kullanılır.
 
-### Görev (Quest)
+### Görev veya Quest
 
 Görev veya quest, kullanıcıların puan, inceleme veya katılım takibi için tamamladığı ekosistem aktivitesidir. Görev gereksinimleri dikkatle takip edilmeli ve kanıtlar platformun istediği şekilde sunulmalıdır.
 
 ## Araştırma Notu
 
-QoreChain ile ilgili birçok terim, dokümantasyon, ana ağ süreci, yönetim yapısı ve ekosistem araçları geliştikçe değişebilir. Bu sözlük resmi bilgiler değiştiğinde veya yeni teknik detaylar ortaya çıktığında güncellenmelidir.
+QoreChain ile ilgili birçok terim, dokümantasyon, mainnet süreci, governance yapısı ve ekosistem araçları geliştikçe değişebilir. Bu sözlük resmi bilgiler değiştiğinde veya yeni teknik detaylar ortaya çıktığında güncellenmelidir.
