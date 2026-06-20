@@ -1,6 +1,6 @@
 # Light Node Guide — Start Here
 
-> **Network Status:** QoreChain is in pre-mainnet phase. Specific values for RPC endpoints, Chain ID, block rewards, and commission rates will be published in the official documentation when mainnet launches. Do not rely on third-party sources for these values.
+> **Network Status:** QoreChain is currently in the pre-mainnet phase. Values such as RPC endpoints, Chain ID, block rewards, and commission rates will be published in the official documentation at mainnet launch. Do not rely on third-party sources for these details.
 
 This guide covers everything you need to run a QoreChain Light Node — from server preparation to daily operations and troubleshooting.
 
@@ -11,10 +11,10 @@ This guide covers everything you need to run a QoreChain Light Node — from ser
 This guide covers:
 
 - Server selection and preparation
-- Docker-based Light Node installation
+- Docker-based Light Node setup
 - Service management and health checks
 - Log monitoring and diagnostics
-- Common issues and their solutions
+- Common issues and fixes
 
 This guide does **not** cover validator node setup, staking, or governance participation.
 
@@ -24,21 +24,21 @@ This guide does **not** cover validator node setup, staking, or governance parti
 
 Make sure you have:
 
-- A VPS or dedicated server meeting the minimum requirements (see Chapter 01)
-- SSH access to your server
-- Basic familiarity with Linux command line
-- Docker knowledge is helpful but not required — all commands are provided
+- A VPS or server meeting the minimum requirements (see Chapter 01)
+- SSH access to the server
+- Basic Linux command line knowledge
+- Docker familiarity is helpful but not required — all commands are provided
 
 ---
 
-## Setup Flow
+## Installation Flow
 
 Follow the chapters in order:
 
 | Step | File | Description |
 |------|------|-------------|
-| 1 | [Server Preparation](./01-server-preparation.md) | OS setup, firewall, user config |
-| 2 | [Docker Installation](./02-docker-installation.md) | Install and configure Docker |
+| 1 | [Server Preparation](./01-server-preparation.md) | Operating system, firewall, user setup |
+| 2 | [Docker Installation](./02-docker-installation.md) | Docker setup and configuration |
 | 3 | [Light Node Setup](./03-light-node-setup.md) | Pull image, configure, start node |
 | 4 | [Monitoring](./04-monitoring.md) | Health checks, panel access, metrics |
 | 5 | [Troubleshooting](./05-troubleshooting.md) | Common errors and fixes |
@@ -47,7 +47,7 @@ Follow the chapters in order:
 
 ## Daily Checks
 
-Once your node is running, verify these each day:
+Once your node is running, check it every day:
 
 ```bash
 # Check service status
@@ -64,9 +64,9 @@ curl -s http://localhost:<RPC_PORT>/status | jq .result.sync_info
 
 ---
 
-## Logs and Troubleshooting
+## Log Monitoring and Troubleshooting
 
-If something looks wrong, start with logs:
+If you notice a problem, start with the logs:
 
 ```bash
 # Follow live logs
@@ -80,13 +80,13 @@ For systematic troubleshooting, see [Chapter 05 — Troubleshooting](./05-troubl
 
 ---
 
-## Proof / Task Note
+## Task Proof Note
 
 If you need to submit proof of a running node (for a campaign or task):
 
-- Screenshot of `docker ps` output showing the container running
-- Screenshot of the monitoring panel (see Chapter 04)
-- Log output showing block sync progress
+- `docker ps` screenshot showing the container is running
+- Monitoring panel screenshot (see Chapter 04)
+- Log output showing block synchronization progress
 
 ---
 
@@ -98,4 +98,4 @@ Always verify configuration values from official QoreChain sources:
 - **GitHub:** [github.com/QoreChain](https://github.com/QoreChain)
 - **Discord:** Official announcements channel
 
-> ⚠️ Specific values (RPC URL, Chain ID, genesis file URL, reward rates) are **not hardcoded** in this guide because they are subject to change before mainnet. Always use the latest official values.
+> ⚠️ Specific values (RPC URL, Chain ID, genesis file URL, reward rates) are **not hardcoded** in this guide because they may change before mainnet. Always use the most current official values.
