@@ -24,5 +24,5 @@ This file tracks synchronization between English and Turkish pages. This table s
 
 | Konu / Topic | EN | TR | Durum / Status |
 |---|---|---|---|
-| Light Node (5 Bölüm / Chapters) | en/light-node/ | tr/light-node/ | ✅ |
+| Light Node Rehberi / Guide | en/light-node/ | tr/light-node/ | ✅ |
 | Operatör El Kitabı / Operator Handbook | en/ (hazırlanıyor) | tr/ (hazırlanıyor) | 🔄 |
