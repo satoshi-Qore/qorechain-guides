@@ -72,7 +72,7 @@ Bu rehber, finansal tavsiye vermez. On-chain işlem yapmadan önce riskleri kull
 
 ## İlgili Rehberler
 
-- [Light Node Operasyonları](./light-node-operasyonlari.md)
+- [Light Node Rehberi](./light-node/)
 - [Eigenstate 2 Görevleri](./eigenstate-2-gorevleri.md)
 - [Eigenstate 2 Kanıt Gönderimi](./eigenstate-2-kanit-gonderimi.md)
 - [Eigenstate 2 SSS](./eigenstate-2-sss.md)
