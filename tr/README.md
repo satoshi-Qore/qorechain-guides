@@ -4,33 +4,18 @@ QoreChain ekosistemi için Türkçe teknik kaynaklar, node operasyon notları ve
 
 Bu bölüm, kullanıcıların kurulum, kontrol, takip ve temel sorun giderme adımlarını daha düzenli bir şekilde yürütmesine yardımcı olmak için hazırlanmıştır.
 
-Dil: Türkçe | [English](../en/README.md) | [Depo Ana Sayfası](../README.md)
-
-## Önerilen Okuma Sırası
-
-| Amaç | Buradan Başla | Sonra Oku |
-|---|---|---|
-| Doğru öğrenme yolunu seçmek | [Academy Öğrenme Yolları](../docs/academy-learning-paths.md) | [Roadmap](../ROADMAP.md) |
-| Ekosistem temellerini öğrenmek | [QoreChain Bilgi Bankası](./bilgi-bankasi.md) | [QoreChain Terimler Sözlüğü](./terimler-sozlugu.md) |
-| Light Node çalıştırmak veya anlamak | [Light Node Rehberi](./light-node/) | [Hata Çözümleri](./sorun-giderme.md) |
-| Eigenstate 2 görevlerini tamamlamak | [Eigenstate 2 Görevleri](./eigenstate-2-gorevleri.md) | [Eigenstate 2 Kanıt Gönderimi](./eigenstate-2-kanit-gonderimi.md) |
-| Kanıt linki hazırlamak | [Kanıt Linki Rehberi](./kanit-linki-rehberi.md) | [Eigenstate 2 SSS](./eigenstate-2-sss.md) |
-| Bu depoya katkı vermek | [Katkı Rehberi](../CONTRIBUTING.md) | [Stil Rehberi](../STYLE_GUIDE.md) |
-
 ## İçerik
 
 | Kaynak | İçerik | Durum |
 |---|---|---|
-| [Academy Öğrenme Yolları](../docs/academy-learning-paths.md) | Yeni kullanıcı, operatör, görev katılımcısı, katkıcı ve teknik okuyucu için rol bazlı okuma yolları | Aktif |
-| [Light Node Rehberi](./light-node/) | 5 bölümlük kurulum, servis kontrolü, panel erişimi, log takibi ve sorun giderme rehberi | Aktif |
+| [Light Node Rehberi](./light-node/) | Kurulum, servis kontrolü, panel erişimi, log takibi ve temel sorun giderme | Aktif |
 | [QoreChain Bilgi Bankası](./bilgi-bankasi.md) | Light Node, stake ve temel ekosistem soruları | Aktif |
 | [QoreChain SSS](./sss.md) | Sık sorulan topluluk, görev ve Light Node soruları için kısa yanıtlar | Aktif |
 | [QoreChain Terimler Sözlüğü](./terimler-sozlugu.md) | Temel QoreChain, blokzincir, altyapı ve governance kavramları | Aktif |
 | [Eigenstate 2 Görevleri](./eigenstate-2-gorevleri.md) | 149 gözlemlenen görevi kapsayan ana Eigenstate 2 topluluk rehberi | Aktif |
-| [Eigenstate 2 Kanıt Gönderimi](./eigenstate-2-kanit-gonderimi.md) | İnceleme alanı için kanıt linki, açıklama, ekran görüntüsü ve gönderim notları | Aktif |
 | [Kanıt Linki Rehberi](./kanit-linki-rehberi.md) | Ekran görüntüsü yükleme alanı olmadığında kanıt linki hazırlama | Aktif |
-| [Hata Çözümleri](./sorun-giderme.md) | Sık karşılaşılan hatalar ve pratik çözümler | Aktif |
 | Operatör El Kitabı | Log kontrolü, yeniden başlatma, güncelleme ve takip süreçleri | Hazırlanıyor |
+| Hata Çözümleri | Sık karşılaşılan hatalar ve pratik çözümler | Planlandı |
 
 ## Eigenstate 2 Bilgi Merkezi
 
@@ -48,7 +33,7 @@ Dil: Türkçe | [English](../en/README.md) | [Depo Ana Sayfası](../README.md)
 
 ## Hızlı Başlangıç
 
-Nereden başlayacağınızdan emin değilseniz önce [Academy Öğrenme Yolları](../docs/academy-learning-paths.md) sayfasını kullanın. Light Node çalıştırmak isteyen operatörler ardından [Light Node Rehberi](./light-node/) sayfasını takip edebilir. Genel sorular için [QoreChain Bilgi Bankası](./bilgi-bankasi.md) ve [QoreChain SSS](./sss.md) sayfaları kısa yanıtlar sunar. Yeni kullanıcılar temel kavramlar için [QoreChain Terimler Sözlüğü](./terimler-sozlugu.md) sayfasını da inceleyebilir. Görev süreçleri için [Eigenstate 2 Görevleri](./eigenstate-2-gorevleri.md), kanıt linki soruları için [Kanıt Linki Rehberi](./kanit-linki-rehberi.md) veya [Eigenstate 2 Kanıt Gönderimi](./eigenstate-2-kanit-gonderimi.md) sayfası kullanılabilir.
+Light Node çalıştırmak isteyen operatörler önce [Light Node Rehberi](./light-node/) dokümanını takip edebilir. Genel sorular için [QoreChain Bilgi Bankası](./bilgi-bankasi.md) ve [QoreChain SSS](./sss.md) sayfaları kısa yanıtlar sunar. Yeni kullanıcılar temel kavramlar için [QoreChain Terimler Sözlüğü](./terimler-sozlugu.md) sayfasını da inceleyebilir. Görev süreçleri için [Eigenstate 2 Görevleri](./eigenstate-2-gorevleri.md), kanıt linki soruları için [Kanıt Linki Rehberi](./kanit-linki-rehberi.md) veya [Eigenstate 2 Kanıt Gönderimi](./eigenstate-2-kanit-gonderimi.md) sayfası kullanılabilir.
 
 ## Belge Durumları
 
