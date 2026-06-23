@@ -13,7 +13,7 @@ Before diving into specific issues, the following commands are useful starting p
 **Check container status:**
 
 ```bash
-cd /opt/qorechain-light-node
+cd /opt/qorechain-lightnode
 docker compose ps
 ```
 
@@ -50,7 +50,7 @@ systemctl status docker
 **Diagnosis:**
 
 ```bash
-docker compose logs qorechain-light-node
+docker compose logs qorechain-lightnode-sx
 ```
 
 Look for error messages near the end of the output.
@@ -191,7 +191,7 @@ If you are running as `root`, this issue does not apply — all Docker commands 
 **Step 1 — Identify large files:**
 
 ```bash
-du -sh /opt/qorechain-light-node/*
+du -sh /opt/qorechain-lightnode/*
 docker system df
 ```
 
