@@ -26,7 +26,7 @@ If any item is missing, return to [Chapter 03 — Light Node Setup](./03-light-n
 Check whether all containers are running at any time:
 
 ```bash
-cd /opt/qorechain-light-node
+cd /opt/qorechain-lightnode
 docker compose ps
 ```
 
@@ -57,14 +57,14 @@ docker stats --no-stream
 Stream logs from all containers:
 
 ```bash
-cd /opt/qorechain-light-node
+cd /opt/qorechain-lightnode
 docker compose logs -f
 ```
 
 Stream logs from a specific container only:
 
 ```bash
-docker compose logs -f qorechain-light-node
+docker compose logs -f qorechain-lightnode-sx
 ```
 
 Press `Ctrl+C` to stop the stream.
@@ -141,7 +141,7 @@ Keep the node software up to date to receive bug fixes and network compatibility
 Pull the latest changes from the repository:
 
 ```bash
-cd /opt/qorechain-light-node
+cd /opt/qorechain-lightnode
 git fetch origin
 git status
 ```
@@ -171,7 +171,7 @@ docker compose ps
 If the server was rebooted and the containers did not start automatically, start them manually:
 
 ```bash
-cd /opt/qorechain-light-node
+cd /opt/qorechain-lightnode
 docker compose up -d
 ```
 
@@ -196,7 +196,7 @@ systemctl enable docker
 The `.env` file contains your node configuration. Back it up to a secure location periodically.
 
 ```bash
-cp /opt/qorechain-light-node/.env ~/lightnode-env-backup-$(date +%Y%m%d)
+cp /opt/qorechain-lightnode/.env ~/lightnode-env-backup-$(date +%Y%m%d)
 ```
 
 Store the backup outside the server (for example, in a local file or a password manager) in case the server needs to be rebuilt.
