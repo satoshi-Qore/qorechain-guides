@@ -54,13 +54,13 @@ cd /opt
 Depoyu klonlayın:
 
 ```bash
-git clone https://github.com/satoshi-Qore/qorechain-light-node.git
+git clone https://github.com/satoshi-Qore/qorechain-lightnode.git
 ```
 
 Klonlanan dizine girin:
 
 ```bash
-cd qorechain-light-node
+cd qorechain-lightnode
 ```
 
 Klonlama işleminin başarılı olduğunu doğrulamak için dizin içeriğini listeleyin:
@@ -142,8 +142,8 @@ docker compose up -d
 ```
 [+] Pulling images ...
 [+] Running 2/2
- ✔ Container qorechain-light-node    Started
- ✔ Container qorechain-monitor       Started
+ ✔ Container qorechain-lightnode-sx    Started
+ ✔ Container qorechain-lightnode-ux    Started
 ```
 
 ---
@@ -159,9 +159,9 @@ docker compose ps
 Tüm konteynerler `running` durumunu göstermelidir:
 
 ```
-NAME                     STATUS
-qorechain-light-node     running
-qorechain-monitor        running
+NAME                       STATUS
+qorechain-lightnode-sx     running
+qorechain-lightnode-ux     running
 ```
 
 ### Node Loglarını Görüntüleme
@@ -218,7 +218,7 @@ docker compose up -d
 
 | Kontrol | Beklenen Durum |
 |---|---|
-| Depo klonlandı | `/opt/qorechain-light-node` dizini mevcut |
+| Depo klonlandı | `/opt/qorechain-lightnode` dizini mevcut |
 | `.env` yapılandırıldı | Gerekli değişkenler dolduruldu |
 | Port 8420 açık | `ufw status` → `8420/tcp ALLOW` gösteriyor |
 | Konteynerler çalışıyor | `docker compose ps` tüm konteynerleri `running` olarak gösteriyor |
