@@ -54,13 +54,13 @@ cd /opt
 Clone the repository:
 
 ```bash
-git clone https://github.com/satoshi-Qore/qorechain-light-node.git
+git clone https://github.com/satoshi-Qore/qorechain-lightnode.git
 ```
 
 Enter the cloned directory:
 
 ```bash
-cd qorechain-light-node
+cd qorechain-lightnode
 ```
 
 List the contents to confirm the clone was successful:
@@ -142,8 +142,8 @@ Expected output (on first run):
 ```
 [+] Pulling images ...
 [+] Running 2/2
- ✔ Container qorechain-light-node    Started
- ✔ Container qorechain-monitor       Started
+ ✔ Container qorechain-lightnode-sx    Started
+ ✔ Container qorechain-lightnode-ux    Started
 ```
 
 ---
@@ -159,9 +159,9 @@ docker compose ps
 All containers should show `running` status:
 
 ```
-NAME                     STATUS
-qorechain-light-node     running
-qorechain-monitor        running
+NAME                       STATUS
+qorechain-lightnode-sx     running
+qorechain-lightnode-ux     running
 ```
 
 ### View Node Logs
@@ -218,7 +218,7 @@ docker compose up -d
 
 | Check | Expected State |
 |---|---|
-| Repository cloned | `/opt/qorechain-light-node` directory exists |
+| Repository cloned | `/opt/qorechain-lightnode` directory exists |
 | `.env` configured | Required variables filled in |
 | Port 8420 open | `ufw status` shows `8420/tcp ALLOW` |
 | Containers running | `docker compose ps` shows all containers as `running` |
