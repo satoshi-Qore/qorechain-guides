@@ -3,7 +3,8 @@
 This guide covers common issues encountered when setting up and operating a QoreChain Light Node, and the steps to resolve them.
 
 For a general overview, see the [Getting Started Guide](./getting-started.md).
-For the full operations guide, see [Light Node Operations](./light-node-operations.md).
+For the full operations guide, see the [Light Node Guide](./light-node/).
+For step-by-step troubleshooting within the full guide, see [Light Node Guide — Chapter 05](./light-node/05-troubleshooting.md).
 
 ---
 
@@ -17,9 +18,10 @@ For the full operations guide, see [Light Node Operations](./light-node-operatio
 
 1. Check if containers are running:
    ```bash
-   docker ps
+   cd /opt/qorechain-light-node
+   docker compose ps
    ```
-   You should see `qorechain-lightnode-sx` and `qorechain-lightnode-ux` in the list.
+   You should see `qorechain-light-node` and `qorechain-monitor` in the list.
 
 2. If containers are not running, restart:
    ```bash
@@ -43,9 +45,10 @@ For the full operations guide, see [Light Node Operations](./light-node-operatio
 
 **Steps:**
 
-1. Check the SX service logs:
+1. Check the node service logs:
    ```bash
-   docker logs qorechain-lightnode-sx
+   cd /opt/qorechain-light-node
+   docker compose logs qorechain-light-node
    ```
 
 2. Look for repeated errors or startup failures.
@@ -60,18 +63,18 @@ For the full operations guide, see [Light Node Operations](./light-node-operatio
 
 ## Container Issues
 
-### Containers are not visible in `docker ps`
+### Containers are not visible in `docker compose ps`
 
 **Steps:**
 
 1. Navigate to the project directory:
    ```bash
-   cd qorechain-lightnode
+   cd /opt/qorechain-light-node
    ```
 
 2. Check if any containers are stopped:
    ```bash
-   docker ps -a
+   docker compose ps -a
    ```
 
 3. Start the services:
@@ -90,17 +93,17 @@ For the full operations guide, see [Light Node Operations](./light-node-operatio
 
 1. View recent logs:
    ```bash
-   docker logs qorechain-lightnode-sx --tail=50
+   docker compose logs --tail=50 qorechain-light-node
    ```
 
 2. Common causes:
    - Port 8420 already in use by another process
    - Insufficient disk space
-   - Missing or corrupt configuration files
+   - Missing or incorrect values in the `.env` configuration file
 
 3. Check disk usage:
    ```bash
-   df -h
+   df -h /
    ```
 
 ---
@@ -115,7 +118,7 @@ For the full operations guide, see [Light Node Operations](./light-node-operatio
    ```bash
    pwd
    ```
-   Should output a path ending in `/qorechain-lightnode`
+   Should output a path ending in `/qorechain-light-node`
 
 2. Pull the latest changes:
    ```bash
@@ -131,8 +134,8 @@ For the full operations guide, see [Light Node Operations](./light-node-operatio
 
 4. Verify the services are running after update:
    ```bash
-   docker ps
-   docker logs qorechain-lightnode-sx --tail=20
+   docker compose ps
+   docker compose logs --tail=20 qorechain-light-node
    ```
 
 ---
@@ -142,7 +145,7 @@ For the full operations guide, see [Light Node Operations](./light-node-operatio
 ### Node shows as offline or disconnected
 
 Verify:
-- Docker containers are running (`docker ps`)
+- Docker containers are running (`docker compose ps`)
 - Port 8420 is reachable from the internet
 - Stake requirement (1000 QOR minimum) is met
 - No recent official QoreChain announcements about network changes
@@ -159,11 +162,11 @@ When in doubt, run through this checklist:
 
 | Check | Command |
 |---|---|
-| Containers running | `docker ps` |
-| SX logs | `docker logs qorechain-lightnode-sx` |
+| Containers running | `docker compose ps` |
+| Node logs | `docker compose logs qorechain-light-node` |
 | Firewall status | `ufw status` |
-| Disk space | `df -h` |
-| Project directory | `ls qorechain-lightnode/` |
+| Disk space | `df -h /` |
+| Project directory | `ls /opt/qorechain-light-node/` |
 
 ---
 
