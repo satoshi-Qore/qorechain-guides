@@ -2,7 +2,7 @@
 
 This FAQ collects short answers to common QoreChain community questions. It is prepared as an independent community resource and does not replace official QoreChain documentation or announcements.
 
-New to QoreChain? A Getting Started Guide is being prepared.
+New to QoreChain? Start with the [Getting Started Guide](./getting-started.md).
 
 ---
 
@@ -34,7 +34,7 @@ A Light Node is a lightweight network participant that can help with network acc
 
 ### What hardware do I need?
 
-A small VPS is sufficient. Minimum: Ubuntu 22.04+, 2 CPU cores, 4 GB RAM, 50 GB SSD, Docker, Docker Compose. See [Light Node Guide](./light-node/) for the full guide.
+A small VPS is sufficient. Minimum: Ubuntu 22.04+, 2 CPU cores, 4 GB RAM, 50 GB SSD, Docker, Docker Compose. See the [Light Node Guide](./light-node/) for the full guide.
 
 ### Do Light Node operators receive rewards?
 
@@ -50,7 +50,7 @@ Start with basic checks:
 4. Review firewall settings: `ufw status` — port 8420 must be allowed.
 5. Check logs for startup or connection errors.
 
-A Troubleshooting guide is being prepared.
+See [Troubleshooting](./troubleshooting.md) for a full list of common issues.
 
 ### How do I update my Light Node?
 
@@ -98,7 +98,7 @@ Use the [Translation Request issue template](../.github/ISSUE_TEMPLATE/translati
 
 ### Can I contribute in Turkish?
 
-Yes. Turkish content belongs in the `tr/` folder. The repository is fully bilingual. See docs/translation-status.md for current coverage.
+Yes. Turkish content belongs in the `tr/` folder. The repository is fully bilingual. See [docs/translation-status.md](../docs/translation-status.md) for current coverage.
 
 ### What style should new content follow?
 
