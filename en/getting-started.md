@@ -21,7 +21,7 @@ This page is a community-maintained introduction. It does not replace official Q
 | Audience | Recommended Starting Point |
 |---|---|
 | New community member | Read the FAQ and glossary first |
-| Light Node operator | Start with Light Node Operations and Troubleshooting |
+| Light Node operator | Start with Light Node Guide and Troubleshooting |
 | Task participant | Start with Eigenstate 2 Tasks and Proof Submission |
 | Contributor | Read Contributing and the Style Guide |
 | Developer | Review available repositories and developer-facing notes |
@@ -31,7 +31,7 @@ This page is a community-maintained introduction. It does not replace official Q
 1. [QoreChain FAQ](./faq.md)
 2. [QoreChain Glossary](./glossary.md)
 3. [QoreChain Knowledge Base](./knowledge-base.md)
-4. [Light Node Operations](./light-node-operations.md)
+4. [Light Node Guide](./light-node/)
 5. [Troubleshooting](./troubleshooting.md)
 6. [Eigenstate 2 Tasks](./eigenstate-2-tasks.md)
 7. [Proof Link Guide](./proof-link-guide.md)
@@ -61,7 +61,7 @@ Before running a Light Node, review the latest official instructions and confirm
 | Docker Compose | Installed |
 | Network access | Required ports open according to current instructions |
 
-Use [Light Node Operations](./light-node-operations.md) for the full operational guide.
+Use the [Light Node Guide](./light-node/) for the full operational guide.
 
 ## Common First Steps
 
