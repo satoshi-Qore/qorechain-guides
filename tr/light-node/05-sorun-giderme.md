@@ -2,267 +2,237 @@
 
 Bu sayfa, QoreChain Light Node Rehberi'nin beşinci bölümüdür.
 
-Bu bölümde QoreChain Light Node çalıştırırken karşılaşılan en yaygın sorunlar, her biri için tanı adımları ve çözüm yöntemleri ele alınmaktadır.
+Bu bölümde yaygın kurulum sorunları, konteyner arızaları ve bağlantı hataları ele alınmakta; ayrıca node'u kurtarmak ve sıfırdan yeniden yüklemek için adım adım talimatlar verilmektedir.
 
 ---
 
-## Tanı Komutları
+## Ön Koşullar
 
-Herhangi bir sorunla karşılaştığınızda aşağıdaki komutlar başlangıç noktası olarak işe yarar.
+Başlamadan önce Bölüm 03'ü tamamladığınızı ve node'un en az bir kez başarıyla çalıştığını doğrulayın. Kurulum sırasında yaşanan bir sorunla karşılaşıyorsanız önce Bölüm 03 talimatlarını gözden geçirin.
 
-**Konteyner durumunu kontrol edin:**
+---
+
+## Konteynerler Başlamıyor
+
+Konteynerler `docker compose up -d` komutu sonrasında başlamazsa başarısızlık nedenini belirleyin.
+
+### Konteyner Durumunu Kontrol Etme
 
 ```bash
-cd /opt/qorechain-light-node
+cd /opt/qorechain-lightnode
 docker compose ps
 ```
 
-**Son logları görüntüleyin:**
+`exited` veya `restarting` durumu görünüyorsa logları kontrol edin:
 
 ```bash
-docker compose logs --tail=100
+docker compose logs qorechain-lightnode-sx
 ```
 
-**Disk alanını kontrol edin:**
+### Yaygın Nedenler
+
+**`.env` dosyası eksik veya hatalı yapılandırılmış**
 
 ```bash
-df -h /
+cat .env
 ```
 
-**Belleği kontrol edin:**
+`.env` dosyasının mevcut olduğunu ve gerekli değerlerin dolu olduğunu doğrulayın. Bölüm 03 talimatlarına göre eksik değerleri tamamlayın.
 
-```bash
-free -h
-```
-
-**Docker servisini kontrol edin:**
-
-```bash
-systemctl status docker
-```
-
----
-
-## Konteyner Başladıktan Hemen Sonra Kapanıyor
-
-**Belirti:** `docker compose up -d` komutundan kısa süre sonra `docker compose ps` bir konteyneri `exited` durumunda gösteriyor.
-
-**Tanı:**
-
-```bash
-docker compose logs qorechain-light-node
-```
-
-Çıktının sonlarındaki hata mesajlarına bakın.
-
-**Yaygın nedenler ve çözümler:**
-
-| Neden | Çözüm |
-|---|---|
-| `.env` değeri eksik veya hatalı | `.env` dosyasını açın, tüm zorunlu alanların doğru doldurulduğunu doğrulayın |
-| Hatalı RPC endpoint URL'si | Güncel RPC endpoint adresi için resmi QoreChain dokümantasyonunu kontrol edin |
-| Port zaten kullanımda | `ss -tlnp \| grep 8420` komutuyla portu başka bir sürecin kullanıp kullanmadığını kontrol edin |
-| Cüzdan adresi format hatası | Cüzdan adresinin QoreChain'in beklediği formatla eşleştiğini doğrulayın |
-
-Sorunu giderdikten sonra konteynerleri yeniden başlatın:
-
-```bash
-docker compose down
-docker compose up -d
-```
-
----
-
-## Web Paneline Erişilemiyor
-
-**Belirti:** `http://SUNUCU_IP:8420` bağlantı hatası veriyor ya da yüklenmiyor.
-
-**Adım 1 — Konteynerin çalıştığını doğrulayın:**
-
-```bash
-docker compose ps
-```
-
-Panel konteyneri çalışmıyorsa başlatın ve loglarda hata mesajı arayın.
-
-**Adım 2 — UFW güvenlik duvarını kontrol edin:**
-
-```bash
-ufw status verbose
-```
-
-8420 portu listede yoksa ekleyin:
-
-```bash
-ufw allow 8420/tcp
-```
-
-**Adım 3 — Sağlayıcı güvenlik duvarını kontrol edin:**
-
-Pek çok VPS sağlayıcısının kendi panelinde UFW'den bağımsız bir ağ güvenlik duvarı bulunur. Sağlayıcınızın kontrol paneline giriş yapın ve 8420 portuna gelen bağlantılara izin verildiğini doğrulayın.
-
-**Adım 4 — Port bağlamasını doğrulayın:**
+**Port çakışması**
 
 ```bash
 ss -tlnp | grep 8420
 ```
 
-Beklenen çıktı `0.0.0.0:8420` veya `:::8420` adresinde dinleyen bir süreç gösterir. Çıktı boşsa konteyner portu doğru şekilde dışarıya açmıyordur — `docker-compose.yml` dosyasındaki port eşlemesini kontrol edin.
+8420 numaralı port başka bir servis tarafından kullanılıyorsa o servisi durdurun veya `docker-compose.yml` dosyasında port yapılandırmasını güncelleyin.
 
----
-
-## Node Senkronize Olmuyor
-
-**Belirti:** Panel node'un çalıştığını gösteriyor ancak blok yüksekliği artmıyor ya da loglarda tekrarlayan bağlantı hataları görünüyor.
-
-**Adım 1 — İnternet bağlantısını kontrol edin:**
+**İzin sorunu**
 
 ```bash
-ping -c 4 google.com
-curl -s https://api.github.com | head -c 50
+ls -la /opt/qorechain-lightnode
 ```
 
-**Adım 2 — RPC endpoint'i doğrulayın:**
-
-`.env` dosyasındaki `RPC_ENDPOINT` değerinin doğru ve erişilebilir olduğunu kontrol edin:
+Dizinin geçerli kullanıcıya ait olduğunu doğrulayın. Gerekirse:
 
 ```bash
-curl -s BURAYA_RPC_ENDPOINT_URL_YAZIN
-```
-
-`BURAYA_RPC_ENDPOINT_URL_YAZIN` kısmını `.env` dosyanızdaki değerle değiştirin. Hata dönüyorsa veya çıktı yoksa endpoint hatalı ya da çevrimdışı olabilir.
-
-**Adım 3 — Node'u yeniden başlatın:**
-
-```bash
-docker compose restart
-```
-
-İki-üç dakika bekleyin ve panelde blok yüksekliğinin artmaya başlayıp başlamadığını kontrol edin.
-
-**Adım 4 — Node'u güncelleyin:**
-
-Ağ güncellendiyse ve node sürümünüz eski kaldıysa senkronizasyon başarısız olabilir:
-
-```bash
-git pull
-docker compose pull
-docker compose up -d
+chown -R $USER:$USER /opt/qorechain-lightnode
 ```
 
 ---
 
-## Docker Komutu Bulunamıyor
+## Konteynerlerin Sürekli Yeniden Başlaması
 
-**Belirti:** Herhangi bir `docker` komutu `command not found` hatası veriyor.
+Konteynerler sürekli yeniden başlıyorsa (`restarting` durumu) altta yatan hatayı tespit edin.
 
-**Çözüm:** Docker kurulu değil veya PATH ayarı hatalı. [Bölüm 02 — Docker Kurulumu](./02-docker-kurulumu.md) sayfasına dönüp Docker'ı yeniden kurun.
+```bash
+docker compose logs --tail=50 qorechain-lightnode-sx
+```
 
-Docker yakın zamanda kurulduysa oturumu kapatıp yeniden açmayı deneyin, ardından komutu tekrar çalıştırın.
+Belirleyici satırlar için loglara bakın (örneğin `ERROR`, `FATAL`, `panic`). En yaygın nedenler şunlardır:
+
+- Geçersiz `.env` değerleri
+- Ağ bağlantısı sorunları
+- Disk doluluğu
+
+Yeniden başlatma sayısını görmek için:
+
+```bash
+docker inspect qorechain-lightnode-sx | grep RestartCount
+```
 
 ---
 
-## Docker Çalıştırmak İçin İzin Reddedildi
+## Panel Yüklenmiyor
 
-**Belirti:** Docker komutları `sudo` olmadan çalıştırıldığında `permission denied` hatası veriyor.
+`http://SUNUCU_IP:8420` adresine erişemiyorsanız:
 
-**Neden:** Mevcut kullanıcı `docker` grubunda değil.
-
-**Çözüm:** Kullanıcıyı docker grubuna ekleyin (`KULLANICI_ADI` kısmını değiştirin):
+**Konteynerin çalıştığını doğrulayın:**
 
 ```bash
-usermod -aG docker KULLANICI_ADI
+docker compose ps
 ```
 
-Oturumu kapatıp yeniden açın, ardından doğrulayın:
+**Güvenlik duvarı kurallarını kontrol edin:**
 
 ```bash
-docker run hello-world
+ufw status
 ```
 
-`root` olarak çalışıyorsanız bu sorun sizin için geçerli değildir — root için tüm Docker komutları sudo olmadan çalışır.
+8420 numaralı portun açık olduğunu doğrulayın. Kapalıysa:
+
+```bash
+ufw allow 8420/tcp
+```
+
+**Port bağlamasını doğrulayın:**
+
+```bash
+docker compose ps
+```
+
+Çıktıda `0.0.0.0:8420->8420/tcp` görünmelidir. Bu satır yoksa `docker-compose.yml` dosyasındaki port yapılandırmasını kontrol edin.
 
 ---
 
-## Disk Doldu
+## Disk Alanı Doldu
 
-**Belirti:** Konteynerler çöküyor ya da başlamıyor; `df -h /` %100 kullanım gösteriyor.
+Disk alanı dolduğunda konteynerler çalışmayı durdurabilir.
 
-**Adım 1 — Büyük dosyaları tespit edin:**
+**Disk kullanımını kontrol edin:**
 
 ```bash
-du -sh /opt/qorechain-light-node/*
-docker system df
+df -h /
 ```
 
-**Adım 2 — Docker kaynaklarını temizleyin:**
+**Node dizininin disk kullanımını kontrol edin:**
+
+```bash
+du -sh /opt/qorechain-lightnode/*
+```
+
+**Kullanılmayan Docker kaynaklarını temizleyin:**
 
 ```bash
 docker system prune -f
 ```
 
-**Adım 3 — Log dosyası boyutlarını kontrol edin:**
+Temizlik sonrasında konteynerleri yeniden başlatın:
 
-Log dosyaları büyük yer kaplıyorsa [Bölüm 04 — İzleme ve Bakım](./04-izleme.md) sayfasında açıklanan log rotasyonunu yapılandırın.
-
-**Adım 4 — Gerekirse diski genişletin:**
-
-Temizlik yeterli gelmiyorsa depolama kapasitesini artırmak için sunucu planını yükseltin.
+```bash
+cd /opt/qorechain-lightnode
+docker compose up -d
+```
 
 ---
 
-## Konteynerler Sürekli Yeniden Başlıyor
+## Node Yanıt Vermiyor
 
-**Belirti:** `docker compose ps` konteynerleri `restarting` durumunda gösteriyor; node hiç kararlı hale gelmiyor.
+Node çalışıyor görünüyor ancak panel yüklenmiyor ya da senkronizasyon durmuşsa:
 
-**Tanı:**
+**Konteynerleri yeniden başlatın:**
 
 ```bash
-docker compose logs --tail=50
+cd /opt/qorechain-lightnode
+docker compose restart
 ```
 
-Tekrarlayan hata kalıplarını arayın. Döngüde yeniden başlayan bir konteyner genellikle başlayıp kritik bir hatayla karşılaşıyor, çıkıyor ve Docker'ın yeniden başlatma politikası nedeniyle tekrar başlatılıyor demektir.
-
-**Yaygın nedenler:**
-
-- `.env` dosyasında bozuk veya eksik yapılandırma
-- Node'un RPC endpoint'e ulaşmasını engelleyen ağ sorunu
-- Kaynak tükenmesi (`free -h` ve `df -h /` ile kontrol edin)
-
-Altta yatan nedeni giderin, ardından temiz bir başlatma yapın:
+**Konteynerleri tamamen durdurup yeniden başlatın:**
 
 ```bash
 docker compose down
 docker compose up -d
 ```
 
----
+**Logları canlı takip edin:**
 
-## Yeniden Başlatmadan Sonra SSH Bağlantısı Reddediliyor
-
-**Belirti:** Sunucu yeniden başladıktan sonra SSH bağlantıları reddediliyor.
-
-**Neden:** Parola kimlik doğrulaması devre dışı bırakıldıysa ve SSH anahtarı eksik veya hatalıysa erişim engelleniyor.
-
-**Çözüm:** VPS sağlayıcınızın paneline giriş yapın ve acil durum konsolu ya da kurtarma modunu kullanarak sunucuya erişin. Buradan SSH anahtarı erişimini yeniden düzenleyebilir veya geçici olarak parola kimlik doğrulamasını yeniden etkinleştirebilirsiniz.
-
-> Bu nedenle parola kimlik doğrulamasını devre dışı bırakmadan önce SSH anahtarıyla erişimi doğrulamak kritik önemdedir (Bölüm 01'de ele alınmıştır).
+```bash
+docker compose logs -f
+```
 
 ---
 
-## Daha Fazla Yardım
+## Güncelleme Sonrasında Sorunlar
 
-Bu bölümdeki adımlar sorununuzu çözmezse:
+Son güncellemeden sonra bir sorun başladıysa en son değişikliği geri alabilirsiniz.
 
-1. [qorechain-guides issues](https://github.com/satoshi-Qore/qorechain-guides/issues) sayfasında benzer raporları arayın.
-2. Aşağıdaki bilgilerle yeni bir issue açın:
-   - Sunucu işletim sistemi ve sürümü (`lsb_release -a`)
-   - Docker sürümü (`docker --version`)
-   - `docker compose ps` çıktısı
-   - `docker compose logs` içindeki ilgili satırlar
+**Mevcut commit geçmişini görüntüleyin:**
+
+```bash
+cd /opt/qorechain-lightnode
+git log --oneline -5
+```
+
+**Önceki commit'e geçin:**
+
+```bash
+git checkout <onceki-commit-hash>
+docker compose pull
+docker compose up -d
+```
+
+`<onceki-commit-hash>` değerini `git log` çıktısındaki ilgili hash ile değiştirin.
+
+---
+
+## Temiz Yeniden Yükleme
+
+Yukarıdaki adımların hiçbiri sorunu çözmezse temiz bir yeniden yükleme yapabilirsiniz. Bu işlem yerel node verilerini siler; node senkronizasyona sıfırdan başlayacaktır.
+
+> **Uyarı:** Devam etmeden önce `.env` dosyasını yedekleyin. Bu dosya yapılandırma değerlerinizi içermektedir.
+
+```bash
+cp /opt/qorechain-lightnode/.env ~/lightnode-env-yedek-$(date +%Y%m%d)
+```
+
+Mevcut kurulumu kaldırın:
+
+```bash
+cd /opt/qorechain-lightnode
+docker compose down -v
+cd /opt
+rm -rf qorechain-lightnode
+```
+
+Bölüm 03 talimatlarını izleyerek node'u yeniden kurun. Kurulum tamamlandığında yedeğinizdeki `.env` değerlerini yeni `.env` dosyasına geri kopyalayın.
+
+---
+
+## Genel Kontrol Listesi
+
+Sorun gidermeden önce bu temel kontrolleri yapın:
+
+| Kontrol | Komut |
+|---|---|
+| Konteynerler çalışıyor mu? | `docker compose ps` |
+| Son loglar | `docker compose logs --tail=50` |
+| Disk alanı yeterli mi? | `df -h /` |
+| Port açık mı? | `ss -tlnp \| grep 8420` |
+| `.env` dosyası mevcut mu? | `cat /opt/qorechain-lightnode/.env` |
+| Güvenlik duvarı açık mı? | `ufw status` |
 
 ---
 
 ## Sorumluluk Reddi
 
-Bu sayfa topluluk tarafından hazırlanan bir kaynaktır. Resmi QoreChain dokümantasyonunun yerini tutmaz. Hata mesajları ve davranışlar node sürümüne ve ağ durumuna göre farklılık gösterebilir. Kritik adımlarda her zaman resmi QoreChain kaynaklarını kontrol edin.
+Bu sayfa topluluk tarafından hazırlanan bir kaynaktır. Resmi QoreChain dokümantasyonunun yerini tutmaz. Sorun giderme adımları proje geliştikçe değişebilir. Kritik sorunlarda her zaman resmi QoreChain kaynaklarını kontrol edin.
