@@ -1,38 +1,41 @@
-## Summary
+# Pull Request Template — Contributor Reference
 
-<!-- Describe what this PR changes and why. One paragraph is usually enough. -->
+> **Note:** When you open a Pull Request on GitHub, the template in [`.github/pull_request_template.md`](../.github/pull_request_template.md) is loaded automatically into the PR description field. That template is bilingual (Turkish/English) and tailored for documentation contributions to this repository.
+>
+> This file is a supplementary reference for contributors who want to review the PR checklist before opening a PR.
 
-## Type of Change
+---
 
-- [ ] Bug fix
-- [ ] New feature
-- [ ] Documentation update
-- [ ] Refactor
-- [ ] Other (describe below)
+## What the GitHub PR Template Covers
 
-## Related Issues
+When opening a PR, GitHub will pre-fill the description with a template that asks for:
 
-<!-- Link any related issues: Closes #123 -->
+- **Summary / Özet** — Brief description of the PR purpose
+- **Change type / Değişiklik türü** — New content, correction, translation, troubleshooting, or other
+- **Affected pages / Etkilenen sayfalar** — Files changed or added
+- **Language / Dil** — Turkish, English, or both
+- **Checklist / Kontrol listesi** — Links work, commands are in correct context, Turkish and English pages are structurally aligned, official sources referenced where needed
 
-## Changes Made
+---
 
-<!-- List the specific changes in this PR. Be concrete. -->
+## Pre-PR Checklist
 
--
--
--
+Before submitting a PR, confirm:
 
-## Testing
+- [ ] All internal links have been checked and resolve correctly
+- [ ] Commands are verified and placed in correct context
+- [ ] Turkish and English pages remain structurally aligned where applicable
+- [ ] No private keys, credentials, API keys, or sensitive infrastructure details are included
+- [ ] Mainnet-sensitive content (rewards, RPC endpoints, staking rules) references official sources
+- [ ] New pages are added to [`docs/content-map.md`](../docs/content-map.md)
+- [ ] New pages have a matching Turkish or English counterpart planned or noted in [`docs/translation-status.md`](../docs/translation-status.md)
 
-<!-- Describe how you verified these changes work correctly. -->
+---
 
-- [ ] Tested locally
-- [ ] Relevant tests added or updated
-- [ ] No test changes needed (documentation or config only)
+## Related Resources
 
-## Checklist
-
-- [ ] Commit messages are in English and follow the project convention
-- [ ] No credentials, API keys, or private endpoints are included
-- [ ] Documentation updated if needed
-- [ ] PR title is descriptive and in English
+- [Contributing Guide](../CONTRIBUTING.md)
+- [Style Guide](../STYLE_GUIDE.md)
+- [Documentation Standards — Format](./documentation-standards.md)
+- [Documentation Standards — Content](../docs/documentation-standards.md)
+- [First Contribution Guide](./first-contribution.md)
