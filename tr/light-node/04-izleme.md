@@ -26,7 +26,7 @@ Herhangi bir madde eksikse devam etmeden önce [Bölüm 03 — Light Node Kurulu
 İstediğiniz zaman tüm konteynerlerin çalışıp çalışmadığını kontrol edin:
 
 ```bash
-cd /opt/qorechain-light-node
+cd /opt/qorechain-lightnode
 docker compose ps
 ```
 
@@ -57,14 +57,14 @@ docker stats --no-stream
 Tüm konteynerlerden log akışı başlatın:
 
 ```bash
-cd /opt/qorechain-light-node
+cd /opt/qorechain-lightnode
 docker compose logs -f
 ```
 
 Yalnızca belirli bir konteynerin loglarını takip edin:
 
 ```bash
-docker compose logs -f qorechain-light-node
+docker compose logs -f qorechain-lightnode-sx
 ```
 
 Akışı durdurmak için `Ctrl+C` tuşlarına basın.
@@ -141,7 +141,7 @@ Hata düzeltmeleri ve ağ uyumluluk güncellemelerini almak için node yazılım
 Depodan en son değişiklikleri çekin:
 
 ```bash
-cd /opt/qorechain-light-node
+cd /opt/qorechain-lightnode
 git fetch origin
 git status
 ```
@@ -171,7 +171,7 @@ docker compose ps
 Sunucu yeniden başlatıldıktan sonra konteynerler otomatik başlamadıysa manuel olarak başlatın:
 
 ```bash
-cd /opt/qorechain-light-node
+cd /opt/qorechain-lightnode
 docker compose up -d
 ```
 
@@ -196,7 +196,7 @@ systemctl enable docker
 `.env` dosyası node yapılandırmanızı içerir. Periyodik olarak güvenli bir konuma yedekleyin.
 
 ```bash
-cp /opt/qorechain-light-node/.env ~/lightnode-env-yedek-$(date +%Y%m%d)
+cp /opt/qorechain-lightnode/.env ~/lightnode-env-yedek-$(date +%Y%m%d)
 ```
 
 Sunucunun yeniden kurulması gerektiğinde kullanabilmek için yedeği sunucu dışında (örneğin yerel bir dosyada veya parola yöneticisinde) saklayın.
