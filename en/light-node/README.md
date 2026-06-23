@@ -51,7 +51,6 @@ Once your node is running, check it regularly:
 
 ```bash
 # Check service status
-cd /opt/qorechain-light-node
 docker compose ps
 
 # View recent logs (last 50 lines)
@@ -69,10 +68,10 @@ If you notice a problem, start with the logs:
 
 ```bash
 # Follow live logs
-docker compose logs -f qorechain-light-node
+docker compose logs -f qorechain-lightnode-sx
 
 # Check container restart count
-docker inspect qorechain-light-node | grep RestartCount
+docker inspect qorechain-lightnode-sx | grep RestartCount
 ```
 
 For systematic troubleshooting, see [Chapter 05 — Troubleshooting](./05-troubleshooting.md).
@@ -97,7 +96,7 @@ Always verify configuration values through official QoreChain sources:
 - **GitHub:** [github.com/QoreChain](https://github.com/QoreChain)
 - **Discord:** Official announcements channel
 
-> ⚠️ Specific values (RPC URL, Chain ID, genesis file URL, reward rates) are **not hardcoded** in this guide because they may change before mainnet. Always use the latest official values.
+> ⚠️ Specific values (RPC URL, Chain ID, genesis file URL, reward rates) are not hardcoded in this guide because they may change before mainnet. Always use the latest official values.
 
 ---
 
