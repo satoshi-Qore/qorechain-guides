@@ -1,5 +1,7 @@
 # Documentation Standards
 
+> **Note:** This file defines contributor-facing file format and structure rules (Markdown syntax, code blocks, link conventions, placeholders). For content quality guidelines — tone, mainnet-sensitive wording, review checklist, and page structure templates — see [`docs/documentation-standards.md`](../docs/documentation-standards.md).
+
 All documentation contributions to QoreChain repositories must follow these standards.
 
 ## Language
