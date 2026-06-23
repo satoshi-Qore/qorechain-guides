@@ -21,8 +21,9 @@ Tam operasyon rehberi için [Light Node Rehberi](./light-node/) sayfasına bakı
    ```
    Listede `qorechain-lightnode-sx` ve `qorechain-lightnode-ux` görünmelidir.
 
-2. Container'lar çalışmıyorsa yeniden başlatın:
+2. Container'lar çalışmıyorsa proje dizinine gidip yeniden başlatın:
    ```bash
+   cd qorechain-lightnode
    docker compose up -d
    ```
 
@@ -52,6 +53,7 @@ Tam operasyon rehberi için [Light Node Rehberi](./light-node/) sayfasına bakı
 
 3. Loglar çöküp yeniden başlama döngüsü gösteriyorsa temiz yeniden başlatma deneyin:
    ```bash
+   cd qorechain-lightnode
    docker compose down
    docker compose up -d
    ```
@@ -129,6 +131,22 @@ Tam operasyon rehberi için [Light Node Rehberi](./light-node/) sayfasına bakı
    docker ps
    docker logs qorechain-lightnode-sx --tail=20
    ```
+
+---
+
+## Ağ ve Stake Sorunları
+
+### Node çevrimdışı veya bağlantısız görünüyor
+
+Şunları doğrulayın:
+- Docker container'larının çalıştığı (`docker ps`)
+- 8420 portunun internetten erişilebilir olduğu
+- Stake şartının (minimum 1000 QOR) karşılandığı
+- QoreChain'den ağ değişiklikleriyle ilgili son resmi duyuruların olmadığı
+
+### Stake doğrulaması başarısız oluyor
+
+1000 QOR stake'i tutan cüzdan adresinin Light Node'a kayıtlı adres olduğunu doğrulayın. Stake rehberi için resmi QoreChain kanallarını kontrol edin.
 
 ---
 
