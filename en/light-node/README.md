@@ -1,6 +1,6 @@
 # Light Node Guide — Start Here
 
-> **Network Status:** QoreChain is currently in the pre-mainnet phase. Values such as RPC endpoints, Chain ID, block rewards, and commission rates will be published in the official documentation at mainnet launch. Do not rely on third-party sources for these details.
+> **Network Status:** QoreChain is currently in the pre-mainnet phase. Values such as RPC endpoints, Chain ID, block rewards, and commission rates will be published in the official documentation at mainnet launch. Do not rely on third-party sources for these values.
 
 This guide covers everything you need to run a QoreChain Light Node — from server preparation to daily operations and troubleshooting.
 
@@ -11,23 +11,23 @@ This guide covers everything you need to run a QoreChain Light Node — from ser
 This guide covers:
 
 - Server selection and preparation
-- Docker-based Light Node setup
+- Docker-based Light Node installation
 - Service management and health checks
 - Log monitoring and diagnostics
-- Common issues and fixes
+- Common issues and solutions
 
 This guide does **not** cover validator node setup, staking, or governance participation.
 
 ---
 
-## Before You Start
+## Before You Begin
 
 Make sure you have:
 
 - A VPS or server meeting the minimum requirements (see Chapter 01)
 - SSH access to the server
-- Basic Linux command line knowledge
-- Docker familiarity is helpful but not required — all commands are provided
+- Basic Linux command-line knowledge
+- Docker knowledge is helpful but not required — all commands are provided
 
 ---
 
@@ -37,30 +37,29 @@ Follow the chapters in order:
 
 | Step | File | Description |
 |------|------|-------------|
-| 1 | [Server Preparation](./01-server-preparation.md) | Operating system, firewall, user setup |
+| 1 | [Server Preparation](./01-server-preparation.md) | OS, firewall, user setup |
 | 2 | [Docker Installation](./02-docker-installation.md) | Docker setup and configuration |
-| 3 | [Light Node Setup](./03-light-node-setup.md) | Pull image, configure, start node |
+| 3 | [Light Node Setup](./03-light-node-setup.md) | Clone repo, configure, start node |
 | 4 | [Monitoring](./04-monitoring.md) | Health checks, panel access, metrics |
-| 5 | [Troubleshooting](./05-troubleshooting.md) | Common errors and fixes |
+| 5 | [Troubleshooting](./05-troubleshooting.md) | Common errors and solutions |
 
 ---
 
 ## Daily Checks
 
-Once your node is running, check it every day:
+Once your node is running, check it regularly:
 
 ```bash
 # Check service status
-docker ps | grep qorechain
+cd /opt/qorechain-light-node
+docker compose ps
 
 # View recent logs (last 50 lines)
-docker logs --tail 50 qorechain-light-node
+docker compose logs --tail=50
 
-# Check sync status (if RPC is enabled)
-curl -s http://localhost:<RPC_PORT>/status | jq .result.sync_info
+# Check disk space
+df -h /
 ```
-
-> Replace `<RPC_PORT>` with the port defined in your node configuration.
 
 ---
 
@@ -70,7 +69,7 @@ If you notice a problem, start with the logs:
 
 ```bash
 # Follow live logs
-docker logs -f qorechain-light-node
+docker compose logs -f qorechain-light-node
 
 # Check container restart count
 docker inspect qorechain-light-node | grep RestartCount
@@ -80,22 +79,28 @@ For systematic troubleshooting, see [Chapter 05 — Troubleshooting](./05-troubl
 
 ---
 
-## Task Proof Note
+## Task Proof Notes
 
 If you need to submit proof of a running node (for a campaign or task):
 
-- `docker ps` screenshot showing the container is running
-- Monitoring panel screenshot (see Chapter 04)
-- Log output showing block synchronization progress
+- Screenshot of `docker compose ps` showing the container running
+- Screenshot of the monitoring panel (see Chapter 04)
+- Log output showing block sync progress
 
 ---
 
 ## Official Sources
 
-Always verify configuration values from official QoreChain sources:
+Always verify configuration values through official QoreChain sources:
 
 - **Website:** [qorechain.io](https://qorechain.io)
 - **GitHub:** [github.com/QoreChain](https://github.com/QoreChain)
 - **Discord:** Official announcements channel
 
-> ⚠️ Specific values (RPC URL, Chain ID, genesis file URL, reward rates) are **not hardcoded** in this guide because they may change before mainnet. Always use the most current official values.
+> ⚠️ Specific values (RPC URL, Chain ID, genesis file URL, reward rates) are **not hardcoded** in this guide because they may change before mainnet. Always use the latest official values.
+
+---
+
+## Disclaimer
+
+This is a community-maintained resource. It does not replace official QoreChain documentation. Always verify critical details through official sources before proceeding.
