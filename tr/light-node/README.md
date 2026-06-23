@@ -54,7 +54,7 @@ Node'unuz çalışmaya başladıktan sonra her gün kontrol edin:
 docker ps | grep qorechain
 
 # Son logları gör (son 50 satır)
-docker logs --tail 50 qorechain-light-node
+docker logs --tail 50 qorechain-lightnode-sx
 
 # Sync durumunu kontrol et (RPC etkinse)
 curl -s http://localhost:<RPC_PORT>/status | jq .result.sync_info
@@ -70,10 +70,10 @@ Bir sorun fark ederseniz loglarla başlayın:
 
 ```bash
 # Canlı logları takip et
-docker logs -f qorechain-light-node
+docker logs -f qorechain-lightnode-sx
 
 # Container yeniden başlatma sayısını kontrol et
-docker inspect qorechain-light-node | grep RestartCount
+docker inspect qorechain-lightnode-sx | grep RestartCount
 ```
 
 Sistematik sorun giderme için [Bölüm 05 — Sorun Giderme](./05-sorun-giderme.md) sayfasına bakınız.
@@ -98,4 +98,10 @@ Yapılandırma değerlerini her zaman resmi QoreChain kaynaklarından doğrulay�
 - **GitHub:** [github.com/QoreChain](https://github.com/QoreChain)
 - **Discord:** Resmi duyurular kanalı
 
-> ⚠️ Belirli değerler (RPC URL, Chain ID, genesis dosyası URL'si, ödül oranları) mainnet öncesinde değişebileceğinden bu rehbere **sabit olarak yazılmamıştır**. Her zaman en güncel resmi değerleri kullanınız.
+> ⚠️ Belirli değerler (RPC URL, Chain ID, genesis dosyası URL'si, ödül oranları) mainnet öncesinde değişebileceğinden bu rehbere sabit olarak yazılmamıştır. Her zaman en güncel resmi değerleri kullanınız.
+
+---
+
+## Sorumluluk Reddi
+
+Bu, topluluk tarafından sürdürülen bir kaynaktır. Resmi QoreChain dokümantasyonunun yerini almaz. Devam etmeden önce kritik detayları her zaman resmi kaynaklardan doğrulayın.
