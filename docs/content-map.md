@@ -37,10 +37,19 @@ For synchronization status, see: [translation-status.md](./translation-status.md
 
 ### Node Operasyonları / Node Operations
 
+Light Node rehberi çok sayfalı bir yapıdadır. Başlangıç için [en/light-node/README.md](../en/light-node/README.md) adresine gidin.
+
+The Light Node guide is a multi-page structure. Start at [en/light-node/README.md](../en/light-node/README.md).
+
 | Dosya / File | Açıklama / Description | Durum / Status |
 |---|---|---|
-| en/light-node/ | Kurulum, servis, panel, log, sorun giderme / Setup, service, panel, log, troubleshooting | Aktif / Active |
-| en/troubleshooting.md | Sorun giderme rehberi / Troubleshooting guide | Aktif / Active |
+| en/light-node/README.md | Rehber girişi ve bölüm tablosu / Guide index and chapter navigation | Aktif / Active |
+| en/light-node/01-server-preparation.md | Sunucu hazırlığı / Server preparation | Aktif / Active |
+| en/light-node/02-docker-installation.md | Docker kurulumu / Docker installation | Aktif / Active |
+| en/light-node/03-light-node-setup.md | Light Node kurulumu / Light Node setup | Aktif / Active |
+| en/light-node/04-monitoring.md | İzleme ve bakım / Monitoring and maintenance | Aktif / Active |
+| en/light-node/05-troubleshooting.md | Sorun giderme (ayrıntılı) / Troubleshooting (detailed) | Aktif / Active |
+| en/troubleshooting.md | Sorun giderme hızlı başvurusu / Troubleshooting quick reference | Aktif / Active |
 
 ### Topluluk Görevleri / Community Tasks
 
@@ -77,10 +86,19 @@ For synchronization status, see: [translation-status.md](./translation-status.md
 
 ### Node Operasyonları / Node Operations
 
+Light Node rehberi çok sayfalı bir yapıdadır. Başlangıç için [tr/light-node/README.md](../tr/light-node/README.md) adresine gidin.
+
+The Light Node guide is a multi-page structure. Start at [tr/light-node/README.md](../tr/light-node/README.md).
+
 | Dosya / File | Açıklama / Description | Durum / Status |
 |---|---|---|
-| tr/light-node/ | Kurulum, servis, panel, log, sorun giderme | Aktif / Active |
-| tr/sorun-giderme.md | Sorun giderme rehberi | Aktif / Active |
+| tr/light-node/README.md | Rehber girişi ve bölüm tablosu / Guide index and chapter navigation | Aktif / Active |
+| tr/light-node/01-sunucu-hazirligi.md | Sunucu hazırlığı | Aktif / Active |
+| tr/light-node/02-docker-kurulumu.md | Docker kurulumu | Aktif / Active |
+| tr/light-node/03-light-node-kurulumu.md | Light Node kurulumu | Aktif / Active |
+| tr/light-node/04-izleme.md | İzleme ve bakım | Aktif / Active |
+| tr/light-node/05-sorun-giderme.md | Sorun giderme (ayrıntılı) | Aktif / Active |
+| tr/sorun-giderme.md | Sorun giderme hızlı başvurusu | Aktif / Active |
 
 ### Topluluk Görevleri / Community Tasks
 
