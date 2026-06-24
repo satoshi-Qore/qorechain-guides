@@ -144,3 +144,38 @@ The Light Node guide is a multi-page structure. Start at [tr/light-node/README.m
 Yeni bir sayfa eklendiğinde bu dosyayı ve [translation-status.md](./translation-status.md) dosyasını güncellemeyi unutmayın.
 
 When adding a new page, remember to update this file and [translation-status.md](./translation-status.md).
+
+
+---
+
+## V2 İskelet / V2 Scaffold (P1)
+
+P0 ve P1 fazlarında oluşturulan dizin yapısı. P2 migrasyonunda bu dizinlere içerik taşınacaktır.
+
+The directory structure created during P0 and P1. Content will be migrated into these directories during P2.
+
+### Katkı Belgesi / Contributor Docs
+
+| Dosya / File | Açıklama / Description | Durum / Status |
+|---|---|---|
+| contributing/README.md | Katkı dizini giriş / Contributor directory entry | Aktif / Active |
+
+### İngilizce V2 Dizinleri / English V2 Directories
+
+| Dizin / Directory | Açıklama / Description | Durum / Status |
+|---|---|---|
+| en/programs/ | Program rehberleri dizini / Program guides | Aktif / Active |
+| en/programs/eigenstate-2/ | Eigenstate 2 V2 merkezi / V2 hub | Aktif / Active |
+| en/validator/ | Doğrulayıcı rehberleri / Validator guides | Planlandı P2 / Planned P2 |
+| en/developer/ | Geliştirici rehberleri / Developer guides | Planlandı P2 / Planned P2 |
+| en/security/ | Güvenlik rehberleri / Security guides | Planlandı P2 / Planned P2 |
+
+### Türkçe V2 Dizinleri / Turkish V2 Directories
+
+| Dizin / Directory | Açıklama / Description | Durum / Status |
+|---|---|---|
+| tr/programs/ | Program rehberleri dizini | Aktif / Active |
+| tr/programs/eigenstate-2/ | Eigenstate 2 V2 merkezi (TR) | Aktif / Active |
+| tr/validator/ | Doğrulayıcı rehberleri (yakında) | Planlandı P2 / Planned P2 |
+| tr/developer/ | Geliştirici rehberleri (yakında) | Planlandı P2 / Planned P2 |
+| tr/security/ | Güvenlik rehberleri (yakında) | Planlandı P2 / Planned P2 |
