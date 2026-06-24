@@ -50,3 +50,22 @@ Yeni içerik eklerken mümkünse aynı başlığın İngilizce karşılığını
 ## Not
 
 Bu bölüm Türkçe topluluk için hazırlanmıştır. Kritik adımlarda resmi QoreChain kaynakları ve güncel duyurular kontrol edilmelidir.
+
+
+## Programlar
+
+V2 dizin yapısı altında yapılandırılmış program rehberleri.
+
+| Program | Rehber |
+|---|---|
+| [Eigenstate 2](./programs/eigenstate-2/) | Eigenstate 2 program belgeleri için V2 merkezi |
+
+## V2 Alanları (Planlandı)
+
+Bu dizinler P2 için iskelet olarak oluşturulmuştur. İçerik P2 migrasyonu sırasında eklenecektir.
+
+| Alan | Dizin | Durum |
+|---|---|---|
+| Doğrulayıcı | [validator/](./validator/) | Yakında |
+| Geliştirici | [developer/](./developer/) | Yakında |
+| Güvenlik | [security/](./security/) | Yakında |
