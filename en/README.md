@@ -15,7 +15,7 @@ This section helps users follow setup, verification, monitoring, and basic troub
 | [Eigenstate 2 Tasks](./eigenstate-2-tasks.md) | Main Eigenstate 2 community task guide covering 149 observed tasks | Active |
 | [Proof Link Guide](./proof-link-guide.md) | How to prepare proof links when there is no screenshot upload field | Active |
 | Operator Handbook | Logs, restart, updates, and monitoring process | Preparing |
-| Troubleshooting | Common issues and practical fixes | Planned |
+| [Troubleshooting](./troubleshooting.md) | Common issues and practical fixes | Active |
 
 ## Eigenstate 2 Knowledge Base
 
