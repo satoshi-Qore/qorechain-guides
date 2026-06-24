@@ -80,4 +80,10 @@ Bu depo resmi QoreChain dokümantasyonunun yerine geçmez. Kritik kurulum, stake
 
 ## Safety Note
 
+
+## Detaylı Katkı Rehberleri / Detailed Contributor Guides
+
+Dosya biçimi standartları, ilk katkı adımları ve pull request şablonu için [`contributing/`](./contributing/) klasörüne bakın.
+
+For file format standards, first contribution steps, and the pull request template, see the [`contributing/`](./contributing/) directory.
 This repository does not replace official QoreChain documentation. For critical setup, stake, network, or security steps, users should check official sources and current announcements.
