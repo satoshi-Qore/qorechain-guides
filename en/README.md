@@ -50,3 +50,22 @@ When adding new content, consider preparing the matching Turkish page as well. T
 ## Note
 
 This section is prepared for the English-speaking QoreChain community. Official QoreChain sources and current announcements should be checked for critical steps.
+
+
+## Programs
+
+Structured program guides under the V2 directory layout.
+
+| Program | Guide |
+|---|---|
+| [Eigenstate 2](./programs/eigenstate-2/) | V2 home for Eigenstate 2 program documentation |
+
+## V2 Domains (Planned)
+
+These directories are scaffolded and will receive full content during P2 migration.
+
+| Domain | Directory | Status |
+|---|---|---|
+| Validator | [validator/](./validator/) | Coming Soon |
+| Developer | [developer/](./developer/) | Coming Soon |
+| Security | [security/](./security/) | Coming Soon |
