@@ -6,10 +6,10 @@ This page is a short bilingual setup reference redirect.
 ---
 
 **Türkçe kurulum rehberi:**
-[Light Node Operasyonları](./tr/light-node-operasyonlari.md)
+[Light Node Rehberi](./tr/light-node/README.md)
 
 **English setup guide:**
-[Light Node Operations](./en/light-node-operations.md)
+[Light Node Guide](./en/light-node/README.md)
 
 ---
 
